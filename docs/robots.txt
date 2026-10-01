@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /og.html
 
-Sitemap: https://www.nyeinsydney.com.au/sitemap.xml
+Sitemap: https://nyeinsydney.com/sitemap.xml

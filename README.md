@@ -27,7 +27,7 @@ cd docs && python3 -m http.server    # preview at http://localhost:8000
 
 | Key | What to set |
 | --- | --- |
-| `site_url` | Your real domain (used for canonical URLs, the sitemap and OG tags) |
+| `site_url` | `https://nyeinsydney.com` (used for canonical URLs, the sitemap, OG tags and `docs/CNAME`) |
 | `contact_email` | The inbox for listing requests |
 | `form_endpoint` | A form backend URL (e.g. a Formspree form) that stores listing submissions |
 | `payment_link` | A Stripe Payment Link for $599 AUD. After the form saves, the buyer is redirected here with their email prefilled |
@@ -42,9 +42,9 @@ Add an entry to `data/events.json`. Set `"featured": true` if you want it pinned
 
 `docs/` is a plain static site. Options:
 
-- **GitHub Pages:** Settings → Pages → deploy from branch → `/docs`.
+- **GitHub Pages:** Settings → Pages → deploy from branch → `/docs`. Custom domain `nyeinsydney.com` (set by `docs/CNAME`); point the domain's DNS A records at GitHub Pages' IPs.
 - **Netlify or Vercel:** set the publish directory to `docs` (or set the build command to `python3 build.py`).
 
-After launch, submit `https://YOUR_DOMAIN/sitemap.xml` in Google Search Console.
+After launch, submit `https://nyeinsydney.com/sitemap.xml` in Google Search Console.
 
 To regenerate `og.png`, open `docs/og.html` at 1200×630 and screenshot it.

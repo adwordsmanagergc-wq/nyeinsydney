@@ -16,8 +16,8 @@ from pathlib import Path
 # --------------------------------------------------------------------------------------
 CONFIG = {
     "site_name": "NYE in Sydney",
-    "site_url": "https://www.nyeinsydney.com.au",   # your live domain, no trailing slash
-    "contact_email": "hello@nyeinsydney.com.au",
+    "site_url": "https://nyeinsydney.com",   # your live domain, no trailing slash
+    "contact_email": "hello@nyeinsydney.com",
     "listing_price": 599,                              # AUD, inc GST
     # Form backend that stores listing submissions (e.g. Formspree, Basin, Getform).
     # While it still contains "YOUR_", the form falls back to opening an email.
@@ -741,6 +741,7 @@ def build():
     if og_keep:
         (OUT / "og.png").write_bytes(og_keep)
     (OUT / ".nojekyll").write_text("")
+    (OUT / "CNAME").write_text(URL.split("://", 1)[1] + "\n")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /og.html\n\nSitemap: {URL}/sitemap.xml\n")
     prio = lambda p: "1.0" if p == "/" else "0.6" if p.startswith("/events/") else "0.8"
     sm = "".join(
