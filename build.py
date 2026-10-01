@@ -3,7 +3,7 @@
 
 Edit data/events.json (and the CONFIG block below), then run:
     python3 build.py
-The complete site is written to ./docs (ready for GitHub Pages, Netlify, Vercel or any static host).
+The complete site is written to ./docs, which Vercel serves as-is (see vercel.json).
 """
 import json
 import shutil
@@ -741,7 +741,6 @@ def build():
     if og_keep:
         (OUT / "og.png").write_bytes(og_keep)
     (OUT / ".nojekyll").write_text("")
-    (OUT / "CNAME").write_text(URL.split("://", 1)[1] + "\n")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /og.html\n\nSitemap: {URL}/sitemap.xml\n")
     prio = lambda p: "1.0" if p == "/" else "0.6" if p.startswith("/events/") else "0.8"
     sm = "".join(
