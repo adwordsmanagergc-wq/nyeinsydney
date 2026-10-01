@@ -149,7 +149,15 @@
         submitBtn.disabled = false; return;
       }
       fetch(endpoint, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } })
-        .then(function (r) { if (!r.ok) throw new Error(); go(); })
+        .then(function (r) {
+          if (!r.ok) throw new Error();
+          if (!pay || pay.indexOf("YOUR_") > -1) {
+            form.reset();
+            status.textContent = "Thanks! Your listing request has been sent. We'll email you within one business day with your invoice and next steps.";
+            submitBtn.disabled = false; return;
+          }
+          go();
+        })
         .catch(function () { status.textContent = "Something went wrong. Please email us at " + form.dataset.email; submitBtn.disabled = false; });
     });
   }

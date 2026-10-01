@@ -17,12 +17,13 @@ from pathlib import Path
 CONFIG = {
     "site_name": "NYE in Sydney",
     "site_url": "https://nyeinsydney.com",   # your live domain, no trailing slash
-    "contact_email": "hello@nyeinsydney.com",
+    "contact_email": "aj@metatapdigital.com",
     "listing_price": 599,                              # AUD, inc GST
-    # Form backend that stores listing submissions (e.g. Formspree, Basin, Getform).
-    # While it still contains "YOUR_", the form falls back to opening an email.
-    "form_endpoint": "https://formspree.io/f/YOUR_FORM_ID",
-    # Stripe Payment Link (or similar) for the $599 listing fee.
+    # Listing submissions are emailed to contact_email via FormSubmit (no account needed;
+    # the first submission sends a one-time activation email to that inbox).
+    "form_endpoint": "https://formsubmit.co/ajax/aj@metatapdigital.com",
+    # Stripe Payment Link (or similar) for the $599 listing fee. While it still contains
+    # "YOUR_", submitters see a thank-you message and you email them an invoice instead.
     "payment_link": "https://buy.stripe.com/YOUR_PAYMENT_LINK",
     "year": 2026,
     "next_year": 2027,
@@ -616,6 +617,10 @@ def page_plan():
 
 def page_list():
     p = CONFIG["listing_price"]
+    has_pay = "YOUR_" not in CONFIG["payment_link"]
+    form_sub = (f"Fill this in, then pay ${p} securely. We'll publish your page and email you the link." if has_pay
+                else f"Fill this in and we'll email you a ${p} invoice within one business day. Your page goes live once it's paid.")
+    submit_label = f"Continue to payment: ${p} →" if has_pay else "Send my listing request →"
     cats = "".join(f'<option value="{k}">{v}</option>' for k, v in CATEGORY_LABELS.items() if k not in ("budget", "free"))
     faq = [
         ("What do I get for $" + str(p) + "?", "A dedicated event page built for search, with Google Event structured data. You also get a listing in our main directory and the matching category pages (dinners, cruises, parties, family), a direct link to your own booking page, and edits until 31 December."),
@@ -657,7 +662,7 @@ def page_list():
 </div>
 </div></section>
 <section class="alt" id="form"><div class="wrap" style="max-width:860px">
-<div class="section-head"><h2>Your event details</h2><p>Fill this in, then pay ${p} securely. We'll publish your page and email you the link.</p></div>
+<div class="section-head"><h2>Your event details</h2><p>{form_sub}</p></div>
 <form class="listing panel" data-endpoint="{CONFIG['form_endpoint']}" data-payment="{CONFIG['payment_link']}" data-email="{CONFIG['contact_email']}">
 <div><label for="f-name">Event name *</label><input id="f-name" name="event_name" required></div>
 <div><label for="f-venue">Venue *</label><input id="f-venue" name="venue" required></div>
@@ -673,8 +678,9 @@ def page_list():
 <div><label for="f-email">Email *</label><input id="f-email" name="email" type="email" required></div>
 <div><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel"></div>
 <div><label for="f-abn">Business / ABN</label><input id="f-abn" name="business"></div>
-<input type="hidden" name="_subject" value="New NYE listing request">
-<div class="full"><button class="btn btn-primary" type="submit">Continue to payment: ${p} →</button>
+<input type="hidden" name="_subject" value="New NYE in Sydney listing request (${p})">
+<input type="hidden" name="_template" value="table"><input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div class="full"><button class="btn btn-primary" type="submit">{submit_label}</button>
 <p class="form-status muted" aria-live="polite" style="margin:12px 0 0"></p></div>
 </form>
 </div></section>

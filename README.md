@@ -28,11 +28,11 @@ cd docs && python3 -m http.server    # preview at http://localhost:8000
 | Key | What to set |
 | --- | --- |
 | `site_url` | `https://nyeinsydney.com` (used for canonical URLs, the sitemap and OG tags) |
-| `contact_email` | The inbox for listing requests |
-| `form_endpoint` | A form backend URL (e.g. a Formspree form) that stores listing submissions |
+| `contact_email` | `aj@metatapdigital.com`: the inbox for listing requests |
+| `form_endpoint` | `https://formsubmit.co/ajax/aj@metatapdigital.com`: emails each listing request to that inbox |
 | `payment_link` | A Stripe Payment Link for $599 AUD. After the form saves, the buyer is redirected here with their email prefilled |
 
-Until `form_endpoint` is configured, the listing form opens the visitor's email app with their details filled in instead.
+The first submission triggers a one-time FormSubmit activation email to `aj@metatapdigital.com`. Click the link in it, and every request after that arrives as a formatted email. Until `payment_link` is set, submitters see a thank-you message and you send them an invoice.
 
 ## Adding a paid listing
 
