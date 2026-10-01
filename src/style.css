@@ -189,3 +189,10 @@ footer a{color:var(--muted)}
 .fine{color:var(--muted);font-size:.8rem;margin-top:30px;border-top:1px solid var(--line);padding-top:20px}
 
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* Search season */
+.season-bar{display:flex;align-items:flex-end;justify-content:center;gap:clamp(18px,6vw,60px);height:180px;margin:0 auto 20px;max-width:520px;border-bottom:1px solid var(--line)}
+.season-bar span{flex:1;height:var(--h);background:var(--grad);border-radius:12px 12px 0 0;display:flex;align-items:flex-end;justify-content:center;padding-bottom:10px;font-weight:800;color:#14062b;box-shadow:0 0 30px rgba(255,79,163,.25)}
+.season-card{padding-top:30px}
+.season-step{position:absolute;top:-16px;left:22px;width:36px;height:36px;border-radius:50%;background:var(--grad);color:#14062b;font-weight:800;display:flex;align-items:center;justify-content:center}
+.card p.season-win{color:var(--gold);font-weight:600;margin:auto 0 0}

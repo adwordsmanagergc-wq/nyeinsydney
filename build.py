@@ -229,9 +229,38 @@ def directory(events, heading, sub, show_filters=True, anchor="directory"):
 </div></section>"""
 
 
+def season_section(p):
+    months = [
+        ("October", "Planning begins",
+         "Big parties, cruises and ticketed vantage points release tickets, and Sydney starts searching \"NYE in Sydney\". Early birds lock in their plans and groups start comparing options.",
+         "List now and you're live for the whole season, from day one."),
+        ("November", "Comparing &amp; booking",
+         "Searchers compare prices, inclusions and fireworks views side by side. This is when premium tables, cruises and party tickets get booked.",
+         "Your page, with its price, inclusions and a Book button, wins the comparison."),
+        ("December", "Peak searches &amp; last-minute rush",
+         "Search interest hits its peak. People chase the last tables, final release tiers and late tickets right up to 31 December.",
+         "Sell your remaining tickets and late seatings while demand is at its highest."),
+    ]
+    cards = "".join(
+        f'''<div class="card season-card"><span class="season-step">{i + 1}</span><div class="loc">{m}</div><h3>{t}</h3><p>{d}</p>
+<p class="season-win">✦ {w}</p></div>''' for i, (m, t, d, w) in enumerate(months)
+    )
+    return f"""<section id="season"><div class="wrap">
+<div class="section-head"><span class="eyebrow">The NYE search season</span>
+<h2>Sydney books New Year's Eve in <span class="grad">three months</span></h2>
+<p>Every year, searches like "NYE in Sydney", "Sydney New Year's Eve" and "New Year's Eve Sydney dinner" climb from October and peak in the final weeks of December. That's when people choose a venue and buy tickets. If your event isn't in front of them then, they book somewhere else.</p></div>
+<div class="season-bar" aria-hidden="true"><span style="--h:34%">Oct</span><span style="--h:62%">Nov</span><span style="--h:100%">Dec</span></div>
+<p class="muted" style="text-align:center;font-size:.8rem;margin:-6px 0 30px">Shows the typical seasonal pattern of search interest, not exact volumes.</p>
+<div class="grid">{cards}</div>
+<div class="band" style="margin-top:40px">
+<div><h2>One listing. The whole season.</h2><p>At typical harbourside NYE prices of $300–$850 a head, a couple of bookings covers your ${p} listing. Everything after that is profit, with zero commission.</p></div>
+<a class="btn" href="#form">Claim your spot →</a></div>
+</div></section>"""
+
+
 def list_band():
     return f"""<section><div class="wrap"><div class="band">
-<div><h2>Running a NYE event in Sydney?</h2><p>Get in front of people planning their night right now. ${CONFIG['listing_price']} flat, no commission on your bookings.</p></div>
+<div><h2>Selling NYE tickets in Sydney?</h2><p>October to December is when Sydney searches for its New Year's Eve plans. Get your event in front of them for ${CONFIG['listing_price']} flat, with no commission.</p></div>
 <a class="btn" href="/list-your-event/">List your event →</a></div></div></section>"""
 
 
@@ -624,6 +653,7 @@ def page_list():
     cats = "".join(f'<option value="{k}">{v}</option>' for k, v in CATEGORY_LABELS.items() if k not in ("budget", "free"))
     faq = [
         ("What do I get for $" + str(p) + "?", "A dedicated event page built for search, with Google Event structured data. You also get a listing in our main directory and the matching category pages (dinners, cruises, parties, family), a direct link to your own booking page, and edits until 31 December."),
+        ("Why should I list now rather than in December?", "Search interest in Sydney New Year's Eve builds from October and peaks in the final weeks of December. Listing early means your page is live and indexed by Google for the whole season, not just the last-minute rush. New pages can take days or weeks to rank, so the earlier you're in, the more of the season you capture. It's the same $" + str(p) + " whenever you list."),
         ("Do you take commission on bookings?", "No. Guests book directly with you through your own link, and you keep 100% of every ticket."),
         ("How long does my listing stay live?", f"Your listing stays live until New Year's Day {NY}, then rolls into our archive. Previous listers get first right to renew for next year."),
         ("How fast will my listing go live?", "Usually within one business day of payment. We'll email you the link."),
@@ -633,8 +663,11 @@ def page_list():
 <section class="hero small"><canvas id="fw" aria-hidden="true"></canvas>{SKYLINE}
 <div class="wrap"><span class="eyebrow">For venues, promoters &amp; cruise operators</span>
 <h1>List your New Year's Eve event</h1>
-<p class="lead">Put your NYE {Y} event in front of people searching for "New Year's Eve Sydney", "NYE dinner Sydney" and "NYE cruise Sydney" in the weeks they're deciding where to go.</p>
-{countdown(mini=True)}</div></section>
+<p class="lead">October, November and December are when Sydney searches for its New Year's Eve plans. Put your NYE {Y} event in front of people typing "NYE in Sydney", "Sydney New Year's Eve", "NYE dinner Sydney" and "NYE cruise Sydney" while they're choosing where to spend the night.</p>
+{countdown(mini=True)}
+<p class="cd-note" style="margin-top:0">left to sell. The NYE search season is on now.</p>
+<div class="cta-row"><a class="btn btn-primary" href="#form">List my event: ${p}</a><a class="btn btn-ghost" href="#season">Why now?</a></div></div></section>
+{season_section(p)}
 <section><div class="wrap two" style="align-items:start">
 <div>
 <h2>Why list with <span class="grad">NYE in Sydney</span>?</h2>
@@ -644,7 +677,8 @@ def page_list():
 <li><b>Listed where people browse.</b> You appear in the main directory plus every matching category: dinners, cruises, parties and family.</li>
 <li><b>Zero commission.</b> Guests click straight through to your booking page.</li>
 <li><b>Updates until NYE.</b> Change prices, add tiers or mark sold-out tiers whenever you like.</li>
-<li><b>Countdown traffic.</b> Interest peaks from October to 31 December, right when you're selling.</li>
+<li><b>Our name is the search.</b> NYE in Sydney is built around the exact phrases people type into Google, so every page targets them.</li>
+<li><b>Countdown traffic.</b> Interest builds from October and peaks in December, right when you're selling.</li>
 </ul>
 </div>
 <div class="pricing">
