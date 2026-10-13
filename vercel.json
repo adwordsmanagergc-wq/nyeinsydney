@@ -10,7 +10,7 @@
   ],
   "headers": [
     { "source": "/(style.css|main.js)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600, must-revalidate" }] },
-    { "source": "/(og.png|favicon.svg)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] },
+    { "source": "/(og.jpg|favicon.svg|img/.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] },
     { "source": "/og.html", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
     { "source": "/(.*)", "headers": [
       { "key": "X-Content-Type-Options", "value": "nosniff" },

@@ -2,20 +2,23 @@
 <html lang="en-AU">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Sydney NYE Fireworks Vantage Points 2026: Best Free &amp; Ticketed Spots | NYE in Sydney</title>
-<meta name="description" content="The best places to watch the Sydney New Year&#x27;s Eve fireworks in 2026: free harbour vantage points, free-ticketed islands and $65 ticketed parks, plus what time to arrive.">
+<meta name="description" content="The best places to watch the Sydney New Year&#x27;s Eve fireworks in 2026: a map of free harbour vantage points, free-ticketed islands and $65 ticketed parks, plus what time to arrive.">
 <link rel="canonical" href="https://nyeinsydney.com/sydney-fireworks-vantage-points/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="geo.region" content="AU-NSW"><meta name="geo.placename" content="Sydney">
 <meta property="og:type" content="website"><meta property="og:site_name" content="NYE in Sydney">
-<meta property="og:title" content="Sydney NYE Fireworks Vantage Points 2026: Best Free &amp; Ticketed Spots | NYE in Sydney"><meta property="og:description" content="The best places to watch the Sydney New Year&#x27;s Eve fireworks in 2026: free harbour vantage points, free-ticketed islands and $65 ticketed parks, plus what time to arrive.">
-<meta property="og:url" content="https://nyeinsydney.com/sydney-fireworks-vantage-points/"><meta property="og:image" content="https://nyeinsydney.com/og.png"><meta property="og:locale" content="en_AU">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://nyeinsydney.com/og.png">
-<meta name="theme-color" content="#07061a">
+<meta property="og:title" content="Sydney NYE Fireworks Vantage Points 2026: Best Free &amp; Ticketed Spots | NYE in Sydney"><meta property="og:description" content="The best places to watch the Sydney New Year&#x27;s Eve fireworks in 2026: a map of free harbour vantage points, free-ticketed islands and $65 ticketed parks, plus what time to arrive.">
+<meta property="og:url" content="https://nyeinsydney.com/sydney-fireworks-vantage-points/"><meta property="og:image" content="https://nyeinsydney.com/og.jpg"><meta property="og:locale" content="en_AU">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://nyeinsydney.com/og.jpg">
+<meta name="theme-color" content="#080a10">
+<script>document.documentElement.classList.add("js")</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Geist:wght@400..600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="" defer></script>
 <link rel="stylesheet" href="/style.css">
 <script type="application/ld+json">{
  "@context": "https://schema.org",
@@ -112,118 +115,250 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="nav"><div class="wrap">
-<a class="logo" href="/">NYE <span>in Sydney</span></a>
-<nav aria-label="Main"><ul><li><a href="/">Home</a></li><li><a href="/#directory">All events</a></li><li><a href="/new-years-eve-dinner-sydney/">Dinners</a></li><li><a href="/new-years-eve-cruises-sydney/">Cruises</a></li><li><a href="/new-years-eve-parties-sydney/">Parties</a></li><li><a href="/sydney-fireworks-vantage-points/" aria-current="page">Vantage points</a></li><li><a href="/plan-your-night/">Plan</a></li></ul></nav>
-<a class="btn btn-primary btn-sm" href="/list-your-event/">List your event</a>
-<button class="menu-btn" aria-label="Menu" aria-expanded="false">☰</button>
+<header class="nav" data-nav><div class="wrap nav-in">
+<a class="logo" href="/" aria-label="NYE in Sydney, home">NYE <span>in</span> Sydney</a>
+<nav aria-label="Main"><ul id="menu"><li><a href="/#directory">Events</a></li><li><a href="/new-years-eve-dinner-sydney/">Dinners</a></li><li><a href="/new-years-eve-cruises-sydney/">Cruises</a></li><li><a href="/new-years-eve-parties-sydney/">Parties</a></li><li><a href="/sydney-fireworks-vantage-points/" aria-current="page">Vantage points</a></li><li><a href="/plan-your-night/">Plan</a></li></ul></nav>
+<a class="btn btn-gold btn-sm nav-cta" href="/list-your-event/">List your event</a>
+<button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i class="ph ph-list" aria-hidden="true"></i></button>
 </div></header>
 <main id="main">
+<div class="nav-sentinel" aria-hidden="true"></div>
 
-<section class="hero small"><canvas id="fw" aria-hidden="true"></canvas><svg class="skyline" viewBox="0 0 1440 230" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
-<defs><linearGradient id="sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c0a26"/><stop offset="1" stop-color="#07061a"/></linearGradient>
-<linearGradient id="wt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1450" stop-opacity=".9"/><stop offset="1" stop-color="#07061a"/></linearGradient></defs>
-<g fill="url(#sk)">
-<rect x="0" y="120" width="40" height="80"/><rect x="44" y="96" width="34" height="104"/><rect x="82" y="130" width="28" height="70"/>
-<rect x="114" y="70" width="40" height="130"/><rect x="158" y="108" width="30" height="92"/><rect x="192" y="86" width="26" height="114"/>
-<rect x="222" y="124" width="36" height="76"/><rect x="560" y="60" width="36" height="140"/><rect x="600" y="30" width="10" height="40"/>
-<circle cx="605" cy="40" r="14"/><rect x="614" y="90" width="40" height="110"/><rect x="658" y="54" width="30" height="146"/>
-<rect x="692" y="100" width="44" height="100"/><rect x="740" y="76" width="34" height="124"/><rect x="1290" y="110" width="38" height="90"/>
-<rect x="1332" y="84" width="30" height="116"/><rect x="1366" y="126" width="40" height="74"/><rect x="1410" y="100" width="30" height="100"/>
-<path d="M280 178 Q300 120 352 104 Q340 140 338 178Z M320 178 Q348 100 410 86 Q392 130 390 178Z M372 178 Q404 96 470 84 Q450 130 446 178Z M430 178 Q460 118 510 110 Q496 146 494 178Z"/>
-<rect x="270" y="176" width="250" height="24"/>
-<rect x="800" y="108" width="26" height="92"/><rect x="1226" y="108" width="26" height="92"/>
-</g>
-<g fill="none" stroke="#0c0a26" stroke-width="7"><path d="M826 150 Q1026 10 1226 150"/><path d="M826 150 L1226 150" stroke-width="6"/></g>
-<g stroke="#0c0a26" stroke-width="2"><line x1="846" y1="150" x2="846" y2="137"/><line x1="866" y1="150" x2="866" y2="125"/><line x1="886" y1="150" x2="886" y2="114"/><line x1="906" y1="150" x2="906" y2="105"/><line x1="926" y1="150" x2="926" y2="98"/><line x1="946" y1="150" x2="946" y2="91"/><line x1="966" y1="150" x2="966" y2="86"/><line x1="986" y1="150" x2="986" y2="83"/><line x1="1006" y1="150" x2="1006" y2="81"/><line x1="1026" y1="150" x2="1026" y2="80"/><line x1="1046" y1="150" x2="1046" y2="81"/><line x1="1066" y1="150" x2="1066" y2="83"/><line x1="1086" y1="150" x2="1086" y2="86"/><line x1="1106" y1="150" x2="1106" y2="91"/><line x1="1126" y1="150" x2="1126" y2="98"/><line x1="1146" y1="150" x2="1146" y2="105"/><line x1="1166" y1="150" x2="1166" y2="114"/><line x1="1186" y1="150" x2="1186" y2="125"/><line x1="1206" y1="150" x2="1206" y2="137"/></g>
-<rect x="0" y="198" width="1440" height="32" fill="url(#wt)"/>
-</svg>
-<div class="wrap"><span class="eyebrow">NYE 2026 · Free &amp; ticketed</span>
-<h1>Sydney fireworks vantage points 2026</h1>
-<p class="lead">Where to watch the Sydney New Year's Eve fireworks: free foreshore parks, free-ticketed islands and paid spots with guaranteed entry. Includes which ones fill first.</p></div></section>
-<section><div class="wrap">
-<div class="section-head"><h2>Vantage points at a glance</h2><p>Capacity and entry conditions are set by the City of Sydney, NSW Government and local councils each year. Check official updates on the day, as sites close once they're full.</p></div>
-<div class="table-wrap"><table><thead><tr><th>Vantage point</th><th>Area</th><th>View</th><th>Entry</th><th>Good to know</th></tr></thead>
-<tbody><tr><td><b>Mrs Macquaries Point</b></td><td>Royal Botanic Garden</td><td>Opera House + Bridge together</td><td><span class="pill free">Free</span></td><td class='muted'>Iconic postcard view; one of the first to reach capacity</td></tr><tr><td><b>Hickson Road Reserve</b></td><td>The Rocks</td><td>Right under the Bridge</td><td><span class="pill free">Free</span></td><td class='muted'>Alcohol-free; fills very early</td></tr><tr><td><b>Sydney Opera House Forecourt</b></td><td>Bennelong Point</td><td>Front row to the harbour</td><td><span class="pill free">Free · ticket</span></td><td class='muted'>Free ticket released 10am, 26 December; bars on site</td></tr><tr><td><b>Bennelong Lawn, Fleet Steps & Tarpeian Lawn</b></td><td>Royal Botanic Garden</td><td>Opera House & Bridge</td><td><span class="pill af">Check entry</span></td><td class='muted'>Food & drink available; check entry conditions</td></tr><tr><td><b>Lower Bradfield Park</b></td><td>Milsons Point</td><td>Directly beside the Bridge</td><td><span class="pill paid">Paid ticket</span></td><td class='muted'>$65 ticketed, guaranteed entry, facilities</td></tr><tr><td><b>Blues Point Reserve</b></td><td>McMahons Point</td><td>Bridge + Opera House lined up</td><td><span class="pill paid">Paid ticket</span></td><td class='muted'>$65 ticketed, guaranteed entry</td></tr><tr><td><b>Cremorne Point & Lavender Bay Parklands</b></td><td>North Shore</td><td>Harbour & city skyline</td><td><span class="pill af">Check entry</span></td><td class='muted'>Managed by North Sydney Council</td></tr><tr><td><b>Dudley Page Reserve</b></td><td>Dover Heights</td><td>Panoramic elevated skyline</td><td><span class="pill paid">Paid ticket</span></td><td class='muted'>$65 adult / $30 child / $170 family</td></tr><tr><td><b>Goat Island</b></td><td>On the harbour</td><td>Island, close to the Bridge</td><td><span class="pill free">Free · ticket</span></td><td class='muted'>Free ticket + ferry pass required</td></tr><tr><td><b>Clark Island & Shark Island</b></td><td>On the harbour</td><td>Island views east of the Bridge</td><td><span class="pill paid">Paid ticket</span></td><td class='muted'>Ticketed + ferry; sell out early</td></tr><tr><td><b>Cockatoo Island</b></td><td>On the harbour</td><td>Western harbour views</td><td><span class="pill paid">Paid ticket</span></td><td class='muted'>Available to accommodation and camping guests</td></tr><tr><td><b>Thornton Park, Illoura Reserve & Lookes Ave Reserve</b></td><td>Balmain East</td><td>Western view of the Bridge</td><td><span class="pill free">Free</span></td><td class='muted'>Family-friendly; some allow BYO alcohol</td></tr><tr><td><b>Birchgrove parks</b></td><td>Birchgrove</td><td>Western harbour</td><td><span class="pill free">Free</span></td><td class='muted'>Quieter, local feel</td></tr><tr><td><b>Pyrmont Bay Park & Darling Harbour</b></td><td>Pyrmont</td><td>City and Darling Harbour</td><td><span class="pill free">Free</span></td><td class='muted'>Close to restaurants and transport</td></tr></tbody></table></div>
+<section class="hero hero--page" data-hero style="--pos:40% 70%">
+<div class="hero-media"><img class="hero-img" src="/img/fleet-steps-2023-1920.webp" srcset="/img/fleet-steps-2023-960.webp 960w, /img/fleet-steps-2023-1920.webp 1920w" sizes="100vw" width="1920" height="1260" alt="Midnight fireworks and smoke over Sydney Harbour, with the Opera House lit up and boats on the water" fetchpriority="high" loading="eager"></div>
+<canvas class="fx" data-fireworks aria-hidden="true"></canvas>
+<div class="hero-shade" aria-hidden="true"></div>
+<div class="wrap hero-grid">
+<div class="hero-copy"><nav class="crumbs reveal" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Vantage points</span></nav><h1><span class="w"><span style="--i:0">Sydney</span></span> <span class="w"><span style="--i:1">fireworks</span></span> <span class="w"><span style="--i:2">vantage</span></span> <span class="w"><span style="--i:3">points</span></span> <span class="w"><span class="accent" style="--i:4">2026</span></span></h1><p class="hero-sub reveal" style="--i:6">Free foreshore parks, free-ticketed islands and paid spots with guaranteed entry, mapped.</p>
+<div class="hero-ctas reveal" style="--i:7"><a class="btn btn-gold" href="#map">Open the map <i class="ph ph-arrow-right" aria-hidden="true"></i></a><a class="btn btn-ghost" href="#ticketed">Ticketed spots</a></div></div>
+<div class="hero-aside reveal" style="--i:8"><div class="cd cd--md"><div class="cd-row" data-countdown role="timer" aria-label="Countdown to midnight, New Year's Eve 2026 in Sydney"><div class="cd-u"><span class="cd-n" data-u="d">00</span><span class="cd-l">days</span></div><div class="cd-u"><span class="cd-n" data-u="h">00</span><span class="cd-l">hrs</span></div><div class="cd-u"><span class="cd-n" data-u="m">00</span><span class="cd-l">min</span></div><div class="cd-u"><span class="cd-n" data-u="s">00</span><span class="cd-l">sec</span></div></div></div><p class="cd-deadline"><i class="ph ph-clock" aria-hidden="true"></i> Midnight AEDT, Thursday 31 December 2026</p></div>
 </div></section>
-<section id="directory" data-directory><div class="wrap">
-<div class="section-head"><h2>Book a guaranteed spot</h2><p>Ticketed vantage points mean no dawn queue. Tickets usually release from September to December.</p></div>
+<section class="sec" id="map"><div class="wrap">
+<div class="sec-head split"><h2 class="reveal">The harbour, mapped</h2><p class="reveal" style="--i:1">Pick a spot to fly to it. Capacity and entry rules are set each year by the City of Sydney, the NSW Government and local councils.</p></div>
+<div class="map-wrap reveal"><div id="vmap" class="vmap" role="region" aria-label="Map of Sydney fireworks vantage points"></div>
+<ol class="vps"><li><button class="vp" data-vp="0"><span class="vp-top"><b>Mrs Macquaries Point</b><span class="pill pill--free">Free</span></span><span class="vp-meta">Royal Botanic Garden. Opera House and Bridge together.</span><span class="vp-note">The postcard view, and one of the first spots to fill</span></button></li><li><button class="vp" data-vp="1"><span class="vp-top"><b>Hickson Road Reserve</b><span class="pill pill--free">Free</span></span><span class="vp-meta">The Rocks. Right under the Bridge.</span><span class="vp-note">Alcohol-free and fills very early</span></button></li><li><button class="vp" data-vp="2"><span class="vp-top"><b>Sydney Opera House Forecourt</b><span class="pill pill--free">Free, ticketed</span></span><span class="vp-meta">Bennelong Point. Front row to the harbour.</span><span class="vp-note">Free ticket released 10am, 26 December. Bars on site</span></button></li><li><button class="vp" data-vp="3"><span class="vp-top"><b>Bennelong Lawn, Fleet Steps and Tarpeian Lawn</b><span class="pill pill--check">Check entry</span></span><span class="vp-meta">Royal Botanic Garden. Opera House and Bridge.</span><span class="vp-note">Food and drink available. Check entry conditions</span></button></li><li><button class="vp" data-vp="4"><span class="vp-top"><b>Lower Bradfield Park</b><span class="pill pill--paid">Paid ticket</span></span><span class="vp-meta">Milsons Point. Directly beside the Bridge.</span><span class="vp-note">$65 ticketed, guaranteed entry and facilities</span></button></li><li><button class="vp" data-vp="5"><span class="vp-top"><b>Blues Point Reserve</b><span class="pill pill--paid">Paid ticket</span></span><span class="vp-meta">McMahons Point. Bridge and Opera House lined up.</span><span class="vp-note">$65 ticketed, guaranteed entry</span></button></li><li><button class="vp" data-vp="6"><span class="vp-top"><b>Cremorne Point and Lavender Bay</b><span class="pill pill--check">Check entry</span></span><span class="vp-meta">North Shore. Harbour and city skyline.</span><span class="vp-note">Managed by North Sydney Council</span></button></li><li><button class="vp" data-vp="7"><span class="vp-top"><b>Dudley Page Reserve</b><span class="pill pill--paid">Paid ticket</span></span><span class="vp-meta">Dover Heights. Elevated panorama of the skyline.</span><span class="vp-note">$65 adult, $30 child, $170 family</span></button></li><li><button class="vp" data-vp="8"><span class="vp-top"><b>Goat Island</b><span class="pill pill--free">Free, ticketed</span></span><span class="vp-meta">On the harbour. Island close to the Bridge.</span><span class="vp-note">Free ticket plus ferry pass</span></button></li><li><button class="vp" data-vp="9"><span class="vp-top"><b>Clark Island and Shark Island</b><span class="pill pill--paid">Paid ticket</span></span><span class="vp-meta">On the harbour. Island views east of the Bridge.</span><span class="vp-note">Ticketed with ferry. Sell out early</span></button></li><li><button class="vp" data-vp="10"><span class="vp-top"><b>Cockatoo Island</b><span class="pill pill--paid">Paid ticket</span></span><span class="vp-meta">On the harbour. Western harbour views.</span><span class="vp-note">For accommodation and camping guests</span></button></li><li><button class="vp" data-vp="11"><span class="vp-top"><b>Thornton Park, Illoura Reserve and Lookes Ave Reserve</b><span class="pill pill--free">Free</span></span><span class="vp-meta">Balmain East. Western view of the Bridge.</span><span class="vp-note">Family-friendly. Some allow BYO alcohol</span></button></li><li><button class="vp" data-vp="12"><span class="vp-top"><b>Birchgrove parks</b><span class="pill pill--free">Free</span></span><span class="vp-meta">Birchgrove. Western harbour.</span><span class="vp-note">Quieter, with a local feel</span></button></li><li><button class="vp" data-vp="13"><span class="vp-top"><b>Pyrmont Bay Park and Darling Harbour</b><span class="pill pill--free">Free</span></span><span class="vp-meta">Pyrmont. City and Darling Harbour.</span><span class="vp-note">Close to restaurants and transport</span></button></li></ol></div>
+<script type="application/json" id="vp-data">[
+ {
+  "n": "Mrs Macquaries Point",
+  "a": "Royal Botanic Garden",
+  "v": "Opera House and Bridge together",
+  "t": "Free",
+  "k": "free",
+  "note": "The postcard view, and one of the first spots to fill",
+  "lat": -33.8597,
+  "lng": 151.2226
+ },
+ {
+  "n": "Hickson Road Reserve",
+  "a": "The Rocks",
+  "v": "Right under the Bridge",
+  "t": "Free",
+  "k": "free",
+  "note": "Alcohol-free and fills very early",
+  "lat": -33.8553,
+  "lng": 151.2089
+ },
+ {
+  "n": "Sydney Opera House Forecourt",
+  "a": "Bennelong Point",
+  "v": "Front row to the harbour",
+  "t": "Free, ticketed",
+  "k": "free",
+  "note": "Free ticket released 10am, 26 December. Bars on site",
+  "lat": -33.8575,
+  "lng": 151.2148
+ },
+ {
+  "n": "Bennelong Lawn, Fleet Steps and Tarpeian Lawn",
+  "a": "Royal Botanic Garden",
+  "v": "Opera House and Bridge",
+  "t": "Check entry",
+  "k": "check",
+  "note": "Food and drink available. Check entry conditions",
+  "lat": -33.8592,
+  "lng": 151.2172
+ },
+ {
+  "n": "Lower Bradfield Park",
+  "a": "Milsons Point",
+  "v": "Directly beside the Bridge",
+  "t": "Paid ticket",
+  "k": "paid",
+  "note": "$65 ticketed, guaranteed entry and facilities",
+  "lat": -33.8476,
+  "lng": 151.2117
+ },
+ {
+  "n": "Blues Point Reserve",
+  "a": "McMahons Point",
+  "v": "Bridge and Opera House lined up",
+  "t": "Paid ticket",
+  "k": "paid",
+  "note": "$65 ticketed, guaranteed entry",
+  "lat": -33.8468,
+  "lng": 151.2032
+ },
+ {
+  "n": "Cremorne Point and Lavender Bay",
+  "a": "North Shore",
+  "v": "Harbour and city skyline",
+  "t": "Check entry",
+  "k": "check",
+  "note": "Managed by North Sydney Council",
+  "lat": -33.8443,
+  "lng": 151.2295
+ },
+ {
+  "n": "Dudley Page Reserve",
+  "a": "Dover Heights",
+  "v": "Elevated panorama of the skyline",
+  "t": "Paid ticket",
+  "k": "paid",
+  "note": "$65 adult, $30 child, $170 family",
+  "lat": -33.877,
+  "lng": 151.28
+ },
+ {
+  "n": "Goat Island",
+  "a": "On the harbour",
+  "v": "Island close to the Bridge",
+  "t": "Free, ticketed",
+  "k": "free",
+  "note": "Free ticket plus ferry pass",
+  "lat": -33.8523,
+  "lng": 151.196
+ },
+ {
+  "n": "Clark Island and Shark Island",
+  "a": "On the harbour",
+  "v": "Island views east of the Bridge",
+  "t": "Paid ticket",
+  "k": "paid",
+  "note": "Ticketed with ferry. Sell out early",
+  "lat": -33.8622,
+  "lng": 151.2421
+ },
+ {
+  "n": "Cockatoo Island",
+  "a": "On the harbour",
+  "v": "Western harbour views",
+  "t": "Paid ticket",
+  "k": "paid",
+  "note": "For accommodation and camping guests",
+  "lat": -33.8477,
+  "lng": 151.1717
+ },
+ {
+  "n": "Thornton Park, Illoura Reserve and Lookes Ave Reserve",
+  "a": "Balmain East",
+  "v": "Western view of the Bridge",
+  "t": "Free",
+  "k": "free",
+  "note": "Family-friendly. Some allow BYO alcohol",
+  "lat": -33.8572,
+  "lng": 151.1932
+ },
+ {
+  "n": "Birchgrove parks",
+  "a": "Birchgrove",
+  "v": "Western harbour",
+  "t": "Free",
+  "k": "free",
+  "note": "Quieter, with a local feel",
+  "lat": -33.8523,
+  "lng": 151.1813
+ },
+ {
+  "n": "Pyrmont Bay Park and Darling Harbour",
+  "a": "Pyrmont",
+  "v": "City and Darling Harbour",
+  "t": "Free",
+  "k": "free",
+  "note": "Close to restaurants and transport",
+  "lat": -33.869,
+  "lng": 151.1966
+ }
+]</script>
+</div></section>
+<section class="sec" id="ticketed" data-directory><div class="wrap">
+<div class="sec-head split"><h2 class="reveal">Book a guaranteed spot</h2><p class="reveal" style="--i:1">Ticketed vantage points mean no dawn queue. Tickets usually release between September and December.</p></div>
 
-<div class="grid"><article class="card featured" data-cats="vantage family budget" data-area="North Shore" data-price="65" data-featured="1" data-order="0" data-search="lower bradfield park ticketed vantage lower bradfield park milsons point north shore vantage family budget possibly the best $65 you&#x27;ll spend in sydney: a picnic rug almost directly under the bridge.">
-<span class="badge">Featured</span>
-<div class="loc">📍 Milsons Point · North Shore</div>
-<h3><a href="/events/lower-bradfield-park-ticketed/">Lower Bradfield Park Ticketed Vantage</a></h3>
+<div class="ev-grid"><article class="ev reveal is-feat" style="--i:0;view-transition-name:ev-lower-bradfield-park-ticketed" data-cats="vantage family budget" data-area="North Shore" data-price="65" data-featured="1" data-order="0" data-search="lower bradfield park ticketed vantage lower bradfield park milsons point north shore vantage family budget possibly the best $65 you&#x27;ll spend in sydney: a picnic rug almost directly under the bridge.">
+<div class="ev-top"><span class="ev-loc"><i class="ph ph-map-pin" aria-hidden="true"></i> Milsons Point, North Shore</span><span class="ev-feat">Featured</span></div>
+<h3><a class="ev-link" href="/events/lower-bradfield-park-ticketed/">Lower Bradfield Park Ticketed Vantage</a></h3>
 <p>Possibly the best $65 you&#x27;ll spend in Sydney: a picnic rug almost directly under the Bridge.</p>
-<div class="tags"><span class="tag fw">🎆 Both 9pm &amp; midnight</span><span class="tag">Ticketed vantage points</span><span class="tag">Family-friendly</span><span class="tag">Under $250</span></div>
-<div class="meta"><div class="price">$65<small>from, per person</small></div>
-<div class="actions"><a class="btn btn-ghost btn-sm" href="/events/lower-bradfield-park-ticketed/">Details</a><a class="btn btn-primary btn-sm" href="https://www.northsydney.nsw.gov.au/" target="_blank" rel="noopener sponsored">Book</a></div></div>
-</article><article class="card" data-cats="vantage family budget" data-area="North Shore" data-price="65" data-featured="0" data-order="1" data-search="blues point reserve ticketed vantage blues point reserve mcmahons point north shore vantage family budget the view from the postcards: the bridge and opera house lined up together.">
-
-<div class="loc">📍 McMahons Point · North Shore</div>
-<h3><a href="/events/blues-point-reserve-ticketed/">Blues Point Reserve Ticketed Vantage</a></h3>
+<ul class="ev-tags"><li class="ev-fw"><i class="ph ph-sparkle" aria-hidden="true"></i> Both 9pm &amp; midnight</li><li>Ticketed vantage points</li><li>Family-friendly</li></ul>
+<div class="ev-foot"><div class="ev-price"><b>$65</b><span>from, per person</span></div>
+<a class="btn btn-gold btn-sm ev-book" href="https://www.northsydney.nsw.gov.au/" target="_blank" rel="noopener sponsored">Book <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></div>
+</article><article class="ev reveal" style="--i:1;view-transition-name:ev-blues-point-reserve-ticketed" data-cats="vantage family budget" data-area="North Shore" data-price="65" data-featured="0" data-order="1" data-search="blues point reserve ticketed vantage blues point reserve mcmahons point north shore vantage family budget the view from the postcards: the bridge and opera house lined up together.">
+<div class="ev-top"><span class="ev-loc"><i class="ph ph-map-pin" aria-hidden="true"></i> McMahons Point, North Shore</span></div>
+<h3><a class="ev-link" href="/events/blues-point-reserve-ticketed/">Blues Point Reserve Ticketed Vantage</a></h3>
 <p>The view from the postcards: the Bridge and Opera House lined up together.</p>
-<div class="tags"><span class="tag fw">🎆 Both 9pm &amp; midnight</span><span class="tag">Ticketed vantage points</span><span class="tag">Family-friendly</span><span class="tag">Under $250</span></div>
-<div class="meta"><div class="price">$65<small>from, per person</small></div>
-<div class="actions"><a class="btn btn-ghost btn-sm" href="/events/blues-point-reserve-ticketed/">Details</a><a class="btn btn-primary btn-sm" href="https://www.northsydney.nsw.gov.au/" target="_blank" rel="noopener sponsored">Book</a></div></div>
-</article><article class="card" data-cats="vantage family budget" data-area="Eastern Suburbs" data-price="30" data-featured="0" data-order="2" data-search="dudley page reserve ticketed vantage dudley page reserve dover heights eastern suburbs vantage family budget a grassy hilltop with a long-range view of the whole skyline lighting up.">
-
-<div class="loc">📍 Dover Heights · Eastern Suburbs</div>
-<h3><a href="/events/dudley-page-reserve-ticketed/">Dudley Page Reserve Ticketed Vantage</a></h3>
+<ul class="ev-tags"><li class="ev-fw"><i class="ph ph-sparkle" aria-hidden="true"></i> Both 9pm &amp; midnight</li><li>Ticketed vantage points</li><li>Family-friendly</li></ul>
+<div class="ev-foot"><div class="ev-price"><b>$65</b><span>from, per person</span></div>
+<a class="btn btn-gold btn-sm ev-book" href="https://www.northsydney.nsw.gov.au/" target="_blank" rel="noopener sponsored">Book <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></div>
+</article><article class="ev reveal" style="--i:2;view-transition-name:ev-dudley-page-reserve-ticketed" data-cats="vantage family budget" data-area="Eastern Suburbs" data-price="30" data-featured="0" data-order="2" data-search="dudley page reserve ticketed vantage dudley page reserve dover heights eastern suburbs vantage family budget a grassy hilltop with a long-range view of the whole skyline lighting up.">
+<div class="ev-top"><span class="ev-loc"><i class="ph ph-map-pin" aria-hidden="true"></i> Dover Heights, Eastern Suburbs</span></div>
+<h3><a class="ev-link" href="/events/dudley-page-reserve-ticketed/">Dudley Page Reserve Ticketed Vantage</a></h3>
 <p>A grassy hilltop with a long-range view of the whole skyline lighting up.</p>
-<div class="tags"><span class="tag fw">🎆 Both 9pm &amp; midnight</span><span class="tag">Ticketed vantage points</span><span class="tag">Family-friendly</span><span class="tag">Under $250</span></div>
-<div class="meta"><div class="price">$30<small>from, per person</small></div>
-<div class="actions"><a class="btn btn-ghost btn-sm" href="/events/dudley-page-reserve-ticketed/">Details</a><a class="btn btn-primary btn-sm" href="https://www.waverley.nsw.gov.au/" target="_blank" rel="noopener sponsored">Book</a></div></div>
-</article><article class="card" data-cats="vantage free" data-area="Circular Quay &amp; The Rocks" data-price="0" data-featured="0" data-order="3" data-search="sydney opera house forecourt (free ticketed) sydney opera house forecourt bennelong point circular quay &amp; the rocks vantage free a free ticket for a world-famous view. be online at 10am on 26 december, because they go in minutes.">
-
-<div class="loc">📍 Bennelong Point · Circular Quay &amp; The Rocks</div>
-<h3><a href="/events/opera-house-forecourt-free/">Sydney Opera House Forecourt (free ticketed)</a></h3>
+<ul class="ev-tags"><li class="ev-fw"><i class="ph ph-sparkle" aria-hidden="true"></i> Both 9pm &amp; midnight</li><li>Ticketed vantage points</li><li>Family-friendly</li></ul>
+<div class="ev-foot"><div class="ev-price"><b>$30</b><span>from, per person</span></div>
+<a class="btn btn-gold btn-sm ev-book" href="https://www.waverley.nsw.gov.au/" target="_blank" rel="noopener sponsored">Book <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></div>
+</article><article class="ev reveal" style="--i:3;view-transition-name:ev-opera-house-forecourt-free" data-cats="vantage free" data-area="Circular Quay &amp; The Rocks" data-price="0" data-featured="0" data-order="3" data-search="sydney opera house forecourt (free ticketed) sydney opera house forecourt bennelong point circular quay &amp; the rocks vantage free a free ticket for a world-famous view. be online at 10am on 26 december, because they go in minutes.">
+<div class="ev-top"><span class="ev-loc"><i class="ph ph-map-pin" aria-hidden="true"></i> Bennelong Point, Circular Quay &amp; The Rocks</span></div>
+<h3><a class="ev-link" href="/events/opera-house-forecourt-free/">Sydney Opera House Forecourt (free ticketed)</a></h3>
 <p>A free ticket for a world-famous view. Be online at 10am on 26 December, because they go in minutes.</p>
-<div class="tags"><span class="tag fw">🎆 Both 9pm &amp; midnight</span><span class="tag">Ticketed vantage points</span><span class="tag">Free</span></div>
-<div class="meta"><div class="price">Free<small>ticket required</small></div>
-<div class="actions"><a class="btn btn-ghost btn-sm" href="/events/opera-house-forecourt-free/">Details</a><a class="btn btn-primary btn-sm" href="https://www.sydneyoperahouse.com/" target="_blank" rel="noopener sponsored">Book</a></div></div>
-</article><article class="card" data-cats="vantage free" data-area="On the Harbour" data-price="0" data-featured="0" data-order="4" data-search="goat island (free ticketed) goat island / me-mel sydney harbour on the harbour vantage free watch from an island in the middle of the harbour, with no crowds.">
-
-<div class="loc">📍 Sydney Harbour · On the Harbour</div>
-<h3><a href="/events/goat-island-free-ticketed/">Goat Island (free ticketed)</a></h3>
+<ul class="ev-tags"><li class="ev-fw"><i class="ph ph-sparkle" aria-hidden="true"></i> Both 9pm &amp; midnight</li><li>Ticketed vantage points</li><li>Free</li></ul>
+<div class="ev-foot"><div class="ev-price"><b>Free</b><span>ticket required</span></div>
+<a class="btn btn-gold btn-sm ev-book" href="https://www.sydneyoperahouse.com/" target="_blank" rel="noopener sponsored">Book <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></div>
+</article><article class="ev reveal" style="--i:4;view-transition-name:ev-goat-island-free-ticketed" data-cats="vantage free" data-area="On the Harbour" data-price="0" data-featured="0" data-order="4" data-search="goat island (free ticketed) goat island / me-mel sydney harbour on the harbour vantage free watch from an island in the middle of the harbour, with no crowds.">
+<div class="ev-top"><span class="ev-loc"><i class="ph ph-map-pin" aria-hidden="true"></i> Sydney Harbour, On the Harbour</span></div>
+<h3><a class="ev-link" href="/events/goat-island-free-ticketed/">Goat Island (free ticketed)</a></h3>
 <p>Watch from an island in the middle of the harbour, with no crowds.</p>
-<div class="tags"><span class="tag fw">🎆 Both 9pm &amp; midnight</span><span class="tag">Ticketed vantage points</span><span class="tag">Free</span></div>
-<div class="meta"><div class="price">Free<small>ticket required</small></div>
-<div class="actions"><a class="btn btn-ghost btn-sm" href="/events/goat-island-free-ticketed/">Details</a><a class="btn btn-primary btn-sm" href="https://www.nationalparks.nsw.gov.au/" target="_blank" rel="noopener sponsored">Book</a></div></div>
+<ul class="ev-tags"><li class="ev-fw"><i class="ph ph-sparkle" aria-hidden="true"></i> Both 9pm &amp; midnight</li><li>Ticketed vantage points</li><li>Free</li></ul>
+<div class="ev-foot"><div class="ev-price"><b>Free</b><span>ticket required</span></div>
+<a class="btn btn-gold btn-sm ev-book" href="https://www.nationalparks.nsw.gov.au/" target="_blank" rel="noopener sponsored">Book <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a></div>
 </article></div>
 <p class="empty">No events match that search. Try another filter, or <a href="/list-your-event/">list yours</a>.</p>
 </div></section>
-<section class="alt"><div class="wrap prose">
+<section class="sec sec--tight"><div class="wrap lede">
+<div class="prose reveal">
 <h2>How to choose a vantage point</h2>
 <p><b>For the classic shot</b> with the Opera House and Harbour Bridge together, look west from Mrs Macquaries Point or east from Blues Point and McMahons Point.</p>
 <p><b>To be close to the Bridge</b>, go for Hickson Road Reserve, Lower Bradfield Park or Luna Park. The midnight show launches straight off the Bridge.</p>
 <p><b>For space and a quieter night</b>, try the Balmain East and Birchgrove parks, the islands (ferry plus ticket), or elevated eastern spots like Dudley Page Reserve.</p>
-<p><b>With kids</b>, a ticketed park gives you guaranteed space, toilets and food. Make the 9pm Family Fireworks your main event.</p>
-<h2>What to bring</h2>
-<ul><li>Picnic rug and low chair (check whether chairs are allowed)</li><li>Water, snacks and sunscreen. You may be outdoors for 10+ hours</li><li>Charged phone and a power bank</li><li>A light jacket for after dark</li><li>No glass. Check the alcohol rules for your site</li></ul>
+<p><b>With kids</b>, a ticketed park gives you guaranteed space, toilets and food. Make the 9pm Family Fireworks your main event.</p></div>
+<div class="lede-tips"><h2 class="reveal">What to bring</h2><ul class="ticks">
+<li><i class="ph ph-check" aria-hidden="true"></i><span>Picnic rug and low chair (check whether chairs are allowed)</span></li><li><i class="ph ph-check" aria-hidden="true"></i><span>Water, snacks and sunscreen. You may be outdoors for 10+ hours</span></li>
+<li><i class="ph ph-check" aria-hidden="true"></i><span>Charged phone and a power bank</span></li><li><i class="ph ph-check" aria-hidden="true"></i><span>A light jacket for after dark</span></li><li><i class="ph ph-check" aria-hidden="true"></i><span>No glass. Check the alcohol rules for your site</span></li></ul></div>
 </div></section>
-<section id="faq"><div class="wrap"><div class="section-head"><h2>Vantage point FAQ</h2></div><div class="faq"><details><summary>Where is the best place to watch the Sydney fireworks?</summary><p>For the classic Opera House and Harbour Bridge view, try Mrs Macquaries Point, Blues Point Reserve, Lower Bradfield Park, Hickson Road Reserve or the Opera House forecourt. If you want a guaranteed spot without camping out from the morning, book a ticketed vantage point (from about $65), a harbourside dinner or party, or a fireworks cruise.</p></details><details><summary>Are the Sydney NYE fireworks free to watch?</summary><p>Yes. Many harbour foreshore vantage points are free and open on a first-come, first-served basis. Some places need a free ticket (for example the Opera House forecourt and some islands), and some are paid ticketed areas run by councils with guaranteed entry, food and toilets.</p></details><details><summary>What time should I arrive at a free vantage point?</summary><p>The most popular foreshore spots, such as Mrs Macquaries Point and Hickson Road, can reach capacity by mid-morning on 31 December. Lesser-known parks in Balmain, Birchgrove and the North Shore usually fill by mid-to-late afternoon. Once a site is full, entry closes.</p></details><details><summary>Can I bring alcohol to the Sydney fireworks?</summary><p>It depends on the location. Many foreshore vantage points are alcohol-free zones, some allow BYO, and others have licensed bars. Check the rules for your chosen spot before you go. Glass is usually banned at public vantage points.</p></details></div></div></section>
-<section><div class="wrap"><div class="band">
-<div><h2>Selling NYE tickets in Sydney?</h2><p>October to December is when Sydney searches for its New Year's Eve plans. Get your event in front of them for $599 flat, with no commission.</p></div>
-<a class="btn" href="/list-your-event/">List your event →</a></div></div></section>
+<section class="sec" id="faq"><div class="wrap faq-grid">
+<div class="faq-side"><h2 class="reveal">Vantage point questions</h2><p class="reveal" style="--i:1">Free or ticketed, early or late: what to know before you pick a spot.</p></div>
+<div class="faq"><details class="reveal" style="--i:0"><summary>Where is the best place to watch the Sydney fireworks?<i class="ph ph-plus" aria-hidden="true"></i></summary><div class="ans"><p>For the classic Opera House and Harbour Bridge view, try Mrs Macquaries Point, Blues Point Reserve, Lower Bradfield Park, Hickson Road Reserve or the Opera House forecourt. If you want a guaranteed spot without camping out from the morning, book a ticketed vantage point (from about $65), a harbourside dinner or party, or a fireworks cruise.</p></div></details><details class="reveal" style="--i:1"><summary>Are the Sydney NYE fireworks free to watch?<i class="ph ph-plus" aria-hidden="true"></i></summary><div class="ans"><p>Yes. Many harbour foreshore vantage points are free and open on a first-come, first-served basis. Some places need a free ticket (for example the Opera House forecourt and some islands), and some are paid ticketed areas run by councils with guaranteed entry, food and toilets.</p></div></details><details class="reveal" style="--i:2"><summary>What time should I arrive at a free vantage point?<i class="ph ph-plus" aria-hidden="true"></i></summary><div class="ans"><p>The most popular foreshore spots, such as Mrs Macquaries Point and Hickson Road, can reach capacity by mid-morning on 31 December. Lesser-known parks in Balmain, Birchgrove and the North Shore usually fill by mid-to-late afternoon. Once a site is full, entry closes.</p></div></details><details class="reveal" style="--i:3"><summary>Can I bring alcohol to the Sydney fireworks?<i class="ph ph-plus" aria-hidden="true"></i></summary><div class="ans"><p>It depends on the location. Many foreshore vantage points are alcohol-free zones, some allow BYO, and others have licensed bars. Check the rules for your chosen spot before you go. Glass is usually banned at public vantage points.</p></div></details></div></div></section>
+<section class="sec sec--tight"><div class="wrap"><div class="band reveal">
+<div><h2>Selling NYE tickets in Sydney?</h2><p>October to December is when Sydney searches for New Year's Eve plans. Be in front of them for $599, no commission.</p></div>
+<a class="btn btn-ink" href="/list-your-event/">List your event <i class="ph ph-arrow-right" aria-hidden="true"></i></a></div></div></section>
 </main>
-<footer><div class="wrap">
-<div class="fgrid">
-<div><a class="logo" href="/">NYE <span>in Sydney</span></a>
-<p class="muted">The independent guide to New Year's Eve 2026 in Sydney: fireworks vantage points, harbour cruises, dinners and parties, all in one place.</p>
-<div class="countdown mini" data-countdown role="timer" aria-label="Countdown to midnight, New Year's Eve 2026 in Sydney"><div class="cd-unit"><div class="cd-num" data-u="d">--</div><div class="cd-label">Days</div></div><div class="cd-unit"><div class="cd-num" data-u="h">--</div><div class="cd-label">Hours</div></div><div class="cd-unit"><div class="cd-num" data-u="m">--</div><div class="cd-label">Minutes</div></div><div class="cd-unit"><div class="cd-num" data-u="s">--</div><div class="cd-label">Seconds</div></div></div></div>
-<div><h4>Explore</h4><ul>
+<footer class="foot"><div class="wrap">
+<div class="foot-grid">
+<div class="foot-brand"><a class="logo" href="/">NYE <span>in</span> Sydney</a>
+<p>The independent guide to New Year's Eve 2026 in Sydney: vantage points, harbour cruises, dinners and parties in one place.</p>
+<div class="cd cd--sm"><div class="cd-row" data-countdown role="timer" aria-label="Countdown to midnight, New Year's Eve 2026 in Sydney"><div class="cd-u"><span class="cd-n" data-u="d">00</span><span class="cd-l">days</span></div><div class="cd-u"><span class="cd-n" data-u="h">00</span><span class="cd-l">hrs</span></div><div class="cd-u"><span class="cd-n" data-u="m">00</span><span class="cd-l">min</span></div><div class="cd-u"><span class="cd-n" data-u="s">00</span><span class="cd-l">sec</span></div></div></div></div>
+<div><h2 class="foot-h">Explore</h2><ul>
 <li><a href="/#directory">All NYE events</a></li><li><a href="/new-years-eve-dinner-sydney/">NYE dinners</a></li>
 <li><a href="/new-years-eve-cruises-sydney/">NYE cruises</a></li><li><a href="/new-years-eve-parties-sydney/">NYE parties</a></li>
 <li><a href="/family-new-years-eve-sydney/">Family NYE</a></li></ul></div>
-<div><h4>Plan</h4><ul>
-<li><a href="/sydney-fireworks-vantage-points/">Vantage points</a></li><li><a href="/plan-your-night/">Fireworks times</a></li>
+<div><h2 class="foot-h">Plan</h2><ul>
+<li><a href="/sydney-fireworks-vantage-points/">Vantage points map</a></li><li><a href="/plan-your-night/">Fireworks times</a></li>
 <li><a href="/plan-your-night/#transport">Transport</a></li><li><a href="/#faq">FAQ</a></li></ul></div>
-<div><h4>Venues</h4><ul>
-<li><a href="/list-your-event/">List your event: $599</a></li>
+<div><h2 class="foot-h">Venues</h2><ul>
+<li><a href="/list-your-event/">List your event, $599</a></li>
 <li><a href="mailto:aj@metatapdigital.com">aj@metatapdigital.com</a></li></ul></div>
 </div>
-<p class="fine">NYE in Sydney is an independent guide and is not affiliated with the City of Sydney or the official Sydney New Year's Eve event. Prices and details are supplied by venues or based on published information and may change. Always confirm with the venue before booking. We acknowledge the Gadigal of the Eora Nation, the Traditional Custodians of the land and waters of Sydney Harbour. © 2026 NYE in Sydney.</p>
+<p class="fine">NYE in Sydney is an independent guide and is not affiliated with the City of Sydney or the official Sydney New Year's Eve event. Prices and details come from venues or their published information and can change, so confirm with the venue before booking. We acknowledge the Gadigal of the Eora Nation, the Traditional Custodians of the land and waters of Sydney Harbour. © 2026 NYE in Sydney.</p>
+<p class="fine credits">Photography via Wikimedia Commons. <a href="https://commons.wikimedia.org/wiki/File:Sydney_Harbour_fireworks_and_smoke_2023.jpg" rel="noopener" target="_blank">Photo: Dicklyon</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener license" target="_blank">CC BY-SA 4.0</a>), resized. <a href="https://commons.wikimedia.org/wiki/File:Sydney_welcomes_2025.jpg" rel="noopener" target="_blank">Photo: Dicklyon</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener license" target="_blank">CC BY-SA 4.0</a>), resized. <a href="https://commons.wikimedia.org/wiki/File:Sydney_habour_bridge_%26_opera_house_fireworks_new_year_eve_2008.jpg" rel="noopener" target="_blank">Photo: Linh_rOm</a> (<a href="https://creativecommons.org/licenses/by/2.0/" rel="noopener license" target="_blank">CC BY 2.0</a>), resized. <a href="https://commons.wikimedia.org/wiki/File:NYE2014_-_Sydney_Harbour.JPG" rel="noopener" target="_blank">Photo: Ian Rose</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener license" target="_blank">CC BY-SA 4.0</a>), resized.</p>
 </div></footer>
+<div class="grain" aria-hidden="true"></div>
 <script src="/main.js" defer></script>
 </body>
 </html>

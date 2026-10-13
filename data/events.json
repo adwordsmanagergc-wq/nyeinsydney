@@ -5,11 +5,20 @@
     "venue": "Opera Bar, Sydney Opera House",
     "suburb": "Circular Quay",
     "area": "Circular Quay & The Rocks",
-    "categories": ["party", "harbour"],
+    "categories": [
+      "party",
+      "harbour"
+    ],
     "price_from": 850,
     "price_text": "$850 + booking fee",
-    "time": "5:00pm – 2:00am",
-    "includes": ["Welcome drink", "Roaming canapés & food stalls", "Live bands & DJs", "Roaming performers", "Front-row views of the 9pm and midnight fireworks"],
+    "time": "5:00pm to 2:00am",
+    "includes": [
+      "Welcome drink",
+      "Roaming canapés & food stalls",
+      "Live bands & DJs",
+      "Roaming performers",
+      "Front-row views of the 9pm and midnight fireworks"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
     "url": "https://operabar.com.au/",
@@ -22,11 +31,21 @@
     "venue": "Pier One Sydney Harbour, 11 Hickson Rd",
     "suburb": "Walsh Bay",
     "area": "Circular Quay & The Rocks",
-    "categories": ["party", "harbour", "dining"],
+    "categories": [
+      "party",
+      "harbour",
+      "dining"
+    ],
     "price_from": 349,
-    "price_text": "$349 (early dinner) – $699 (late dinner); Pier Party $650",
+    "price_text": "$349 (early dinner) to $699 (late dinner); Pier Party $650",
     "time": "From 6:00pm",
-    "includes": ["Four-hour premium beverage package (Pier Party)", "Six+ food stations", "Headline DJs", "Early ($349) and late ($699) dinner seatings at PIER", "Harbour Bridge Lounge from $499"],
+    "includes": [
+      "Four-hour premium beverage package (Pier Party)",
+      "Six+ food stations",
+      "Headline DJs",
+      "Early ($349) and late ($699) dinner seatings at PIER",
+      "Harbour Bridge Lounge from $499"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
     "url": "https://www.pieronesydneyharbour.com.au/",
@@ -39,11 +58,20 @@
     "venue": "The Glenmore Hotel, 96 Cumberland St",
     "suburb": "The Rocks",
     "area": "Circular Quay & The Rocks",
-    "categories": ["party", "rooftop"],
+    "categories": [
+      "party",
+      "rooftop"
+    ],
     "price_from": 650,
     "price_text": "$650pp",
-    "time": "7:00pm – 1:00am",
-    "includes": ["4-hour premium beverage package", "Roaming canapés & grazing tables", "Live music, DJs & silent disco", "Bubbles on arrival and at midnight", "Photobooth & tarot readings"],
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "4-hour premium beverage package",
+      "Roaming canapés & grazing tables",
+      "Live music, DJs & silent disco",
+      "Bubbles on arrival and at midnight",
+      "Photobooth & tarot readings"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
     "url": "https://www.theglenmore.com.au/",
@@ -56,11 +84,19 @@
     "venue": "Overseas Passenger Terminal",
     "suburb": "Circular Quay",
     "area": "Circular Quay & The Rocks",
-    "categories": ["party", "rooftop", "harbour"],
+    "categories": [
+      "party",
+      "rooftop",
+      "harbour"
+    ],
     "price_from": 199,
     "price_text": "$199 GA · $499 Premium",
     "time": "From 6:00pm",
-    "includes": ["GA: roaming canapés, food stations, late-night bites, pay-as-you-go bar", "Premium: 3-hour Veuve Clicquot, wine, beer & spirits package", "Carving, seafood and gelato stations (Premium)"],
+    "includes": [
+      "GA: roaming canapés, food stations, late-night bites, pay-as-you-go bar",
+      "Premium: 3-hour Veuve Clicquot, wine, beer & spirits package",
+      "Carving, seafood and gelato stations (Premium)"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
     "url": "https://www.cruisebar.com.au/",
@@ -73,11 +109,20 @@
     "venue": "Overseas Passenger Terminal (northern end)",
     "suburb": "The Rocks",
     "area": "Circular Quay & The Rocks",
-    "categories": ["party", "dining", "harbour"],
+    "categories": [
+      "party",
+      "dining",
+      "harbour"
+    ],
     "price_from": 299,
-    "price_text": "$299 – $1,299pp (tiered)",
+    "price_text": "$299 to $1,299pp (tiered)",
     "time": "Evening, times vary by tier",
-    "includes": ["Ground floor: roaming canapés + beverage package 6–9pm", "Tower Room: exclusive access + Champagne toast", "Six-course dining option", "Moët Room with free-flowing Champagne"],
+    "includes": [
+      "Ground floor: roaming canapés + beverage package 6 to 9pm",
+      "Tower Room: exclusive access + Champagne toast",
+      "Six-course dining option",
+      "Moët Room with free-flowing Champagne"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
     "url": "https://www.orianasydney.com.au/",
@@ -90,11 +135,18 @@
     "venue": "Museum of Contemporary Art, Level 6 Harbourside Room",
     "suburb": "The Rocks",
     "area": "Circular Quay & The Rocks",
-    "categories": ["party", "rooftop"],
+    "categories": [
+      "party",
+      "rooftop"
+    ],
     "price_from": 1050,
     "price_text": "Early bird $1,050pp",
     "time": "From 7:00pm",
-    "includes": ["Gourmet food stations & roaming canapés", "Premium wine, beer & soft drinks", "Live musicians & DJs"],
+    "includes": [
+      "Gourmet food stations & roaming canapés",
+      "Premium wine, beer & soft drinks",
+      "Live musicians & DJs"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
     "url": "https://www.mca.com.au/",
@@ -107,11 +159,18 @@
     "venue": "Aria Restaurant, 1 Macquarie St",
     "suburb": "Circular Quay",
     "area": "Circular Quay & The Rocks",
-    "categories": ["dining", "fine-dining"],
+    "categories": [
+      "dining",
+      "fine-dining"
+    ],
     "price_from": 320,
     "price_text": "$320 early sitting · $650 cocktail party · $1,950 tasting + wine",
     "time": "Early & late sittings",
-    "includes": ["Early sitting ($320pp)", "Cocktail party with canapés & beverages ($650pp)", "Six-course tasting menu with wine pairing ($1,950pp)"],
+    "includes": [
+      "Early sitting ($320pp)",
+      "Cocktail party with canapés & beverages ($650pp)",
+      "Six-course tasting menu with wine pairing ($1,950pp)"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "All ages (sitting dependent)",
     "url": "https://www.ariasydney.com.au/",
@@ -124,11 +183,18 @@
     "venue": "Quay, Overseas Passenger Terminal",
     "suburb": "The Rocks",
     "area": "Circular Quay & The Rocks",
-    "categories": ["dining", "fine-dining"],
+    "categories": [
+      "dining",
+      "fine-dining"
+    ],
     "price_from": 1600,
-    "price_text": "$1,600 – $2,250pp",
+    "price_text": "$1,600 to $2,250pp",
     "time": "Evening",
-    "includes": ["Five- or seven-course menu", "Fine wine pairings", "Champagne"],
+    "includes": [
+      "Five- or seven-course menu",
+      "Fine wine pairings",
+      "Champagne"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "Adults",
     "url": "https://www.quay.com.au/",
@@ -141,11 +207,18 @@
     "venue": "Bennelong, Sydney Opera House",
     "suburb": "Bennelong Point",
     "area": "Circular Quay & The Rocks",
-    "categories": ["dining", "fine-dining"],
+    "categories": [
+      "dining",
+      "fine-dining"
+    ],
     "price_from": 1900,
     "price_text": "$1,900pp",
     "time": "Evening",
-    "includes": ["Four-course menu", "Wine pairings", "Champagne on arrival and at midnight"],
+    "includes": [
+      "Four-course menu",
+      "Wine pairings",
+      "Champagne on arrival and at midnight"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "Adults",
     "url": "https://www.bennelong.com.au/",
@@ -158,11 +231,18 @@
     "venue": "Whalebridge, Circular Quay East",
     "suburb": "Circular Quay",
     "area": "Circular Quay & The Rocks",
-    "categories": ["dining", "fine-dining"],
+    "categories": [
+      "dining",
+      "fine-dining"
+    ],
     "price_from": 1100,
     "price_text": "$1,100pp",
     "time": "Evening",
-    "includes": ["Multi-course menu", "Free-flowing Champagne", "Harbour views"],
+    "includes": [
+      "Multi-course menu",
+      "Free-flowing Champagne",
+      "Harbour views"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "Adults",
     "url": "https://www.whalebridge.com.au/",
@@ -175,11 +255,19 @@
     "venue": "Bar 83, Sydney Tower",
     "suburb": "Sydney CBD",
     "area": "Sydney CBD",
-    "categories": ["party", "rooftop"],
+    "categories": [
+      "party",
+      "rooftop"
+    ],
     "price_from": 795,
     "price_text": "From $795pp",
     "time": "Evening",
-    "includes": ["'70s disco theme", "Seafood", "Champagne", "360° city & harbour views from level 83"],
+    "includes": [
+      "'70s disco theme",
+      "Seafood",
+      "Champagne",
+      "360° city & harbour views from level 83"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
     "url": "https://www.bar83sydneytower.com.au/",
@@ -192,11 +280,19 @@
     "venue": "O Bar & Dining, Australia Square Level 47",
     "suburb": "Sydney CBD",
     "area": "Sydney CBD",
-    "categories": ["dining", "fine-dining", "rooftop"],
+    "categories": [
+      "dining",
+      "fine-dining",
+      "rooftop"
+    ],
     "price_from": 780,
     "price_text": "From $780pp",
     "time": "Evening",
-    "includes": ["Eight-course degustation", "Wine matching", "Revolving 360° views"],
+    "includes": [
+      "Eight-course degustation",
+      "Wine matching",
+      "Revolving 360° views"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "Adults",
     "url": "https://www.obardining.com.au/",
@@ -209,11 +305,19 @@
     "venue": "Hyatt Regency, 161 Sussex St",
     "suburb": "Sydney CBD",
     "area": "Darling Harbour & Barangaroo",
-    "categories": ["party", "rooftop"],
+    "categories": [
+      "party",
+      "rooftop"
+    ],
     "price_from": 599,
-    "price_text": "$599 (1st release) – $799 (3rd release)",
-    "time": "8:00pm – 12:30am",
-    "includes": ["Premium beverage package", "Roaming canapés & grazing stations", "Live DJ & entertainment", "Dessert morsels"],
+    "price_text": "$599 (1st release) to $799 (3rd release)",
+    "time": "8:00pm to 12:30am",
+    "includes": [
+      "Premium beverage package",
+      "Roaming canapés & grazing stations",
+      "Live DJ & entertainment",
+      "Dessert morsels"
+    ],
     "fireworks": "Midnight (Darling Harbour views)",
     "age": "18+",
     "url": "https://www.zephyrbarsydney.com/",
@@ -226,11 +330,18 @@
     "venue": "CIRQ, Crown Sydney",
     "suburb": "Barangaroo",
     "area": "Darling Harbour & Barangaroo",
-    "categories": ["party", "rooftop"],
+    "categories": [
+      "party",
+      "rooftop"
+    ],
     "price_from": 988,
     "price_text": "From $988pp",
     "time": "Evening",
-    "includes": ["Masquerade theme", "Champagne & canapés", "Sydney's tallest rooftop venue"],
+    "includes": [
+      "Masquerade theme",
+      "Champagne & canapés",
+      "Sydney's tallest rooftop venue"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
     "url": "https://www.crownsydney.com.au/",
@@ -240,14 +351,20 @@
   {
     "slug": "w-sydney-rooftop-nye",
     "name": "W Sydney Rooftop NYE",
-    "venue": "W Sydney, Levels 29–30",
+    "venue": "W Sydney, Levels 29 to 30",
     "suburb": "Darling Harbour",
     "area": "Darling Harbour & Barangaroo",
-    "categories": ["party", "rooftop"],
+    "categories": [
+      "party",
+      "rooftop"
+    ],
     "price_from": 99,
-    "price_text": "$99 – $1,500+ (cabanas & VIP)",
+    "price_text": "$99 to $1,500+ (cabanas & VIP)",
     "time": "Evening",
-    "includes": ["Rooftop bar with DJs", "Cabana & VIP packages"],
+    "includes": [
+      "Rooftop bar with DJs",
+      "Cabana & VIP packages"
+    ],
     "fireworks": "Midnight (Darling Harbour views)",
     "age": "18+",
     "url": "https://www.marriott.com/",
@@ -260,11 +377,18 @@
     "venue": "Bungalow 8, King Street Wharf",
     "suburb": "Darling Harbour",
     "area": "Darling Harbour & Barangaroo",
-    "categories": ["party", "budget"],
+    "categories": [
+      "party",
+      "budget"
+    ],
     "price_from": 29,
     "price_text": "From $29",
-    "time": "10:30pm – late",
-    "includes": ["Live duelling-piano singalong", "DJs", "Waterfront tropical bar"],
+    "time": "10:30pm to late",
+    "includes": [
+      "Live duelling-piano singalong",
+      "DJs",
+      "Waterfront tropical bar"
+    ],
     "fireworks": "Midnight",
     "age": "18+",
     "url": "https://www.bungalow8sydney.com.au/",
@@ -277,11 +401,18 @@
     "venue": "Home The Venue, Cockle Bay Wharf",
     "suburb": "Darling Harbour",
     "area": "Darling Harbour & Barangaroo",
-    "categories": ["party", "budget"],
+    "categories": [
+      "party",
+      "budget"
+    ],
     "price_from": 30,
-    "price_text": "$30 – $3,000 (booths)",
-    "time": "Evening – late",
-    "includes": ["Six rooms of DJs", "Waterfront views", "Booth packages"],
+    "price_text": "$30 to $3,000 (booths)",
+    "time": "Evening to late",
+    "includes": [
+      "Six rooms of DJs",
+      "Waterfront views",
+      "Booth packages"
+    ],
     "fireworks": "Midnight (Darling Harbour)",
     "age": "18+",
     "url": "https://www.homethevenue.com.au/",
@@ -294,11 +425,20 @@
     "venue": "Luna Park, 1 Olympic Dr",
     "suburb": "Milsons Point",
     "area": "North Shore",
-    "categories": ["party", "harbour"],
+    "categories": [
+      "party",
+      "harbour"
+    ],
     "price_from": 305,
     "price_text": "GA $305+ · VIP $399+ · Premium VIP $535+",
-    "time": "6:00pm – 2:00am",
-    "includes": ["Unlimited rides", "Coney Island access", "Two DJ stages", "Guaranteed fireworks viewing area (VIP)", "Food & beverage package (Premium VIP)"],
+    "time": "6:00pm to 2:00am",
+    "includes": [
+      "Unlimited rides",
+      "Coney Island access",
+      "Two DJ stages",
+      "Guaranteed fireworks viewing area (VIP)",
+      "Food & beverage package (Premium VIP)"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
     "url": "https://www.lunaparksydney.com/",
@@ -311,11 +451,20 @@
     "venue": "Deck 17, View Sydney, 17 Blue St",
     "suburb": "North Sydney",
     "area": "North Shore",
-    "categories": ["party", "rooftop"],
+    "categories": [
+      "party",
+      "rooftop"
+    ],
     "price_from": 750,
     "price_text": "$750pp + fees",
-    "time": "7:00pm – midnight",
-    "includes": ["Street food", "House beers, wines & sparkling", "Cocktails (spritz, G&T, margaritas)", "Live DJ", "Covered marquee"],
+    "time": "7:00pm to midnight",
+    "includes": [
+      "Street food",
+      "House beers, wines & sparkling",
+      "Cocktails (spritz, G&T, margaritas)",
+      "Live DJ",
+      "Covered marquee"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
     "url": "https://www.viewhotels.com.au/sydney/",
@@ -328,11 +477,18 @@
     "venue": "Sails on Lavender Bay",
     "suburb": "Lavender Bay",
     "area": "North Shore",
-    "categories": ["dining", "fine-dining"],
+    "categories": [
+      "dining",
+      "fine-dining"
+    ],
     "price_from": 1295,
     "price_text": "$1,295pp",
     "time": "Evening",
-    "includes": ["Six-course menu", "Premium drinks", "Waterside fireworks views"],
+    "includes": [
+      "Six-course menu",
+      "Premium drinks",
+      "Waterside fireworks views"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "Adults",
     "url": "https://www.sailsonlavenderbay.com.au/",
@@ -345,11 +501,18 @@
     "venue": "The Botanist",
     "suburb": "Kirribilli",
     "area": "North Shore",
-    "categories": ["dining", "budget"],
+    "categories": [
+      "dining",
+      "budget"
+    ],
     "price_from": 199,
     "price_text": "$199pp",
     "time": "Evening",
-    "includes": ["Sparkling on arrival", "Set menu", "Two-hour drinks package"],
+    "includes": [
+      "Sparkling on arrival",
+      "Set menu",
+      "Two-hour drinks package"
+    ],
     "fireworks": "Nearby vantage points",
     "age": "All ages",
     "url": "https://www.thebotanist.com.au/",
@@ -362,11 +525,20 @@
     "venue": "Taronga Zoo, 2A Bradleys Head Rd",
     "suburb": "Mosman",
     "area": "North Shore",
-    "categories": ["party", "family", "harbour"],
+    "categories": [
+      "party",
+      "family",
+      "harbour"
+    ],
     "price_from": 550,
     "price_text": "Platinum $550 · Emerald $800 · Opal $1,000",
-    "time": "7:30pm – 1:00am (by tier)",
-    "includes": ["Opal: unlimited Archie Rose spirits, Champagne, wine & beer", "Gourmet grazing, roving canapés & desserts", "Live entertainment & DJs", "Platinum tier open to ages 5+"],
+    "time": "7:30pm to 1:00am (by tier)",
+    "includes": [
+      "Opal: unlimited Archie Rose spirits, Champagne, wine & beer",
+      "Gourmet grazing, roving canapés & desserts",
+      "Live entertainment & DJs",
+      "Platinum tier open to ages 5+"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "Platinum 5+ · others 18+",
     "url": "https://taronga.org.au/",
@@ -379,11 +551,16 @@
     "venue": "Ripples Chowder Bay",
     "suburb": "Mosman",
     "area": "North Shore",
-    "categories": ["dining"],
+    "categories": [
+      "dining"
+    ],
     "price_from": 335,
     "price_text": "From $335pp",
     "time": "Evening",
-    "includes": ["Five-course degustation", "Drinks throughout the evening"],
+    "includes": [
+      "Five-course degustation",
+      "Drinks throughout the evening"
+    ],
     "fireworks": "Nearby harbour vantage",
     "age": "All ages",
     "url": "https://www.ripples.com.au/",
@@ -396,11 +573,20 @@
     "venue": "Felons Brewing Co, Manly Wharf",
     "suburb": "Manly",
     "area": "Northern Beaches",
-    "categories": ["dining", "budget", "family"],
+    "categories": [
+      "dining",
+      "budget",
+      "family"
+    ],
     "price_from": 149,
     "price_text": "$149pp (walk-ins welcome)",
     "time": "From 6:00pm",
-    "includes": ["Three-course sunset feast", "Drink on arrival", "DJs inside & on the jetty", "9pm fireworks over Manly Cove"],
+    "includes": [
+      "Three-course sunset feast",
+      "Drink on arrival",
+      "DJs inside & on the jetty",
+      "9pm fireworks over Manly Cove"
+    ],
     "fireworks": "9pm (Manly Cove)",
     "age": "All ages",
     "url": "https://felonsbrewing.com.au/",
@@ -413,11 +599,18 @@
     "venue": "Catalina, Lyne Park",
     "suburb": "Rose Bay",
     "area": "Eastern Suburbs",
-    "categories": ["dining", "fine-dining"],
+    "categories": [
+      "dining",
+      "fine-dining"
+    ],
     "price_from": 395,
     "price_text": "$395 early · $795 late",
     "time": "Early & late seatings",
-    "includes": ["Four-course menu", "Live entertainment & DJ", "Fireworks views across Rose Bay"],
+    "includes": [
+      "Four-course menu",
+      "Live entertainment & DJ",
+      "Fireworks views across Rose Bay"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "All ages (early)",
     "url": "https://www.catalinarosebay.com.au/",
@@ -430,11 +623,18 @@
     "venue": "Watsons Bay Boutique Hotel",
     "suburb": "Watsons Bay",
     "area": "Eastern Suburbs",
-    "categories": ["party", "dining"],
+    "categories": [
+      "party",
+      "dining"
+    ],
     "price_from": 220,
     "price_text": "$220 GA · $495 VIP (3-course)",
     "time": "Evening",
-    "includes": ["GA entry with drinks", "VIP three-course meal", "Beach-garden setting"],
+    "includes": [
+      "GA entry with drinks",
+      "VIP three-course meal",
+      "Beach-garden setting"
+    ],
     "fireworks": "Harbour views",
     "age": "18+",
     "url": "https://www.watsonsbayhotel.com.au/",
@@ -447,11 +647,19 @@
     "venue": "The Butler, 123 Victoria St",
     "suburb": "Potts Point",
     "area": "Eastern Suburbs",
-    "categories": ["dining", "rooftop"],
+    "categories": [
+      "dining",
+      "rooftop"
+    ],
     "price_from": 250,
     "price_text": "$250pp",
     "time": "Evening",
-    "includes": ["Share-style feast", "Champagne", "Live music", "City skyline views"],
+    "includes": [
+      "Share-style feast",
+      "Champagne",
+      "Live music",
+      "City skyline views"
+    ],
     "fireworks": "City skyline views",
     "age": "Adults",
     "url": "https://www.butlersydney.com.au/",
@@ -464,11 +672,18 @@
     "venue": "Otto, Finger Wharf",
     "suburb": "Woolloomooloo",
     "area": "Eastern Suburbs",
-    "categories": ["dining", "fine-dining"],
+    "categories": [
+      "dining",
+      "fine-dining"
+    ],
     "price_from": 350,
     "price_text": "From $350pp",
     "time": "Early & main seatings",
-    "includes": ["Four-course choice menu", "Champagne", "Waterfront Italian dining"],
+    "includes": [
+      "Four-course choice menu",
+      "Champagne",
+      "Waterfront Italian dining"
+    ],
     "fireworks": "Nearby Woolloomooloo / Domain",
     "age": "All ages",
     "url": "https://www.ottoristorante.com.au/",
@@ -481,11 +696,20 @@
     "venue": "Monica Rooftop",
     "suburb": "Paddington",
     "area": "Eastern Suburbs",
-    "categories": ["party", "rooftop", "budget"],
+    "categories": [
+      "party",
+      "rooftop",
+      "budget"
+    ],
     "price_from": 199,
     "price_text": "$199pp",
     "time": "Evening",
-    "includes": ["Canapés", "Cocktail on arrival", "DJs & live entertainment", "1960s-glam styling"],
+    "includes": [
+      "Canapés",
+      "Cocktail on arrival",
+      "DJs & live entertainment",
+      "1960s-glam styling"
+    ],
     "fireworks": "Skyline views",
     "age": "18+",
     "url": "https://www.monica-rooftop.com/",
@@ -498,11 +722,20 @@
     "venue": "East Village Hotel, 234 Palmer St",
     "suburb": "Darlinghurst",
     "area": "Eastern Suburbs",
-    "categories": ["party", "rooftop", "budget"],
+    "categories": [
+      "party",
+      "rooftop",
+      "budget"
+    ],
     "price_from": 150,
     "price_text": "$150pp",
-    "time": "7:00pm – midnight",
-    "includes": ["Piper-Heidsieck on arrival", "Roaming canapés", "Bottomless beer, wine & spirits 7–10pm", "Live DJ"],
+    "time": "7:00pm to midnight",
+    "includes": [
+      "Piper-Heidsieck on arrival",
+      "Roaming canapés",
+      "Bottomless beer, wine & spirits 7 to 10pm",
+      "Live DJ"
+    ],
     "fireworks": "Skyline views",
     "age": "18+",
     "url": "https://www.eastvillagehotel.com.au/",
@@ -515,11 +748,18 @@
     "venue": "Bondi Beach",
     "suburb": "Bondi",
     "area": "Eastern Suburbs",
-    "categories": ["party", "beach"],
+    "categories": [
+      "party",
+      "beach"
+    ],
     "price_from": null,
     "price_text": "Tickets on sale now (see site)",
     "time": "31 December",
-    "includes": ["Pirate-shipwreck main stage", "Inflatable 'Pink Cathedral' dance space", "Free Locals Lawn family zone for registered Waverley postcodes"],
+    "includes": [
+      "Pirate-shipwreck main stage",
+      "Inflatable 'Pink Cathedral' dance space",
+      "Free Locals Lawn family zone for registered Waverley postcodes"
+    ],
     "fireworks": "Beach party",
     "age": "18+",
     "url": "https://fuzzy.com.au/",
@@ -532,11 +772,18 @@
     "venue": "Chin Chin, 69 Commonwealth St",
     "suburb": "Surry Hills",
     "area": "Inner City",
-    "categories": ["dining", "budget"],
+    "categories": [
+      "dining",
+      "budget"
+    ],
     "price_from": 80,
     "price_text": "From $80pp",
     "time": "Evening",
-    "includes": ["Burlesque show", "Contemporary Thai menu", "Chandon on arrival"],
+    "includes": [
+      "Burlesque show",
+      "Contemporary Thai menu",
+      "Chandon on arrival"
+    ],
     "fireworks": "No direct view",
     "age": "18+",
     "url": "https://www.chinchin.com.au/",
@@ -549,11 +796,19 @@
     "venue": "Baptist Street Recreation Club",
     "suburb": "Redfern",
     "area": "Inner City",
-    "categories": ["party", "budget"],
+    "categories": [
+      "party",
+      "budget"
+    ],
     "price_from": 79,
     "price_text": "$79",
     "time": "Evening",
-    "includes": ["Cold schooners", "'80s and '90s bangers", "Canapés", "Fireworks on the retro TVs"],
+    "includes": [
+      "Cold schooners",
+      "'80s and '90s bangers",
+      "Canapés",
+      "Fireworks on the retro TVs"
+    ],
     "fireworks": "On the telly",
     "age": "18+",
     "url": "https://baptiststreetrec.club/",
@@ -566,11 +821,18 @@
     "venue": "The Old Fitzroy Hotel",
     "suburb": "Woolloomooloo",
     "area": "Inner City",
-    "categories": ["dining", "budget"],
+    "categories": [
+      "dining",
+      "budget"
+    ],
     "price_from": 110,
     "price_text": "$110pp",
     "time": "Evening",
-    "includes": ["Bubbles on arrival", "Three-course French-style banquet", "Live jazz group"],
+    "includes": [
+      "Bubbles on arrival",
+      "Three-course French-style banquet",
+      "Live jazz group"
+    ],
     "fireworks": "Walk to the Domain",
     "age": "18+",
     "url": "https://www.oldfitzroy.com.au/",
@@ -583,11 +845,17 @@
     "venue": "Imperial Hotel",
     "suburb": "Erskineville",
     "area": "Inner City",
-    "categories": ["party", "budget"],
+    "categories": [
+      "party",
+      "budget"
+    ],
     "price_from": 50,
     "price_text": "Tiered tickets",
-    "time": "Evening – late",
-    "includes": ["Three levels: drag, DJs & rooftop", "VIP rooftop drinks & pizza"],
+    "time": "Evening to late",
+    "includes": [
+      "Three levels: drag, DJs & rooftop",
+      "VIP rooftop drinks & pizza"
+    ],
     "fireworks": "Party focus",
     "age": "18+",
     "url": "https://www.theimperialhotel.com.au/",
@@ -600,11 +868,19 @@
     "venue": "The Fenwick, 2 Weston St",
     "suburb": "Balmain East",
     "area": "Inner West",
-    "categories": ["dining", "fine-dining", "harbour"],
+    "categories": [
+      "dining",
+      "fine-dining",
+      "harbour"
+    ],
     "price_from": 895,
     "price_text": "$895pp",
     "time": "Evening",
-    "includes": ["Degustation menu", "Premium drinks", "Fireworks views from the water's edge"],
+    "includes": [
+      "Degustation menu",
+      "Premium drinks",
+      "Fireworks views from the water's edge"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "Adults",
     "url": "https://www.thefenwick.com.au/",
@@ -617,11 +893,18 @@
     "venue": "The Dry Dock Hotel",
     "suburb": "Balmain",
     "area": "Inner West",
-    "categories": ["dining", "budget"],
+    "categories": [
+      "dining",
+      "budget"
+    ],
     "price_from": 150,
     "price_text": "Tiered packages",
     "time": "Evening",
-    "includes": ["Four-course meal", "Fireworks viewing access", "Complimentary bus to the foreshore"],
+    "includes": [
+      "Four-course meal",
+      "Fireworks viewing access",
+      "Complimentary bus to the foreshore"
+    ],
     "fireworks": "Shuttle to vantage",
     "age": "All ages",
     "url": "https://www.drydockbalmain.com.au/",
@@ -634,11 +917,18 @@
     "venue": "Starship Sydney (glass vessel)",
     "suburb": "Sydney Harbour",
     "area": "On the Harbour",
-    "categories": ["cruise", "fine-dining"],
+    "categories": [
+      "cruise",
+      "fine-dining"
+    ],
     "price_from": 1599,
     "price_text": "From $1,599pp",
     "time": "5.5 hours",
-    "includes": ["Sydney's iconic glass vessel", "Dinner & drinks", "9pm & midnight fireworks on the water"],
+    "includes": [
+      "Sydney's iconic glass vessel",
+      "Dinner & drinks",
+      "9pm & midnight fireworks on the water"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
     "url": "https://www.starshipsydney.com.au/",
@@ -651,11 +941,18 @@
     "venue": "Sydney Showboat",
     "suburb": "Sydney Harbour",
     "area": "On the Harbour",
-    "categories": ["cruise"],
+    "categories": [
+      "cruise"
+    ],
     "price_from": 2000,
-    "price_text": "$2,000 – $2,200pp",
+    "price_text": "$2,000 to $2,200pp",
     "time": "7 hours",
-    "includes": ["Five-course dinner", "Premium drinks", "Live cabaret", "Both fireworks displays"],
+    "includes": [
+      "Five-course dinner",
+      "Premium drinks",
+      "Live cabaret",
+      "Both fireworks displays"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "All ages",
     "url": "https://www.sydneyshowboats.com.au/",
@@ -668,11 +965,18 @@
     "venue": "Clearview Glass Boat",
     "suburb": "Sydney Harbour",
     "area": "On the Harbour",
-    "categories": ["cruise", "fine-dining"],
+    "categories": [
+      "cruise",
+      "fine-dining"
+    ],
     "price_from": 2500,
     "price_text": "From $2,500pp",
     "time": "7 hrs 45 min",
-    "includes": ["Deluxe five-course dinner", "Premium drinks", "All-glass luxury vessel"],
+    "includes": [
+      "Deluxe five-course dinner",
+      "Premium drinks",
+      "All-glass luxury vessel"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "Adults",
     "url": "https://www.clearviewcruises.com.au/",
@@ -685,11 +989,19 @@
     "venue": "Coast (modern catamaran)",
     "suburb": "Sydney Harbour",
     "area": "On the Harbour",
-    "categories": ["cruise", "party"],
+    "categories": [
+      "cruise",
+      "party"
+    ],
     "price_from": 1479,
     "price_text": "From $1,479pp",
     "time": "Evening",
-    "includes": ["Canapé-style dinner", "Drinks", "DJ", "Max 135 guests"],
+    "includes": [
+      "Canapé-style dinner",
+      "Drinks",
+      "DJ",
+      "Max 135 guests"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
     "url": "https://www.australiancruisegroup.com.au/",
@@ -702,11 +1014,18 @@
     "venue": "Tribal Warrior yacht Wirawi",
     "suburb": "Sydney Harbour",
     "area": "On the Harbour",
-    "categories": ["cruise"],
+    "categories": [
+      "cruise"
+    ],
     "price_from": 1160,
     "price_text": "From $1,160pp",
     "time": "6.5 hours",
-    "includes": ["Three-course dinner", "Drinks", "DJ", "Aboriginal-owned operator"],
+    "includes": [
+      "Three-course dinner",
+      "Drinks",
+      "DJ",
+      "Aboriginal-owned operator"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
     "url": "https://www.tribalwarrior.org/",
@@ -719,11 +1038,20 @@
     "venue": "Lower Bradfield Park",
     "suburb": "Milsons Point",
     "area": "North Shore",
-    "categories": ["vantage", "family", "budget"],
+    "categories": [
+      "vantage",
+      "family",
+      "budget"
+    ],
     "price_from": 65,
     "price_text": "$65 (inc GST)",
-    "time": "Afternoon – 1:00am",
-    "includes": ["Guaranteed entry", "Under the Harbour Bridge", "Food & drink vendors", "Toilets"],
+    "time": "Afternoon to 1:00am",
+    "includes": [
+      "Guaranteed entry",
+      "Under the Harbour Bridge",
+      "Food & drink vendors",
+      "Toilets"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "All ages",
     "url": "https://www.northsydney.nsw.gov.au/",
@@ -736,11 +1064,20 @@
     "venue": "Blues Point Reserve",
     "suburb": "McMahons Point",
     "area": "North Shore",
-    "categories": ["vantage", "family", "budget"],
+    "categories": [
+      "vantage",
+      "family",
+      "budget"
+    ],
     "price_from": 65,
     "price_text": "$65 (inc GST)",
-    "time": "Afternoon – 1:00am",
-    "includes": ["Guaranteed entry", "Classic Bridge + Opera House postcard view", "Food vendors", "Toilets"],
+    "time": "Afternoon to 1:00am",
+    "includes": [
+      "Guaranteed entry",
+      "Classic Bridge + Opera House postcard view",
+      "Food vendors",
+      "Toilets"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "All ages",
     "url": "https://www.northsydney.nsw.gov.au/",
@@ -753,11 +1090,19 @@
     "venue": "Dudley Page Reserve",
     "suburb": "Dover Heights",
     "area": "Eastern Suburbs",
-    "categories": ["vantage", "family", "budget"],
+    "categories": [
+      "vantage",
+      "family",
+      "budget"
+    ],
     "price_from": 30,
     "price_text": "$65 adult · $30 child · $170 family",
     "time": "Evening",
-    "includes": ["Relaxed family setting", "Elevated panoramic city view", "Guaranteed entry"],
+    "includes": [
+      "Relaxed family setting",
+      "Elevated panoramic city view",
+      "Guaranteed entry"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "All ages",
     "url": "https://www.waverley.nsw.gov.au/",
@@ -770,11 +1115,17 @@
     "venue": "Sydney Opera House Forecourt",
     "suburb": "Bennelong Point",
     "area": "Circular Quay & The Rocks",
-    "categories": ["vantage", "free"],
+    "categories": [
+      "vantage",
+      "free"
+    ],
     "price_from": 0,
     "price_text": "Free (ticket required, released 26 Dec)",
-    "time": "Midday – 1:00am",
-    "includes": ["Uninterrupted harbour views", "Bars & food on site"],
+    "time": "Midday to 1:00am",
+    "includes": [
+      "Uninterrupted harbour views",
+      "Bars & food on site"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "All ages",
     "url": "https://www.sydneyoperahouse.com/",
@@ -787,11 +1138,17 @@
     "venue": "Goat Island / Me-mel",
     "suburb": "Sydney Harbour",
     "area": "On the Harbour",
-    "categories": ["vantage", "free"],
+    "categories": [
+      "vantage",
+      "free"
+    ],
     "price_from": 0,
     "price_text": "Free + ferry pass",
-    "time": "6:30pm – 12:15am",
-    "includes": ["Island in the middle of the harbour", "Ferry transfer (pass required)"],
+    "time": "6:30pm to 12:15am",
+    "includes": [
+      "Island in the middle of the harbour",
+      "Ferry transfer (pass required)"
+    ],
     "fireworks": "Both 9pm & midnight",
     "age": "All ages",
     "url": "https://www.nationalparks.nsw.gov.au/",

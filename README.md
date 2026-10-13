@@ -5,7 +5,9 @@ An independent guide to Sydney New Year's Eve: a live countdown, an events direc
 ## How it works
 
 - `data/events.json`: every listing (name, venue, suburb, area, categories, price, inclusions, booking URL, `featured`).
-- `src/style.css`, `src/main.js`: the design, the countdown, the fireworks animation, the directory filters and the listing form.
+- `src/style.css`: the design system (ink base, bone text, one gold accent; Bricolage Grotesque, Geist and Geist Mono; Phosphor icons).
+- `src/main.js`: the rolling countdown, the canvas fireworks engine (hero bursts, click to launch, and the scroll-driven "night story" with water reflections), scroll reveals, directory filters, featured rail, vantage map (Leaflet + OpenStreetMap) and the listing form. Every animation has a `prefers-reduced-motion` fallback.
+- `src/img/`: harbour photography from Wikimedia Commons (CC BY-SA 4.0 / CC BY 2.0, credited in the site footer). `src/og.jpg` is the social share image.
 - `build.py`: generates the full static site into `docs/`.
 
 ```bash
@@ -48,4 +50,15 @@ Add an entry to `data/events.json`. Set `"featured": true` if you want it pinned
 
 After launch, submit `https://nyeinsydney.com/sitemap.xml` in Google Search Console.
 
-To regenerate `og.png`, open `docs/og.html` at 1200×630 and screenshot it.
+To regenerate the share image, open `docs/og.html` at 1200×630, screenshot it and save it as `src/og.jpg`.
+
+## Photo credits
+
+The photos are from Wikimedia Commons. They are credited in the footer of every page, as their licences require:
+
+- `fleet-steps-2023`: Dicklyon, CC BY-SA 4.0
+- `harbour-reflections-2025`: Dicklyon, CC BY-SA 4.0
+- `bridge-opera-house-2008`: Linh_rOm, CC BY 2.0
+- `harbour-bridge-2014`: Ian Rose, CC BY-SA 4.0
+
+Keep those credits if you swap or crop the images.
