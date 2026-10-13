@@ -218,6 +218,7 @@ def layout(path, title, description, body, schema=None, og_type="website", activ
 <li><a href="/plan-your-night/#transport">Transport</a></li><li><a href="/#faq">FAQ</a></li></ul></div>
 <div><h2 class="foot-h">Venues</h2><ul>
 <li><a href="/list-your-event/">List your event, ${P}</a></li>
+<li><a href="/about/">About NYE in Sydney</a></li>
 <li><a href="mailto:{CONFIG['contact_email']}">{CONFIG['contact_email']}</a></li></ul></div>
 </div>
 <p class="fine">NYE in Sydney is an independent guide and is not affiliated with the City of Sydney or the official Sydney New Year's Eve event. Prices and details come from venues or their published information and can change, so confirm with the venue before booking. We acknowledge the Gadigal of the Eora Nation, the Traditional Custodians of the land and waters of Sydney Harbour. © {Y} {CONFIG['site_name']}.</p>
@@ -499,9 +500,9 @@ def page_home():
     rest = [e for e in EVENTS if not e.get("featured")]
     ordered = featured + rest
     n = len(EVENTS)
-    h1 = words("Sydney New Year's Eve", start=0) + " " + words(str(Y), accent={str(Y)}, start=4)
+    h1 = words("NYE in Sydney", start=0) + " " + words(str(Y), accent={str(Y)}, start=3)
     body = f"""
-{hero("fleet", h1, f"{n} dinners, cruises, parties and vantage points for the harbour's biggest night. Compare them and book direct.",
+{hero("fleet", h1, f"NYE in Sydney, sorted: {n} dinners, cruises, parties and vantage points for Sydney New Year's Eve. Compare and book direct.",
       f'<a class="btn btn-gold" href="#directory">Browse events {ARROW}</a><a class="btn btn-ghost" href="/sydney-fireworks-vantage-points/">Vantage points</a>',
       aside=countdown("lg") + deadline(), pos="60% 40%")}
 {marquee()}
@@ -515,8 +516,8 @@ def page_home():
 """
     return layout(
         "/",
-        f"Sydney New Year's Eve {Y}: Fireworks, Events & Dinners | NYE in Sydney",
-        f"Plan Sydney New Year's Eve {Y}: live countdown, fireworks times (9pm & midnight), the best vantage points and {n}+ bookable NYE dinners, harbour cruises and parties.",
+        f"NYE in Sydney {Y}: New Year's Eve Fireworks, Events & Dinners",
+        f"NYE in Sydney {Y}: the live countdown, 9pm and midnight fireworks times, the best vantage points and {n}+ bookable New Year's Eve dinners, harbour cruises and parties.",
         body,
         head_extra=f'<link rel="preload" as="image" href="/img/{PHOTOS["fleet"]["file"]}-1920.webp" imagesrcset="/img/{PHOTOS["fleet"]["file"]}-960.webp 960w, /img/{PHOTOS["fleet"]["file"]}-1920.webp 1920w" imagesizes="100vw">',
         schema=[item_list(ordered, f"Sydney New Year's Eve {Y} events"), faq_schema(FAQ),
@@ -527,7 +528,7 @@ def page_home():
 
 CATEGORY_PAGES = [
     {
-        "path": "/new-years-eve-dinner-sydney/", "photo": "bridge", "pos": "50% 30%",
+        "path": "/new-years-eve-dinner-sydney/", "more": "Want to compare a dinner with a cruise or a party? Our {link} puts every option side by side.", "anchor": 1, "photo": "bridge", "pos": "50% 30%",
         "filter": lambda e: "dining" in e["categories"] or "fine-dining" in e["categories"],
         "title": f"New Year's Eve Dinner Sydney {Y}: Restaurants with Fireworks Views",
         "h1": ("New Year's Eve dinners in Sydney", None),
@@ -537,7 +538,7 @@ CATEGORY_PAGES = [
         "tips": ["Book early. The best harbourfront tables sell out months ahead.", "Early sittings (about $300 to $400pp) are the best-value way to get a harbour view.", "Ask whether your table is guaranteed a fireworks view or only the venue is.", "Allow extra travel time, as road closures start in the afternoon."],
     },
     {
-        "path": "/new-years-eve-cruises-sydney/", "photo": "reflections", "pos": "50% 40%",
+        "path": "/new-years-eve-cruises-sydney/", "more": "Not sold on the water? Browse {link}, from harbourside dinners to free vantage points.", "anchor": 2, "photo": "reflections", "pos": "50% 40%",
         "filter": lambda e: "cruise" in e["categories"],
         "title": f"Sydney NYE Cruises {Y}: Harbour Fireworks Dinner Cruises",
         "h1": ("Sydney Harbour New Year's Eve cruises", None),
@@ -547,7 +548,7 @@ CATEGORY_PAGES = [
         "tips": ["Check where the vessel will sit for the midnight show.", "Compare boarding wharf and return times, as transport after midnight is busy.", "Smaller capacity means more deck space at midnight.", "Most NYE cruises are 18+. Check before booking for families."],
     },
     {
-        "path": "/new-years-eve-parties-sydney/", "photo": "red", "pos": "50% 40%",
+        "path": "/new-years-eve-parties-sydney/", "more": "Looking for something calmer? The {link} also covers dinners, cruises and family picks.", "anchor": 3, "photo": "red", "pos": "50% 40%",
         "filter": lambda e: "party" in e["categories"] or "rooftop" in e["categories"],
         "title": f"Sydney NYE Parties {Y}: Best New Year's Eve Parties & Rooftops",
         "h1": ("The best New Year's Eve parties in Sydney", None),
@@ -557,7 +558,7 @@ CATEGORY_PAGES = [
         "tips": ["Many parties release tickets in tiers, so the first release is the cheapest.", "Check whether drinks are included or pay-as-you-go.", "Most parties are 18+ with ID checks.", "Look for 'guaranteed fireworks view' if the view matters to you."],
     },
     {
-        "path": "/family-new-years-eve-sydney/", "photo": "fleet", "pos": "30% 60%",
+        "path": "/family-new-years-eve-sydney/", "more": "For grown-up plans after the kids are asleep, see all the {link} in one place.", "anchor": 4, "photo": "fleet", "pos": "30% 60%",
         "filter": lambda e: "family" in e["categories"] or "vantage" in e["categories"],
         "title": f"Family New Year's Eve Sydney {Y}: Kid-Friendly NYE & 9pm Fireworks",
         "h1": ("Family-friendly New Year's Eve in Sydney", None),
@@ -569,10 +570,17 @@ CATEGORY_PAGES = [
 ]
 
 
-def lede(intro, tips, side_title):
+HOME_ANCHORS = ["NYE in Sydney", "NYE in Sydney guide", "every NYE in Sydney event", "full NYE in Sydney directory", "NYE in Sydney events"]
+
+
+def home_link(i):
+    return f'<a href="/">{HOME_ANCHORS[i % len(HOME_ANCHORS)]}</a>'
+
+
+def lede(intro, tips, side_title, more=""):
     t = "".join(f'<li class="reveal" style="--i:{i}">{icon("check")}<span>{x}</span></li>' for i, x in enumerate(tips))
     return f"""<section class="sec sec--tight"><div class="wrap lede">
-<p class="lede-text reveal">{intro}</p>
+<div><p class="lede-text reveal">{intro}</p>{f'<p class="lede-more reveal" style="--i:1">{more}</p>' if more else ''}</div>
 <div class="lede-tips"><h2 class="reveal">{side_title}</h2><ul class="ticks">{t}</ul></div>
 </div></section>"""
 
@@ -584,7 +592,7 @@ def page_category(c):
     body = f"""
 {hero(c["photo"], h1, c["short"], f'<a class="btn btn-gold" href="#directory">Browse events {ARROW}</a><a class="btn btn-ghost" href="/list-your-event/">List your event</a>',
       aside=countdown("md") + deadline(), kind="page", pos=c["pos"], crumbs=crumb_html(("Home", "/"), (c["h1"][0], c["path"])))}
-{lede(c["intro"], c["tips"], "Booking tips")}
+{lede(c["intro"], c["tips"], "Booking tips", c["more"].format(link=home_link(c["anchor"])))}
 {directory(events, f"{len(events)} options, compared", "Prices are per person, from published packages. Confirm the current price with the venue.")}
 {list_band()}"""
     return layout(
@@ -633,7 +641,7 @@ def page_event(e):
 <div class="prose reveal">
 <h2>About {escape(e['name'])}</h2>
 <p>{escape(e['name'])} is at {escape(e['venue'])} in {escape(e['suburb'])} ({escape(e['area'])}). It's one of the {escape(cats.lower())} options for New Year's Eve {Y} in Sydney. Fireworks: <b>{escape(e['fireworks'])}</b>. Age: <b>{escape(e['age'])}</b>.</p>
-<p>Planning the rest of your night? Check the <a href="/plan-your-night/">fireworks timeline and transport tips</a> or compare <a href="/sydney-fireworks-vantage-points/">vantage points around the harbour</a>.</p>
+<p>Still deciding? Compare it with {home_link(EVENTS.index(e))} or browse <a href="/sydney-fireworks-vantage-points/">vantage points around the harbour</a>. For the night itself, check the <a href="/plan-your-night/">fireworks timeline and transport tips</a>.</p>
 <p class="notice">Details are based on the venue's published NYE information and can change. Confirm the price, times and inclusions with {escape(e['venue'].split(',')[0])} before booking. Are you the venue? <a href="/list-your-event/">Claim and upgrade this listing</a>.</p>
 </div></div>
 <aside class="side reveal" style="--i:2">
@@ -685,7 +693,8 @@ def page_vantage():
 <p><b>For the classic shot</b> with the Opera House and Harbour Bridge together, look west from Mrs Macquaries Point or east from Blues Point and McMahons Point.</p>
 <p><b>To be close to the Bridge</b>, go for Hickson Road Reserve, Lower Bradfield Park or Luna Park. The midnight show launches straight off the Bridge.</p>
 <p><b>For space and a quieter night</b>, try the Balmain East and Birchgrove parks, the islands (ferry plus ticket), or elevated eastern spots like Dudley Page Reserve.</p>
-<p><b>With kids</b>, a ticketed park gives you guaranteed space, toilets and food. Make the 9pm Family Fireworks your main event.</p></div>
+<p><b>With kids</b>, a ticketed park gives you guaranteed space, toilets and food. Make the 9pm Family Fireworks your main event.</p>
+<p><b>Rather have a table or a deck?</b> Our <a href="/">NYE in Sydney guide</a> lists every harbourside dinner, cruise and party with a fireworks view.</p></div>
 <div class="lede-tips"><h2 class="reveal">What to bring</h2><ul class="ticks">
 <li>{icon("check")}<span>Picnic rug and low chair (check whether chairs are allowed)</span></li><li>{icon("check")}<span>Water, snacks and sunscreen. You may be outdoors for 10+ hours</span></li>
 <li>{icon("check")}<span>Charged phone and a power bank</span></li><li>{icon("check")}<span>A light jacket for after dark</span></li><li>{icon("check")}<span>No glass. Check the alcohol rules for your site</span></li></ul></div>
@@ -712,6 +721,7 @@ def page_plan():
       aside=countdown("md") + deadline(), kind="page", crumbs=crumb_html(("Home", "/"), ("Plan your night", "/plan-your-night/")))}
 {night_story("Fireworks times and the night's schedule", f"Based on recent years. The City of Sydney publishes the final {Y} program in December.")}
 <section class="sec sec--tight" id="transport"><div class="wrap prose prose--wide reveal">
+<p>Once you know how you're getting there, pick where you're going from <a href="/">every NYE in Sydney event</a> in our directory.</p>
 <h2>Getting there by public transport</h2>
 <p>Public transport is the best way to get to and from the harbour on New Year's Eve. Extra trains, buses, ferries and light rail run through the evening and all night. Stations near the harbour, especially Circular Quay, Wynyard and Milsons Point, get extremely busy and may close temporarily or run one-way to manage crowds.</p>
 <ul><li>Plan your trip on <a href="https://transportnsw.info" rel="noopener" target="_blank">transportnsw.info</a> and check the special NYE timetable.</li>
@@ -770,7 +780,7 @@ def page_list():
     ]
     why = [
         ("target", "High-intent visitors", "People only visit a NYE guide when they're about to book."),
-        ("magnifying-glass", "Our name is the search", "NYE in Sydney is built around the exact phrases people type into Google."),
+        ("magnifying-glass", "Our name is the search", '<a href="/">NYE in Sydney</a> is built around the exact phrases people type into Google.'),
         ("file-text", "Your own SEO page", "A dedicated page with Google Event schema, eligible for event rich results."),
         ("squares-four", "Listed where people browse", "The main directory plus every matching category page."),
         ("hand-coins", "Zero commission", "Guests click straight through to your booking page."),
@@ -841,6 +851,36 @@ def page_list():
     )
 
 
+def page_about():
+    body = f"""
+{hero("reflections", words("About NYE in Sydney"), "An independent guide to the harbour's biggest night, built for people planning it.",
+      f'<a class="btn btn-gold" href="/">Browse events {ARROW}</a><a class="btn btn-ghost" href="/list-your-event/">List your event</a>',
+      kind="page", crumbs=crumb_html(("Home", "/"), ("About", "/about/")))}
+<section class="sec sec--tight"><div class="wrap lede">
+<div class="prose reveal">
+<h2>What we do</h2>
+<p>NYE in Sydney brings every way to see in the new year on Sydney Harbour into one place. That means harbourside dinners, fireworks cruises, rooftop parties, family picks and the official vantage points, each with its price, what's included and which fireworks you'll see.</p>
+<p>Start with the <a href="/">NYE in Sydney</a> directory, then filter by area, budget or type. Every listing links straight to the venue to book. We don't take commission, so the price you see is the venue's price.</p>
+<h2>Independent, not official</h2>
+<p>We're an independent guide. The fireworks and official vantage points are run by the City of Sydney, which publishes the final program in December. We follow its announcements and update our <a href="/plan-your-night/">planning guide</a> and <a href="/sydney-fireworks-vantage-points/">vantage points map</a> as details are confirmed.</p>
+<h2>For venues</h2>
+<p>If you run a New Year's Eve event in Sydney, you can <a href="/list-your-event/">list it for ${P}</a>. You get your own event page, a place in the directory and a direct booking link, with no commission.</p>
+</div>
+<div class="lede-tips"><h2 class="reveal">Get in touch</h2><ul class="ticks">
+<li>{icon("envelope-simple")}<span><a href="mailto:{CONFIG['contact_email']}">{CONFIG['contact_email']}</a></span></li>
+<li>{icon("whatsapp-logo")}<span><a href="https://wa.me/61488898835" target="_blank" rel="noopener">WhatsApp +61 488 898 835</a></span></li>
+<li>{icon("clock")}<span>We reply within one business day</span></li></ul></div>
+</div></section>
+{list_band()}"""
+    return layout(
+        "/about/",
+        f"About NYE in Sydney: Independent Sydney New Year's Eve Guide",
+        f"About NYE in Sydney, the independent guide to Sydney New Year's Eve {Y}: how we list dinners, cruises, parties and vantage points, and how venues can list their event.",
+        body, schema=[breadcrumbs(("Home", "/"), ("About", "/about/")),
+                      {"@context": "https://schema.org", "@type": "AboutPage", "name": "About NYE in Sydney", "url": URL + "/about/"}],
+    )
+
+
 def page_404():
     body = hero("red", words("This page fizzled out"), "The page you're after isn't here, but the fireworks still are.",
                 f'<a class="btn btn-gold" href="/">Back to all events {ARROW}</a>', aside=countdown("md") + deadline(), kind="page")
@@ -869,7 +909,7 @@ def build():
         shutil.rmtree(OUT)
     OUT.mkdir()
     pages = {"/": page_home(), "/sydney-fireworks-vantage-points/": page_vantage(),
-             "/plan-your-night/": page_plan(), "/list-your-event/": page_list()}
+             "/plan-your-night/": page_plan(), "/list-your-event/": page_list(), "/about/": page_about()}
     for c in CATEGORY_PAGES:
         pages[c["path"]] = page_category(c)
     for e in EVENTS:
