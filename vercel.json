@@ -9,7 +9,7 @@
     { "source": "/:path*", "has": [{ "type": "host", "value": "www.nyeinsydney.com" }], "destination": "https://nyeinsydney.com/:path*", "permanent": true }
   ],
   "headers": [
-    { "source": "/(style.css|main.js)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600, must-revalidate" }] },
+    { "source": "/(style.css|main.js)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] },
     { "source": "/(og.jpg|favicon.svg|img/.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] },
     { "source": "/og.html", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
     { "source": "/(.*)", "headers": [

@@ -5,6 +5,7 @@ Edit data/events.json (and the CONFIG block below), then run:
     python3 build.py
 The complete site is written to ./docs, which Vercel serves as-is (see vercel.json).
 """
+import hashlib
 import json
 import re
 import shutil
@@ -37,6 +38,8 @@ TODAY = date.today().isoformat()
 Y, NY = CONFIG["year"], CONFIG["next_year"]
 URL = CONFIG["site_url"]
 P = CONFIG["listing_price"]
+# Content hashes for cache busting: the CSS/JS URLs change whenever the files do.
+VER = {f: hashlib.md5((ROOT / "src" / f).read_bytes()).hexdigest()[:10] for f in ("style.css", "main.js")}
 
 CATEGORY_LABELS = {
     "party": "Parties",
@@ -189,7 +192,7 @@ def layout(path, title, description, body, schema=None, og_type="website", activ
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Geist:wght@400..600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
 {head_extra}
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v={VER['style.css']}">
 {ld}
 </head>
 <body>
@@ -225,7 +228,7 @@ def layout(path, title, description, body, schema=None, og_type="website", activ
 <p class="fine credits">Photography via Wikimedia Commons. {credits}</p>
 </div></footer>
 <div class="grain" aria-hidden="true"></div>
-<script src="/main.js" defer></script>
+<script src="/main.js?v={VER['main.js']}" defer></script>
 </body>
 </html>"""
 
