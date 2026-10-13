@@ -10,18 +10,17 @@
       "harbour"
     ],
     "price_from": 850,
-    "price_text": "$850 + booking fee",
+    "price_text": "$850 GA, $1,295 VIP (+ booking fee)",
     "time": "5:00pm to 2:00am",
     "includes": [
-      "Welcome drink",
-      "Roaming canapés & food stalls",
-      "Live bands & DJs",
-      "Roaming performers",
-      "Front-row views of the 9pm and midnight fireworks"
+      "Arrival drink",
+      "Roaming canapés",
+      "Live bands and DJs",
+      "Front-row fireworks views"
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
-    "url": "https://operabar.com.au/",
+    "url": "https://tickets.iwannaticket.com.au/event/opera-bar-nye-2026-9eaze8",
     "featured": true,
     "blurb": "Arguably the most famous NYE party in the country: a harbourside festival on the Opera House lower concourse, staring straight at the Harbour Bridge."
   },
@@ -37,18 +36,17 @@
       "dining"
     ],
     "price_from": 349,
-    "price_text": "$349 (early dinner) to $699 (late dinner); Pier Party $650",
-    "time": "From 6:00pm",
+    "price_text": "$349 early dinner to $699 late seating; Pier Party $650",
+    "time": "8:30pm to 12:30am (Pier Party)",
     "includes": [
-      "Four-hour premium beverage package (Pier Party)",
-      "Six+ food stations",
-      "Headline DJs",
-      "Early ($349) and late ($699) dinner seatings at PIER",
-      "Harbour Bridge Lounge from $499"
+      "4-hour premium beverage package",
+      "Gourmet food stations",
+      "Live entertainment and DJs",
+      "Front-row harbour fireworks views"
     ],
     "fireworks": "Both 9pm & midnight",
-    "age": "18+",
-    "url": "https://www.pieronesydneyharbour.com.au/",
+    "age": "18+ (Pier Party)",
+    "url": "https://www.pieronesydneyharbour.com.au/final-launch-new-years-eve-2026/",
     "featured": true,
     "blurb": "A heritage wharf right under the Harbour Bridge with a party, two dinner seatings and a lounge, so you can pick the price and pace that suits you."
   },
@@ -64,17 +62,16 @@
     ],
     "price_from": 650,
     "price_text": "$650pp",
-    "time": "7:00pm to 1:00am",
+    "time": "From 7:00pm",
     "includes": [
-      "4-hour premium beverage package",
-      "Roaming canapés & grazing tables",
-      "Live music, DJs & silent disco",
+      "4-hour beverage package",
+      "Roaming canapés and grazing tables",
       "Bubbles on arrival and at midnight",
-      "Photobooth & tarot readings"
+      "Live music, DJ and silent disco"
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
-    "url": "https://www.theglenmore.com.au/",
+    "url": "https://therocks.com/whats-on/events/new-years-eve-rooftop-party-at-the-glenmore",
     "featured": true,
     "blurb": "The Rocks' best-loved rooftop pub, with Opera House and Bridge views and a drinks package that runs most of the night."
   },
@@ -90,16 +87,17 @@
       "harbour"
     ],
     "price_from": 199,
-    "price_text": "$199 GA · $499 Premium",
+    "price_text": "GA from $199pp; Melba's Rooftop Premium price on request",
     "time": "From 6:00pm",
     "includes": [
-      "GA: roaming canapés, food stations, late-night bites, pay-as-you-go bar",
-      "Premium: 3-hour Veuve Clicquot, wine, beer & spirits package",
-      "Carving, seafood and gelato stations (Premium)"
+      "Roaming canapés and food stations",
+      "Two levels of DJs and entertainment",
+      "Premium: 3-hour Veuve Clicquot drinks package 6pm to 9pm",
+      "Premium: seafood and carving stations"
     ],
-    "fireworks": "Both 9pm & midnight",
+    "fireworks": "Harbour fireworks views",
     "age": "18+",
-    "url": "https://www.cruisebar.com.au/",
+    "url": "https://tickets.iwannaticket.com.au/event/cruise-bar-nye26-f6384l",
     "featured": false,
     "blurb": "Right on the water at Circular Quay. One of the cheapest ways to get a front-row harbour view without a cruise."
   },
@@ -115,17 +113,18 @@
       "harbour"
     ],
     "price_from": 299,
-    "price_text": "$299 to $1,299pp (tiered)",
-    "time": "Evening, times vary by tier",
+    "price_text": "$299 early dinner to $1,299; GA $899",
+    "time": "Early seating 5:00pm to 7:00pm; main events from 6:00pm or 8:00pm",
     "includes": [
-      "Ground floor: roaming canapés + beverage package 6 to 9pm",
-      "Tower Room: exclusive access + Champagne toast",
-      "Six-course dining option",
-      "Moët Room with free-flowing Champagne"
+      "Roaming canapés and food stations",
+      "Beverage package 6pm to 9pm (GA)",
+      "Six-course dinner with pairing (Main Dining)",
+      "Moët Room champagne experience",
+      "Midnight champagne toast (VIP and dining)"
     ],
-    "fireworks": "Both 9pm & midnight",
+    "fireworks": "Fireworks views on later experiences (not early seating)",
     "age": "18+",
-    "url": "https://www.orianasydney.com.au/",
+    "url": "https://orianasydney.com.au/nye/",
     "featured": false,
     "blurb": "Multi-level waterfront venue with tiers from an early canapé session up to a free-flowing Moët room."
   },
@@ -140,16 +139,17 @@
       "rooftop"
     ],
     "price_from": 1050,
-    "price_text": "Early bird $1,050pp",
-    "time": "From 7:00pm",
+    "price_text": "$1,050pp (early bird)",
+    "time": "7:00pm to 1:00am",
     "includes": [
-      "Gourmet food stations & roaming canapés",
-      "Premium wine, beer & soft drinks",
-      "Live musicians & DJs"
+      "Gourmet food stations",
+      "Roaming canapés",
+      "Premium wine, beer and soft drinks",
+      "Live musicians and DJs"
     ],
-    "fireworks": "Both 9pm & midnight",
+    "fireworks": "Uninterrupted views from the Level 6 rooftop",
     "age": "18+",
-    "url": "https://www.mca.com.au/",
+    "url": "https://therocks.com/whats-on/events/nye-at-mca-rooftop-party",
     "featured": false,
     "blurb": "A gallery rooftop directly across Circular Quay from the Opera House. Polished, grown-up and very well placed."
   },
@@ -164,7 +164,7 @@
       "fine-dining"
     ],
     "price_from": 320,
-    "price_text": "$320 early sitting · $650 cocktail party · $1,950 tasting + wine",
+    "price_text": "2026 pricing not yet released (join the waitlist)",
     "time": "Early & late sittings",
     "includes": [
       "Early sitting ($320pp)",
@@ -173,33 +173,9 @@
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "All ages (sitting dependent)",
-    "url": "https://www.ariasydney.com.au/",
+    "url": "https://ariasydney.com.au/new-years-eve",
     "featured": true,
     "blurb": "Fine dining with floor-to-ceiling views of the Opera House and Bridge. The early sitting is one of the best-value harbour dinners in the city."
-  },
-  {
-    "slug": "quay-restaurant-nye",
-    "name": "New Year's Eve at Quay",
-    "venue": "Quay, Overseas Passenger Terminal",
-    "suburb": "The Rocks",
-    "area": "Circular Quay & The Rocks",
-    "categories": [
-      "dining",
-      "fine-dining"
-    ],
-    "price_from": 1600,
-    "price_text": "$1,600 to $2,250pp",
-    "time": "Evening",
-    "includes": [
-      "Five- or seven-course menu",
-      "Fine wine pairings",
-      "Champagne"
-    ],
-    "fireworks": "Both 9pm & midnight",
-    "age": "Adults",
-    "url": "https://www.quay.com.au/",
-    "featured": false,
-    "blurb": "One of Australia's most awarded restaurants, with a dining room that looks straight at the Opera House."
   },
   {
     "slug": "bennelong-nye",
@@ -211,17 +187,18 @@
       "dining",
       "fine-dining"
     ],
-    "price_from": 1900,
-    "price_text": "$1,900pp",
-    "time": "Evening",
+    "price_from": 2250,
+    "price_text": "$2,250 to $3,250pp",
+    "time": "From 7:00pm",
     "includes": [
-      "Four-course menu",
-      "Wine pairings",
-      "Champagne on arrival and at midnight"
+      "Champagne on arrival and at midnight",
+      "Canapés",
+      "Four or five-course set menu",
+      "Premium wine pairing"
     ],
-    "fireworks": "Both 9pm & midnight",
+    "fireworks": "Midnight only",
     "age": "Adults",
-    "url": "https://www.bennelong.com.au/",
+    "url": "https://www.bennelong.com.au/new-years-eve-2026/",
     "featured": false,
     "blurb": "Dinner inside the Opera House's own sails. Few places put you closer to the fireworks."
   },
@@ -235,17 +212,17 @@
       "dining",
       "fine-dining"
     ],
-    "price_from": 1100,
-    "price_text": "$1,100pp",
-    "time": "Evening",
+    "price_from": 1200,
+    "price_text": "$1,200 to $1,500pp",
+    "time": "From 6:30pm until late",
     "includes": [
-      "Multi-course menu",
-      "Free-flowing Champagne",
-      "Harbour views"
+      "Free-flowing French Champagne",
+      "Shared menu of signature dishes",
+      "Front-row Sydney Harbour views"
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "Adults",
-    "url": "https://www.whalebridge.com.au/",
+    "url": "https://www.sevenrooms.com/xtr3VfuC",
     "featured": false,
     "blurb": "A sleek harbourfront dining room between the Opera House and the ferry wharves."
   },
@@ -260,44 +237,18 @@
       "rooftop"
     ],
     "price_from": 795,
-    "price_text": "From $795pp",
+    "price_text": "2026 pricing not yet released (join the waitlist)",
     "time": "Evening",
     "includes": [
-      "'70s disco theme",
-      "Seafood",
-      "Champagne",
-      "360° city & harbour views from level 83"
+      "Food stations",
+      "Live entertainers",
+      "Fireworks views from level 83"
     ],
-    "fireworks": "Both 9pm & midnight",
+    "fireworks": "Fireworks views from level 83",
     "age": "18+",
-    "url": "https://www.bar83sydneytower.com.au/",
+    "url": "https://bar83sydneytower.com.au/whats-on/new-years-eve-pre-registration/",
     "featured": false,
     "blurb": "The highest bar in Sydney. You watch the fireworks from above."
-  },
-  {
-    "slug": "o-bar-and-dining-nye",
-    "name": "NYE at O Bar & Dining",
-    "venue": "O Bar & Dining, Australia Square Level 47",
-    "suburb": "Sydney CBD",
-    "area": "Sydney CBD",
-    "categories": [
-      "dining",
-      "fine-dining",
-      "rooftop"
-    ],
-    "price_from": 780,
-    "price_text": "From $780pp",
-    "time": "Evening",
-    "includes": [
-      "Eight-course degustation",
-      "Wine matching",
-      "Revolving 360° views"
-    ],
-    "fireworks": "Both 9pm & midnight",
-    "age": "Adults",
-    "url": "https://www.obardining.com.au/",
-    "featured": false,
-    "blurb": "A revolving restaurant 47 floors up, so every table gets a turn at the harbour view."
   },
   {
     "slug": "zephyr-sky-bar-nye",
@@ -310,114 +261,19 @@
       "rooftop"
     ],
     "price_from": 599,
-    "price_text": "$599 (1st release) to $799 (3rd release)",
+    "price_text": "$599 to $799 (1st to 3rd release)",
     "time": "8:00pm to 12:30am",
     "includes": [
-      "Premium beverage package",
-      "Roaming canapés & grazing stations",
-      "Live DJ & entertainment",
-      "Dessert morsels"
+      "4.5-hour premium beverage package",
+      "Roaming canapés",
+      "Grazing table",
+      "Live DJ and entertainment"
     ],
-    "fireworks": "Midnight (Darling Harbour views)",
+    "fireworks": "Midnight views over Darling Harbour",
     "age": "18+",
-    "url": "https://www.zephyrbarsydney.com/",
+    "url": "https://www.tablecheck.com/en/hyattregency-sydney-zephyr/reserve/experience/62fd89bc07b3610040fcc80c",
     "featured": false,
     "blurb": "Rooftop pool-deck bar above Darling Harbour. Tiered release pricing, so book early."
-  },
-  {
-    "slug": "crown-cirq-masquerade-nye",
-    "name": "CIRQ Masquerade Ball",
-    "venue": "CIRQ, Crown Sydney",
-    "suburb": "Barangaroo",
-    "area": "Darling Harbour & Barangaroo",
-    "categories": [
-      "party",
-      "rooftop"
-    ],
-    "price_from": 988,
-    "price_text": "From $988pp",
-    "time": "Evening",
-    "includes": [
-      "Masquerade theme",
-      "Champagne & canapés",
-      "Sydney's tallest rooftop venue"
-    ],
-    "fireworks": "Both 9pm & midnight",
-    "age": "18+",
-    "url": "https://www.crownsydney.com.au/",
-    "featured": false,
-    "blurb": "High-glamour masquerade high above Barangaroo, with views west across the harbour."
-  },
-  {
-    "slug": "w-sydney-rooftop-nye",
-    "name": "W Sydney Rooftop NYE",
-    "venue": "W Sydney, Levels 29 to 30",
-    "suburb": "Darling Harbour",
-    "area": "Darling Harbour & Barangaroo",
-    "categories": [
-      "party",
-      "rooftop"
-    ],
-    "price_from": 99,
-    "price_text": "$99 to $1,500+ (cabanas & VIP)",
-    "time": "Evening",
-    "includes": [
-      "Rooftop bar with DJs",
-      "Cabana & VIP packages"
-    ],
-    "fireworks": "Midnight (Darling Harbour views)",
-    "age": "18+",
-    "url": "https://www.marriott.com/",
-    "featured": false,
-    "blurb": "New-generation hotel rooftop over Darling Harbour, with entry pricing for most budgets."
-  },
-  {
-    "slug": "bungalow-8-nye",
-    "name": "Bungalow 8 Keys Gone Wild NYE",
-    "venue": "Bungalow 8, King Street Wharf",
-    "suburb": "Darling Harbour",
-    "area": "Darling Harbour & Barangaroo",
-    "categories": [
-      "party",
-      "budget"
-    ],
-    "price_from": 29,
-    "price_text": "From $29",
-    "time": "10:30pm to late",
-    "includes": [
-      "Live duelling-piano singalong",
-      "DJs",
-      "Waterfront tropical bar"
-    ],
-    "fireworks": "Midnight",
-    "age": "18+",
-    "url": "https://www.bungalow8sydney.com.au/",
-    "featured": false,
-    "blurb": "A cheap, loud waterfront party for people who'd rather sing than sit through a degustation."
-  },
-  {
-    "slug": "home-the-venue-nye",
-    "name": "Home The Venue NYE",
-    "venue": "Home The Venue, Cockle Bay Wharf",
-    "suburb": "Darling Harbour",
-    "area": "Darling Harbour & Barangaroo",
-    "categories": [
-      "party",
-      "budget"
-    ],
-    "price_from": 30,
-    "price_text": "$30 to $3,000 (booths)",
-    "time": "Evening to late",
-    "includes": [
-      "Six rooms of DJs",
-      "Waterfront views",
-      "Booth packages"
-    ],
-    "fireworks": "Midnight (Darling Harbour)",
-    "age": "18+",
-    "url": "https://www.homethevenue.com.au/",
-    "featured": false,
-    "blurb": "Sydney's big superclub on Cockle Bay. Dance through midnight."
   },
   {
     "slug": "luna-park-nye-harbour-party",
@@ -429,19 +285,18 @@
       "party",
       "harbour"
     ],
-    "price_from": 305,
-    "price_text": "GA $305+ · VIP $399+ · Premium VIP $535+",
+    "price_from": 349,
+    "price_text": "GA final release $349 (+ fees); Premium VIP Diamond $1,099",
     "time": "6:00pm to 2:00am",
     "includes": [
       "Unlimited rides",
-      "Coney Island access",
-      "Two DJ stages",
-      "Guaranteed fireworks viewing area (VIP)",
-      "Food & beverage package (Premium VIP)"
+      "DJs across the park",
+      "GA early releases sold out, final release on sale",
+      "Premium VIP Diamond tier available"
     ],
-    "fireworks": "Both 9pm & midnight",
+    "fireworks": "Harbour fireworks views",
     "age": "18+",
-    "url": "https://www.lunaparksydney.com/",
+    "url": "https://www.moshtix.com.au/v2/event/harbour-party-nye-2026/199408",
     "featured": true,
     "blurb": "Rides, DJs and a view straight under the Harbour Bridge. It sold out last year, so get on the presale list."
   },
@@ -456,18 +311,18 @@
       "rooftop"
     ],
     "price_from": 750,
-    "price_text": "$750pp + fees",
-    "time": "7:00pm to midnight",
+    "price_text": "$750 per person, all inclusive",
+    "time": "7:00pm to 12:30am",
     "includes": [
-      "Street food",
-      "House beers, wines & sparkling",
-      "Cocktails (spritz, G&T, margaritas)",
-      "Live DJ",
-      "Covered marquee"
+      "Free-flowing beer, wine, sparkling and Prosecco",
+      "Cocktails included",
+      "Global street food all night",
+      "DJs Cadell and James Mack",
+      "Fully covered open-air terrace"
     ],
-    "fireworks": "Both 9pm & midnight",
+    "fireworks": "Harbour Bridge fireworks views",
     "age": "18+",
-    "url": "https://www.viewhotels.com.au/sydney/",
+    "url": "https://www.eventbrite.com.au/e/2026-new-years-eve-soiree-tickets-1998165046443",
     "featured": false,
     "blurb": "A 17th-floor deck in North Sydney looking back at the Bridge and city skyline."
   },
@@ -481,17 +336,18 @@
       "dining",
       "fine-dining"
     ],
-    "price_from": 1295,
-    "price_text": "$1,295pp",
-    "time": "Evening",
+    "price_from": 1495,
+    "price_text": "$1,495 per person",
+    "time": "7:00pm sitting",
     "includes": [
       "Six-course menu",
-      "Premium drinks",
-      "Waterside fireworks views"
+      "Beverage package",
+      "Single sitting from 7pm",
+      "Waterside Harbour Bridge views"
     ],
-    "fireworks": "Both 9pm & midnight",
+    "fireworks": "Harbour Bridge fireworks views",
     "age": "Adults",
-    "url": "https://www.sailsonlavenderbay.com.au/",
+    "url": "https://sailssydney.com/whats-on/new-years-eve",
     "featured": false,
     "blurb": "Waterside dining in a quiet bay beside the Bridge, looking right at the main barges."
   },
@@ -505,17 +361,17 @@
       "dining",
       "budget"
     ],
-    "price_from": 199,
-    "price_text": "$199pp",
-    "time": "Evening",
+    "price_from": 210,
+    "price_text": "$210 per person",
+    "time": "5:30pm to 9:00pm or 9:00pm to midnight",
     "includes": [
-      "Sparkling on arrival",
-      "Set menu",
-      "Two-hour drinks package"
+      "Shared-style banquet",
+      "Two hours of flowing drinks",
+      "Choice of early or late sitting"
     ],
-    "fireworks": "Nearby vantage points",
+    "fireworks": "Not visible from venue (vantage points nearby at Milsons Point)",
     "age": "All ages",
-    "url": "https://www.thebotanist.com.au/",
+    "url": "https://www.sevenrooms.com/experiences/thebotanistkirribilli/the-botanist---nye-event-6180992115507200",
     "featured": false,
     "blurb": "A relaxed set-menu dinner a short walk from the Kirribilli foreshore."
   },
@@ -530,18 +386,18 @@
       "family",
       "harbour"
     ],
-    "price_from": 550,
-    "price_text": "Platinum $550 · Emerald $800 · Opal $1,000",
-    "time": "7:30pm to 1:00am (by tier)",
+    "price_from": 245,
+    "price_text": "Silver adult $245 (child $125) to Opal $1,002.50",
+    "time": "6:00pm to 12:30am (Silver); other tiers vary",
     "includes": [
-      "Opal: unlimited Archie Rose spirits, Champagne, wine & beer",
-      "Gourmet grazing, roving canapés & desserts",
-      "Live entertainment & DJs",
-      "Platinum tier open to ages 5+"
+      "Picnic-style lawn viewing with live music (Silver and Gold)",
+      "Premium food and drinks in Taronga Centre tiers",
+      "Diamond, Gold, Opal and Platinum sold out",
+      "Children 3 and under free on grounds tiers"
     ],
-    "fireworks": "Both 9pm & midnight",
-    "age": "Platinum 5+ · others 18+",
-    "url": "https://taronga.org.au/",
+    "fireworks": "Harbour fireworks views",
+    "age": "All ages (Opal and Emerald 18+, Platinum 5+)",
+    "url": "https://premier.ticketek.com.au/shows/show.aspx?sh=TARONGAN26",
     "featured": true,
     "blurb": "Fireworks from the zoo's hillside with the whole city skyline in front of you. One of the few premium options that takes kids."
   },
@@ -555,67 +411,19 @@
       "dining"
     ],
     "price_from": 335,
-    "price_text": "From $335pp",
-    "time": "Evening",
+    "price_text": "$335 adult, $179 under 18, $75 under 12",
+    "time": "7:00pm sitting",
     "includes": [
-      "Five-course degustation",
-      "Drinks throughout the evening"
+      "Five-course menu",
+      "Beverage package",
+      "Single 7pm sitting",
+      "Under 18 and under 12 menus"
     ],
     "fireworks": "Nearby harbour vantage",
     "age": "All ages",
-    "url": "https://www.ripples.com.au/",
+    "url": "https://srghospitality.com.au/new-years-eve/",
     "featured": false,
     "blurb": "A heritage wharf restaurant tucked into Chowder Bay."
-  },
-  {
-    "slug": "felons-manly-nye",
-    "name": "Felons Manly NYE",
-    "venue": "Felons Brewing Co, Manly Wharf",
-    "suburb": "Manly",
-    "area": "Northern Beaches",
-    "categories": [
-      "dining",
-      "budget",
-      "family"
-    ],
-    "price_from": 149,
-    "price_text": "$149pp (walk-ins welcome)",
-    "time": "From 6:00pm",
-    "includes": [
-      "Three-course sunset feast",
-      "Drink on arrival",
-      "DJs inside & on the jetty",
-      "9pm fireworks over Manly Cove"
-    ],
-    "fireworks": "9pm (Manly Cove)",
-    "age": "All ages",
-    "url": "https://felonsbrewing.com.au/",
-    "featured": false,
-    "blurb": "Craft beer, a jetty party and Manly's own 9pm fireworks, all well away from the city crush."
-  },
-  {
-    "slug": "catalina-rose-bay-nye",
-    "name": "NYE at Catalina Rose Bay",
-    "venue": "Catalina, Lyne Park",
-    "suburb": "Rose Bay",
-    "area": "Eastern Suburbs",
-    "categories": [
-      "dining",
-      "fine-dining"
-    ],
-    "price_from": 395,
-    "price_text": "$395 early · $795 late",
-    "time": "Early & late seatings",
-    "includes": [
-      "Four-course menu",
-      "Live entertainment & DJ",
-      "Fireworks views across Rose Bay"
-    ],
-    "fireworks": "Both 9pm & midnight",
-    "age": "All ages (early)",
-    "url": "https://www.catalinarosebay.com.au/",
-    "featured": true,
-    "blurb": "Sydney's classic over-water dining room, with seaplanes by day and the eastern fireworks barges by night."
   },
   {
     "slug": "watsons-bay-hotel-nye",
@@ -628,16 +436,18 @@
       "dining"
     ],
     "price_from": 220,
-    "price_text": "$220 GA · $495 VIP (3-course)",
-    "time": "Evening",
+    "price_text": "$220 GA, $440 VIP (final release)",
+    "time": "5:00pm to 2:00am",
     "includes": [
-      "GA entry with drinks",
-      "VIP three-course meal",
-      "Beach-garden setting"
+      "Two drink vouchers with GA",
+      "Beach Club and waterfront dancefloor",
+      "DJs incl. Cosmo's Midnight (DJ set)",
+      "VIP: 3-hour premium beverage package",
+      "VIP: food stations and Top Deck harbour views"
     ],
-    "fireworks": "Harbour views",
+    "fireworks": "Midnight (VIP vantage point)",
     "age": "18+",
-    "url": "https://www.watsonsbayhotel.com.au/",
+    "url": "https://events.humanitix.com/watsons-new-years-eve-2026/tickets",
     "featured": false,
     "blurb": "A beer garden on the beach at the harbour mouth. Very Sydney."
   },
@@ -652,17 +462,17 @@
       "rooftop"
     ],
     "price_from": 250,
-    "price_text": "$250pp",
-    "time": "Evening",
+    "price_text": "$250 per person",
+    "time": "From 6:30pm",
     "includes": [
-      "Share-style feast",
-      "Champagne",
-      "Live music",
-      "City skyline views"
+      "Shared-style feast by Chef Amber Doig",
+      "Glass of Champagne at midnight",
+      "Table reserved for the whole night",
+      "Beverage packages available"
     ],
-    "fireworks": "City skyline views",
+    "fireworks": "City skyline views (fireworks not visible)",
     "age": "Adults",
-    "url": "https://www.butlersydney.com.au/",
+    "url": "https://www.sevenrooms.com/xB2sYRGM",
     "featured": false,
     "blurb": "A leafy Potts Point terrace with skyline views and a long, lazy feast."
   },
@@ -676,71 +486,20 @@
       "dining",
       "fine-dining"
     ],
-    "price_from": 350,
-    "price_text": "From $350pp",
-    "time": "Early & main seatings",
+    "price_from": 375,
+    "price_text": "$375 per adult main sitting, $120 per child; early sitting à la carte",
+    "time": "Early sitting 5:00pm to 6:15pm; main sitting from 7:30pm",
     "includes": [
+      "Glass of Champagne on arrival",
       "Four-course choice menu",
-      "Champagne",
-      "Waterfront Italian dining"
+      "Children's menu available",
+      "Semi-private Wool Lift for 10 to 14 guests"
     ],
     "fireworks": "Nearby Woolloomooloo / Domain",
-    "age": "All ages",
-    "url": "https://www.ottoristorante.com.au/",
+    "age": "All ages (children's menu)",
+    "url": "https://ottoristorante.com.au/sydney/new-years-eve-at-otto-sydney-2026/",
     "featured": false,
     "blurb": "A Finger Wharf institution. Long Italian dinners in a buzzy room."
-  },
-  {
-    "slug": "monica-rooftop-nye",
-    "name": "Monica Rooftop NYE",
-    "venue": "Monica Rooftop",
-    "suburb": "Paddington",
-    "area": "Eastern Suburbs",
-    "categories": [
-      "party",
-      "rooftop",
-      "budget"
-    ],
-    "price_from": 199,
-    "price_text": "$199pp",
-    "time": "Evening",
-    "includes": [
-      "Canapés",
-      "Cocktail on arrival",
-      "DJs & live entertainment",
-      "1960s-glam styling"
-    ],
-    "fireworks": "Skyline views",
-    "age": "18+",
-    "url": "https://www.monica-rooftop.com/",
-    "featured": false,
-    "blurb": "A retro-glam rooftop party away from the harbour crowds."
-  },
-  {
-    "slug": "east-village-rooftop-nye",
-    "name": "East Village Rooftop NYE",
-    "venue": "East Village Hotel, 234 Palmer St",
-    "suburb": "Darlinghurst",
-    "area": "Eastern Suburbs",
-    "categories": [
-      "party",
-      "rooftop",
-      "budget"
-    ],
-    "price_from": 150,
-    "price_text": "$150pp",
-    "time": "7:00pm to midnight",
-    "includes": [
-      "Piper-Heidsieck on arrival",
-      "Roaming canapés",
-      "Bottomless beer, wine & spirits 7 to 10pm",
-      "Live DJ"
-    ],
-    "fireworks": "Skyline views",
-    "age": "18+",
-    "url": "https://www.eastvillagehotel.com.au/",
-    "featured": false,
-    "blurb": "Three hours of bottomless drinks on a Darlinghurst rooftop, good value for a crew."
   },
   {
     "slug": "elrow-bondi-beach-nye",
@@ -752,115 +511,20 @@
       "party",
       "beach"
     ],
-    "price_from": null,
-    "price_text": "Tickets on sale now (see site)",
-    "time": "31 December",
+    "price_from": 219.9,
+    "price_text": "GA $219.90 to $239.90, VIP $399.90 (plus fees)",
+    "time": "6:00pm to 12:30am",
     "includes": [
-      "Pirate-shipwreck main stage",
-      "Inflatable 'Pink Cathedral' dance space",
-      "Free Locals Lawn family zone for registered Waverley postcodes"
+      "Two stages on Bondi Beach",
+      "Meduza (Australian exclusive), Kölsch, Arielle Free and more",
+      "VIP: promenade area in front of stage with its own bar",
+      "elrow x Field Day New Year's Day bundle available"
     ],
-    "fireworks": "Beach party",
+    "fireworks": "Beach party (no harbour view)",
     "age": "18+",
-    "url": "https://fuzzy.com.au/",
+    "url": "https://events.humanitix.com/elrow-sydney-xxl/tickets",
     "featured": true,
     "blurb": "The first big NYE party on Bondi Beach in over a decade, from the people behind the famously over-the-top elrow."
-  },
-  {
-    "slug": "chin-chin-surry-hills-nye",
-    "name": "Chin Chin Burlesque NYE",
-    "venue": "Chin Chin, 69 Commonwealth St",
-    "suburb": "Surry Hills",
-    "area": "Inner City",
-    "categories": [
-      "dining",
-      "budget"
-    ],
-    "price_from": 80,
-    "price_text": "From $80pp",
-    "time": "Evening",
-    "includes": [
-      "Burlesque show",
-      "Contemporary Thai menu",
-      "Chandon on arrival"
-    ],
-    "fireworks": "No direct view",
-    "age": "18+",
-    "url": "https://www.chinchin.com.au/",
-    "featured": false,
-    "blurb": "Big flavours and a burlesque show, for people who'd rather skip the fireworks crowds."
-  },
-  {
-    "slug": "baptist-street-rec-club-nye",
-    "name": "Baptist Street Rec Club NYE",
-    "venue": "Baptist Street Recreation Club",
-    "suburb": "Redfern",
-    "area": "Inner City",
-    "categories": [
-      "party",
-      "budget"
-    ],
-    "price_from": 79,
-    "price_text": "$79",
-    "time": "Evening",
-    "includes": [
-      "Cold schooners",
-      "'80s and '90s bangers",
-      "Canapés",
-      "Fireworks on the retro TVs"
-    ],
-    "fireworks": "On the telly",
-    "age": "18+",
-    "url": "https://baptiststreetrec.club/",
-    "featured": false,
-    "blurb": "A cheap, nostalgic and very fun local club night."
-  },
-  {
-    "slug": "the-old-fitz-nye",
-    "name": "The Old Fitz French Banquet",
-    "venue": "The Old Fitzroy Hotel",
-    "suburb": "Woolloomooloo",
-    "area": "Inner City",
-    "categories": [
-      "dining",
-      "budget"
-    ],
-    "price_from": 110,
-    "price_text": "$110pp",
-    "time": "Evening",
-    "includes": [
-      "Bubbles on arrival",
-      "Three-course French-style banquet",
-      "Live jazz group"
-    ],
-    "fireworks": "Walk to the Domain",
-    "age": "18+",
-    "url": "https://www.oldfitzroy.com.au/",
-    "featured": false,
-    "blurb": "A classic backstreet pub that does a properly good French banquet."
-  },
-  {
-    "slug": "imperial-erskineville-nye",
-    "name": "Imperial Erskineville NYE",
-    "venue": "Imperial Hotel",
-    "suburb": "Erskineville",
-    "area": "Inner City",
-    "categories": [
-      "party",
-      "budget"
-    ],
-    "price_from": 50,
-    "price_text": "Tiered tickets",
-    "time": "Evening to late",
-    "includes": [
-      "Three levels: drag, DJs & rooftop",
-      "VIP rooftop drinks & pizza"
-    ],
-    "fireworks": "Party focus",
-    "age": "18+",
-    "url": "https://www.theimperialhotel.com.au/",
-    "featured": false,
-    "blurb": "The home of Priscilla: drag, DJs and Sydney's best queer party energy."
   },
   {
     "slug": "the-fenwick-balmain-nye",
@@ -873,43 +537,21 @@
       "fine-dining",
       "harbour"
     ],
-    "price_from": 895,
-    "price_text": "$895pp",
-    "time": "Evening",
+    "price_from": 1095,
+    "price_text": "$1,095 per person",
+    "time": "From 7:00pm (one sitting)",
     "includes": [
-      "Degustation menu",
-      "Premium drinks",
-      "Fireworks views from the water's edge"
+      "Six-course menu",
+      "Beverage package",
+      "Sydney Rock Oysters with caviar",
+      "Westholme Wagyu main",
+      "Balmain East foreshore setting"
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "Adults",
-    "url": "https://www.thefenwick.com.au/",
+    "url": "https://srghospitality.com.au/new-years-eve/",
     "featured": false,
     "blurb": "A sandstone harbourfront venue in Balmain East with a western view of the Bridge."
-  },
-  {
-    "slug": "the-dry-dock-balmain-nye",
-    "name": "The Dry Dock Balmain NYE",
-    "venue": "The Dry Dock Hotel",
-    "suburb": "Balmain",
-    "area": "Inner West",
-    "categories": [
-      "dining",
-      "budget"
-    ],
-    "price_from": 150,
-    "price_text": "Tiered packages",
-    "time": "Evening",
-    "includes": [
-      "Four-course meal",
-      "Fireworks viewing access",
-      "Complimentary bus to the foreshore"
-    ],
-    "fireworks": "Shuttle to vantage",
-    "age": "All ages",
-    "url": "https://www.drydockbalmain.com.au/",
-    "featured": false,
-    "blurb": "Have dinner at the pub, then take their bus straight to the fireworks."
   },
   {
     "slug": "starship-sydney-nye-cruise",
@@ -922,42 +564,20 @@
       "fine-dining"
     ],
     "price_from": 1599,
-    "price_text": "From $1,599pp",
+    "price_text": "$1,599 to $1,799",
     "time": "5.5 hours",
     "includes": [
-      "Sydney's iconic glass vessel",
-      "Dinner & drinks",
-      "9pm & midnight fireworks on the water"
+      "5.5-hour cruise inside the fireworks exclusion zone",
+      "Grazing stations and canapés",
+      "Moët, wines and Young Henrys beer",
+      "Live band",
+      "Open outdoor decks"
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
-    "url": "https://www.starshipsydney.com.au/",
+    "url": "https://www.starshipsydney.com.au/whats-on/new-years-eve/",
     "featured": true,
     "blurb": "A big, sleek glass ship that gets you right in among the fireworks barges."
-  },
-  {
-    "slug": "sydney-showboat-nye-cruise",
-    "name": "Sydney Showboat NYE Cruise",
-    "venue": "Sydney Showboat",
-    "suburb": "Sydney Harbour",
-    "area": "On the Harbour",
-    "categories": [
-      "cruise"
-    ],
-    "price_from": 2000,
-    "price_text": "$2,000 to $2,200pp",
-    "time": "7 hours",
-    "includes": [
-      "Five-course dinner",
-      "Premium drinks",
-      "Live cabaret",
-      "Both fireworks displays"
-    ],
-    "fireworks": "Both 9pm & midnight",
-    "age": "All ages",
-    "url": "https://www.sydneyshowboats.com.au/",
-    "featured": false,
-    "blurb": "A paddle-wheeler with a cabaret show and a long night on the water."
   },
   {
     "slug": "clearview-glass-boat-nye-cruise",
@@ -970,8 +590,8 @@
       "fine-dining"
     ],
     "price_from": 2500,
-    "price_text": "From $2,500pp",
-    "time": "7 hrs 45 min",
+    "price_text": "From $2,500",
+    "time": "6:15pm to 1:15am (board 5:30pm)",
     "includes": [
       "Deluxe five-course dinner",
       "Premium drinks",
@@ -979,7 +599,7 @@
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "Adults",
-    "url": "https://www.clearviewcruises.com.au/",
+    "url": "https://www.clearviewsydneyharbourcruises.com.au/new-years-eve-cruises/nye-glass-boat-cruise",
     "featured": false,
     "blurb": "A luxury all-glass boat with the longest itinerary on the harbour."
   },
@@ -994,17 +614,17 @@
       "party"
     ],
     "price_from": 1479,
-    "price_text": "From $1,479pp",
-    "time": "Evening",
+    "price_text": "From $1,479",
+    "time": "7:30pm to 1:30am",
     "includes": [
-      "Canapé-style dinner",
-      "Drinks",
-      "DJ",
-      "Max 135 guests"
+      "About 6 hours on the harbour from King Street Wharf",
+      "Canapés and food all night",
+      "Beer, wine, sparkling and spirits",
+      "Live DJ"
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
-    "url": "https://www.australiancruisegroup.com.au/",
+    "url": "https://tickets.oztix.com.au/outlet/event/60e9c12a-84cc-4309-9542-ab974f3abe64?accessCode=silverfleetboatcharters",
     "featured": false,
     "blurb": "A capped-capacity catamaran party, so the deck never gets crowded."
   },
@@ -1044,17 +664,17 @@
       "budget"
     ],
     "price_from": 65,
-    "price_text": "$65 (inc GST)",
-    "time": "Afternoon to 1:00am",
+    "price_text": "$65 (2 and under free)",
+    "time": "2:00pm to 12:30am",
     "includes": [
-      "Guaranteed entry",
-      "Under the Harbour Bridge",
-      "Food & drink vendors",
-      "Toilets"
+      "Entry to harbourside vantage point (gates close 9pm)",
+      "Live music and DJs",
+      "Food for sale, BYO food allowed",
+      "Water stations and accessible toilets"
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "All ages",
-    "url": "https://www.northsydney.nsw.gov.au/",
+    "url": "https://tickets.iwannaticket.com.au/event/lower-bradfield-park-north-sydney-nye-2026-19mlzk",
     "featured": true,
     "blurb": "Possibly the best $65 you'll spend in Sydney: a picnic rug almost directly under the Bridge."
   },
@@ -1070,17 +690,17 @@
       "budget"
     ],
     "price_from": 65,
-    "price_text": "$65 (inc GST)",
-    "time": "Afternoon to 1:00am",
+    "price_text": "$65 (2 and under free)",
+    "time": "3:00pm to 12:30am",
     "includes": [
-      "Guaranteed entry",
-      "Classic Bridge + Opera House postcard view",
-      "Food vendors",
-      "Toilets"
+      "Entry to Blues Point vantage point (gates close 9pm)",
+      "Live music and DJs",
+      "Food for sale, BYO food allowed",
+      "Water stations and accessible toilets"
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "All ages",
-    "url": "https://www.northsydney.nsw.gov.au/",
+    "url": "https://tickets.iwannaticket.com.au/event/blues-point-north-sydney-nye-2026-ct6mnp",
     "featured": false,
     "blurb": "The view from the postcards: the Bridge and Opera House lined up together."
   },
@@ -1096,16 +716,17 @@
       "budget"
     ],
     "price_from": 30,
-    "price_text": "$65 adult · $30 child · $170 family",
-    "time": "Evening",
+    "price_text": "$70 adult, $30 youth, $180 family",
+    "time": "5:30pm to 12:30am",
     "includes": [
-      "Relaxed family setting",
-      "Elevated panoramic city view",
-      "Guaranteed entry"
+      "Harbour and city fireworks views",
+      "Live DJ, roving entertainment and silent disco",
+      "Kids zone, lawn games and face painting",
+      "Food stalls and licensed bar"
     ],
     "fireworks": "Both 9pm & midnight",
-    "age": "All ages",
-    "url": "https://www.waverley.nsw.gov.au/",
+    "age": "All ages (under 18s with a ticketed adult)",
+    "url": "https://events.humanitix.com/new-year-s-eve-at-dudley-page-reserve-2026",
     "featured": false,
     "blurb": "A grassy hilltop with a long-range view of the whole skyline lighting up."
   },
@@ -1120,15 +741,17 @@
       "free"
     ],
     "price_from": 0,
-    "price_text": "Free (ticket required, released 26 Dec)",
-    "time": "Midday to 1:00am",
+    "price_text": "Free, tickets released 10am 26 December",
+    "time": "Entry 12:00pm to 3:00pm",
     "includes": [
-      "Uninterrupted harbour views",
-      "Bars & food on site"
+      "Guaranteed entry to the Opera House Forecourt",
+      "Unreserved first-come seating",
+      "Food and drink for sale",
+      "Free water stations"
     ],
     "fireworks": "Both 9pm & midnight",
-    "age": "All ages",
-    "url": "https://www.sydneyoperahouse.com/",
+    "age": "All ages (3+ need a ticket)",
+    "url": "https://www.sydneyoperahouse.com/experiences/new-years-eve-forecourt",
     "featured": false,
     "blurb": "A free ticket for a world-famous view. Be online at 10am on 26 December, because they go in minutes."
   },
@@ -1143,16 +766,992 @@
       "free"
     ],
     "price_from": 0,
-    "price_text": "Free + ferry pass",
-    "time": "6:30pm to 12:15am",
+    "price_text": "Free entry, ferry $47.71 (booked out)",
+    "time": "Ferries from Barangaroo 6:30pm and 7:15pm",
     "includes": [
-      "Island in the middle of the harbour",
-      "Ferry transfer (pass required)"
+      "Free island entry",
+      "Return ferry from Barangaroo",
+      "BYO picnic and alcohol (no food sold)"
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "All ages",
-    "url": "https://www.nationalparks.nsw.gov.au/",
+    "url": "https://www.nationalparks.nsw.gov.au/things-to-do/events/new-years-eve-goat-island",
     "featured": false,
     "blurb": "Watch from an island in the middle of the harbour, with no crowds."
+  },
+  {
+    "slug": "studio-27-yallamundi-rooms-opera-house",
+    "name": "Studio '27 at the Yallamundi Rooms",
+    "venue": "Yallamundi Rooms, Sydney Opera House",
+    "suburb": "Bennelong Point",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "party",
+      "harbour"
+    ],
+    "price_from": 1100,
+    "price_text": "$1,100 to $1,450 per person by release",
+    "time": "8:00pm to 1:30am",
+    "includes": [
+      "Champagne",
+      "Roving canapés",
+      "Live DJ",
+      "Front-row midnight fireworks view"
+    ],
+    "fireworks": "Midnight only",
+    "age": "18+",
+    "url": "https://www.eventbrite.com.au/e/new-years-eve-studio-27-at-the-yallamundi-rooms-at-sydney-opera-house-tickets-1999471936386",
+    "featured": false,
+    "blurb": "A disco-themed party inside the Opera House's Yallamundi Rooms, with the midnight fireworks just outside the windows. Tickets are non-refundable."
+  },
+  {
+    "slug": "opera-australia-nye-opera-house",
+    "name": "New Year's Eve at the Opera: Opera Gala and La Boheme",
+    "venue": "Sydney Opera House, Bennelong Point",
+    "suburb": "Bennelong Point",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "dining",
+      "harbour"
+    ],
+    "price_from": 249,
+    "price_text": "Shows from $249; dinner or midnight party $499 each; Platinum Package $1,956",
+    "time": "Performances 7:45pm; dinner 5:30pm; midnight party after the show",
+    "includes": [
+      "Opera Gala Concert or La Boheme",
+      "Interval timed for the 9pm fireworks",
+      "Optional three-course pre-show dinner with wines",
+      "Optional midnight party in the Northern Foyers"
+    ],
+    "fireworks": "Both 9pm & midnight (midnight with party package)",
+    "age": "All ages",
+    "url": "https://opera.org.au/nye",
+    "featured": false,
+    "blurb": "Opera Australia stages the Opera Gala and a new La Boheme, with the interval timed to the 9pm fireworks. Dinner and midnight party packages in the harbour-facing Northern Foyers are sold separately."
+  },
+  {
+    "slug": "altitude-shangri-la-nye",
+    "name": "New Year's Eve at Altitude",
+    "venue": "Altitude, Level 36, Shangri-La Sydney, 176 Cumberland St",
+    "suburb": "The Rocks",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "fine-dining",
+      "dining",
+      "harbour"
+    ],
+    "price_from": 1750,
+    "price_text": "$1,750 per adult; $2,500 guaranteed window table",
+    "time": "From 7:30pm (5-hour seating)",
+    "includes": [
+      "Eight-course degustation",
+      "Matched wines",
+      "Midnight countdown",
+      "Opera House and Harbour Bridge views"
+    ],
+    "fireworks": "Midnight only",
+    "age": "Check with venue",
+    "url": "https://www.shangri-la.com/sydney/shangrila/offer-detail/dining/new-years-eve-at-altitude",
+    "featured": false,
+    "blurb": "An eight-course degustation with matched wines on level 36 of the Shangri-La, looking over the Opera House and Harbour Bridge. A window table costs extra."
+  },
+  {
+    "slug": "blu-bar-on-36-nye",
+    "name": "Golden Hour to Midnight at Blu Bar on 36",
+    "venue": "Blu Bar on 36, Shangri-La Sydney, 176 Cumberland St",
+    "suburb": "The Rocks",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "party",
+      "rooftop"
+    ],
+    "price_from": 1349,
+    "price_text": "From $1,349 per person",
+    "time": "7:30pm to 12:30am",
+    "includes": [
+      "Premium beverage package",
+      "Grazing stations and roaming canapés",
+      "Live DJ",
+      "Desserts"
+    ],
+    "fireworks": "Midnight only",
+    "age": "Check with venue",
+    "url": "https://www.sevenrooms.com/experiences/blubarsydney/golden-hour-to-midnight-nye-at-blu-bar-5881605088493568",
+    "featured": false,
+    "blurb": "A standing cocktail party in the Shangri-La's level 36 bar with open views over the Opera House and Harbour Bridge. Seating is limited."
+  },
+  {
+    "slug": "infinity-mark-best-sydney-tower-nye",
+    "name": "New Year's Eve at Infinity by Mark Best",
+    "venue": "Infinity by Mark Best, Sydney Tower, 100 Market St",
+    "suburb": "Sydney CBD",
+    "area": "Sydney CBD",
+    "categories": [
+      "fine-dining",
+      "dining",
+      "rooftop"
+    ],
+    "price_from": 499,
+    "price_text": "Bar session $499; dining $1,040 to $1,490 per person",
+    "time": "Dining 6:30pm to 12:30am; bar session 10:00pm to 1:00am",
+    "includes": [
+      "Five-course menu with snacks",
+      "Matched wines or G&Ts",
+      "Late-night snacks",
+      "360 degree view from 261 metres"
+    ],
+    "fireworks": "Midnight only",
+    "age": "18+",
+    "url": "https://infinitysydneytower.com.au/whats-on/new-years-eve/",
+    "featured": false,
+    "blurb": "A five-course dinner by Mark Best inside Sydney Tower, 261 metres up. A cheaper late bar session runs from 10pm with free-flowing drinks."
+  },
+  {
+    "slug": "harbour-rocks-hotel-nye",
+    "name": "Celebrate NYE at Harbour Rocks",
+    "venue": "Harbour Rocks by Ode Hotels, 34 Harrington St",
+    "suburb": "The Rocks",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "party"
+    ],
+    "price_from": 595,
+    "price_text": "$595 cocktail party; $744 with five-course dinner",
+    "time": "8:30pm to 12:30am (dinner option from 6:00pm)",
+    "includes": [
+      "Four hours of free-flowing drinks",
+      "Oyster station and champagne tower",
+      "Roaming canapés",
+      "Live music",
+      "Optional five-course dinner at Tayim"
+    ],
+    "fireworks": "Midnight only",
+    "age": "Check with venue",
+    "url": "https://events.humanitix.com/celebrate-nye-at-harbour-rocks",
+    "featured": false,
+    "blurb": "A cocktail party in the hotel's Harbour View Suite with a view of the midnight fireworks. The Ultimate package adds an early dinner at Tayim."
+  },
+  {
+    "slug": "frank-macs-nye",
+    "name": "Mac's New Year's Eve Party",
+    "venue": "Frank Mac's, 83 George St",
+    "suburb": "The Rocks",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "party"
+    ],
+    "price_from": 380,
+    "price_text": "$380 to $400 per adult",
+    "time": "6:00pm to 2:00am",
+    "includes": [
+      "Three-hour premium drinks package",
+      "Roaming canapés",
+      "Charcuterie boards",
+      "Live music 8pm to 11:15pm"
+    ],
+    "fireworks": "Both 9pm & midnight (from George Street)",
+    "age": "18+",
+    "url": "https://www.frankmacs.com.au/upcoming-events/macs-new-years-eve",
+    "featured": false,
+    "blurb": "An Irish pub party in The Rocks with a drinks package, canapés and live music. Guests watch both fireworks from George Street outside."
+  },
+  {
+    "slug": "doss-house-midnight-hour-nye",
+    "name": "The Midnight Hour at The Doss House",
+    "venue": "The Doss House, 77 George St",
+    "suburb": "The Rocks",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "party"
+    ],
+    "price_from": 404,
+    "price_text": "$403.67 per adult",
+    "time": "6:00pm to 2:00am",
+    "includes": [
+      "Three-hour premium drinks package",
+      "NYE cocktails",
+      "Roaming canapés and charcuterie",
+      "Live music 8pm to 11:15pm"
+    ],
+    "fireworks": "Both 9pm & midnight (from George Street)",
+    "age": "18+",
+    "url": "https://www.thedosshouse.com.au/upcoming-events/new-years-eve-nd8gf-nexg8-ytptx-y68m9",
+    "featured": false,
+    "blurb": "A whisky bar party in a heritage basement in The Rocks, with a three-hour drinks package and live music. Guests head to George Street for both fireworks."
+  },
+  {
+    "slug": "jounieh-dawes-point-nye",
+    "name": "New Year's Eve and Fireworks at Jounieh",
+    "venue": "Jounieh, 2/17 Hickson Rd",
+    "suburb": "Dawes Point",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "dining",
+      "family"
+    ],
+    "price_from": 260,
+    "price_text": "$260 to $360 per adult",
+    "time": "Early 5:00pm to 8:45pm; late 9:15pm to 12:30am",
+    "includes": [
+      "Lebanese banquet menu",
+      "Oysters and prawns",
+      "Slow-cooked lamb shoulder",
+      "Kids menu for ages 3 to 12"
+    ],
+    "fireworks": "Both 9pm & midnight (one per seating)",
+    "age": "All ages",
+    "url": "https://www.jounieh.com.au/new-years-eve-2026/",
+    "featured": false,
+    "blurb": "A Lebanese banquet at Dawes Point with two seatings, one for the 9pm fireworks and one for midnight, watched from the pier out front."
+  },
+  {
+    "slug": "wharf-restaurant-celebration-nye",
+    "name": "Celebration at the End of the Wharf",
+    "venue": "The Wharf Restaurant and Bar, Pier 4, Hickson Rd",
+    "suburb": "Dawes Point",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "party",
+      "harbour"
+    ],
+    "price_from": 647,
+    "price_text": "From $647 per person",
+    "time": "8:00pm to 2:00am",
+    "includes": [
+      "Premium food and drinks",
+      "Canapés and substantial bites",
+      "DJ and live performances",
+      "Three ticket tiers including Wharf Club VIP"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://pointsofdifference.com/eventcalendar/celebration-nye-26-27-tickets/",
+    "featured": false,
+    "blurb": "A white dress code party at the end of Pier 4 in Walsh Bay, with viewing areas for both fireworks."
+  },
+  {
+    "slug": "elements-walsh-bay-nye",
+    "name": "Elements NYE on the Harbour",
+    "venue": "Elements Bar and Grill Walsh Bay, 23 Hickson Rd",
+    "suburb": "Millers Point",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "dining",
+      "party",
+      "harbour"
+    ],
+    "price_from": 699,
+    "price_text": "$699 to $1,349 per person (first release)",
+    "time": "6:30pm to 2:00am",
+    "includes": [
+      "Eight-course menu",
+      "All-night drinks package (top tier)",
+      "Live performers and DJ",
+      "Private wharf access for fireworks"
+    ],
+    "fireworks": "Both 9pm & midnight from the wharf",
+    "age": "Check with venue",
+    "url": "https://www.eventbrite.com.au/e/elements-nye-2026-on-the-harbour-extravaganza-new-years-eve-on-walsh-bay-tickets-1982935321927",
+    "featured": false,
+    "blurb": "An eight-course dinner and party on a Walsh Bay wharf with private fireworks viewing. Only the top Celebration package includes drinks."
+  },
+  {
+    "slug": "amora-jamison-nye-buffet",
+    "name": "New Year's Eve Buffet at Amora Hotel Jamison",
+    "venue": "Amora Hotel Jamison Sydney, 11 Jamison St",
+    "suburb": "Sydney CBD",
+    "area": "Sydney CBD",
+    "categories": [
+      "dining",
+      "family",
+      "budget"
+    ],
+    "price_from": 99,
+    "price_text": "$99 adults; $49 children",
+    "time": "4:30pm to 11:30pm",
+    "includes": [
+      "Evening buffet dinner",
+      "Prawns and blue-eye cod",
+      "Lamb tagine",
+      "Petit desserts"
+    ],
+    "fireworks": "No view; the harbour is a five-minute walk",
+    "age": "All ages",
+    "url": "https://events.humanitix.com/new-year-s-eve-dinner-buffet-at-amora-hotel-jamison-sydney",
+    "featured": false,
+    "blurb": "A hotel buffet near Wynyard, a five-minute walk from harbour viewing spots. One of the cheapest sit-down dinners in the city."
+  },
+  {
+    "slug": "q-station-manly-nye",
+    "name": "New Year's Eve at Q Station",
+    "venue": "The Hospital Precinct, Q Station, 1 North Head Scenic Dr",
+    "suburb": "Manly",
+    "area": "Northern Beaches",
+    "categories": [
+      "dining",
+      "party"
+    ],
+    "price_from": 289,
+    "price_text": "$289 plus fees",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "Cocktail on arrival and canapés",
+      "Three-course dinner",
+      "Four-hour beverage package",
+      "Sparkling at midnight",
+      "Live music and DJ"
+    ],
+    "fireworks": "Midnight only (distant view)",
+    "age": "18+",
+    "url": "https://qstation.com.au/event/new-years-eve-event/",
+    "featured": false,
+    "blurb": "A dinner party in the old Quarantine Station hospital precinct on North Head, with views across the water to the midnight fireworks."
+  },
+  {
+    "slug": "captain-cook-sydney-2000-nye-cruise",
+    "name": "Captain Cook Sydney 2000 NYE Dinner Cruise",
+    "venue": "MV Sydney 2000, Captain Cook Cruises, King Street Wharf 1",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "fine-dining",
+      "harbour"
+    ],
+    "price_from": 2050,
+    "price_text": "$2,050 to $2,350 per person",
+    "time": "7:30pm to 1:00am",
+    "includes": [
+      "Four to six-course dinner by deck",
+      "Bottomless Chandon and premium drinks",
+      "Live music",
+      "Reserved seating",
+      "Inside the fireworks exclusion zone"
+    ],
+    "fireworks": "From inside the fireworks exclusion zone",
+    "age": "Check with venue",
+    "url": "https://www.captaincook.com.au/whats-on/sydney-new-years-eve/",
+    "featured": false,
+    "blurb": "Captain Cook's flagship dinner cruise sits inside the harbour exclusion zone for the night. The top Sky Deck tier serves a six-course degustation with Penfolds wines."
+  },
+  {
+    "slug": "james-craig-tall-ship-nye",
+    "name": "NYE on the Tall Ship James Craig",
+    "venue": "Tall Ship James Craig, Australian National Maritime Museum",
+    "suburb": "Pyrmont",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour"
+    ],
+    "price_from": 2000,
+    "price_text": "$2,000 per adult",
+    "time": "7:00pm to about 1:00am (boarding 6:00pm)",
+    "includes": [
+      "Canapés and live food stations",
+      "Premium drinks all evening",
+      "Live entertainment and dancing",
+      "Sails in front of the Harbour Bridge"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "18+",
+    "url": "https://events.humanitix.com/nye2026tallshipjamescraig",
+    "featured": false,
+    "blurb": "Sydney Heritage Fleet sails its restored 1874 tall ship in front of the Harbour Bridge for both fireworks."
+  },
+  {
+    "slug": "glass-island-nye-cruise",
+    "name": "Glass Island New Year's Eve Cruise",
+    "venue": "Glass Island, King Street Wharf 9",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "party"
+    ],
+    "price_from": null,
+    "price_text": "See venue for prices",
+    "time": "8:30pm to 1:15am (arrive 8:00pm)",
+    "includes": [
+      "Three-hour beverage package",
+      "Gourmet canapés",
+      "Glass of Moët at midnight"
+    ],
+    "fireworks": "Midnight only",
+    "age": "18+",
+    "url": "https://www.eventbrite.com.au/e/glass-island-new-years-eve-cruise-2026-tickets-1979939913580",
+    "featured": false,
+    "blurb": "A party boat from King Street Wharf with a drinks package, canapés and Moët for the midnight fireworks."
+  },
+  {
+    "slug": "aussie-magic-nye-cruise",
+    "name": "NYE Harbour Cruise on Aussie Magic",
+    "venue": "Aussie Magic (Sydney Harbour Days)",
+    "suburb": "Pyrmont",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 1350,
+    "price_text": "$1,350 per adult",
+    "time": "7:00pm to 1:30am",
+    "includes": [
+      "Roaming canapés and standing buffet",
+      "Beer, wine and soft drinks",
+      "DJ",
+      "Retractable roof catamaran"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "18+",
+    "url": "https://www.sydneyharbourdays.com/activity/boat-cruises/nye-tickets/aussie-magic-nye/",
+    "featured": false,
+    "blurb": "An all-inclusive catamaran cruise for up to 130 adults. Spirits are sold at a cash bar."
+  },
+  {
+    "slug": "karisma-2-nye-cruise",
+    "name": "NYE All-Inclusive Cruise on Karisma 2",
+    "venue": "Karisma 2 (Sydney Harbour Days)",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 1449,
+    "price_text": "$1,449 per adult",
+    "time": "7:00pm to 1:30am",
+    "includes": [
+      "Canapés and standing buffet",
+      "Open bar with spirits",
+      "DJ",
+      "Retractable roof"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "18+",
+    "url": "https://www.sydneyharbourdays.com/activity/boat-cruises/nye-tickets/karisma-2-nye/",
+    "featured": false,
+    "blurb": "A two-level, smoke-free boat for 150 guests with indoor lounges and outdoor decks."
+  },
+  {
+    "slug": "zahara-nye-cruise",
+    "name": "NYE All-Inclusive Cruise on Zahara",
+    "venue": "Zahara (Sydney Harbour Days)",
+    "suburb": "Pyrmont",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 875,
+    "price_text": "From $875",
+    "time": "31 December",
+    "includes": [
+      "Food package",
+      "Beer, wine and soft drinks",
+      "Live entertainment",
+      "Capped at 100 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://www.sydneyharbourdays.com/activity/boat-cruises/nye-tickets/zahara-nye/",
+    "featured": false,
+    "blurb": "An all-inclusive cruise for up to 100 guests. Spirits are sold at a cash bar."
+  },
+  {
+    "slug": "eclipse-spirit-fleet-nye-cruise",
+    "name": "Eclipse NYE Cruise",
+    "venue": "Eclipse (Spirit Fleet), King Street Wharf",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 999,
+    "price_text": "$999 per person",
+    "time": "6:45pm to 1:00am",
+    "includes": [
+      "Premium drinks package",
+      "Canapés, buffet and dessert",
+      "DJ",
+      "Harbour of Light Parade"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "No children under 3",
+    "url": "https://www.spiritfleet.com/eclipse-nye-cruise/",
+    "featured": false,
+    "blurb": "A multi-level catamaran for up to 200 guests, cocktail style with no reserved seating, inside the exclusion zone."
+  },
+  {
+    "slug": "ariston-nye-cruise",
+    "name": "Exclusive NYE Cruise on Ariston",
+    "venue": "Ariston (Spirit Fleet), King Street Wharf 9",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "fine-dining"
+    ],
+    "price_from": 2225,
+    "price_text": "$2,225 per adult",
+    "time": "6:15pm to 1:00am",
+    "includes": [
+      "Chef-prepared canapés",
+      "Late ham buffet and cheese",
+      "Deluxe beverage package",
+      "Three levels indoor and outdoor"
+    ],
+    "fireworks": "Harbour fireworks views",
+    "age": "Check with venue",
+    "url": "https://www.spiritfleet.com/ariston-nye-tickets/",
+    "featured": false,
+    "blurb": "An 80ft luxury motor yacht with a personal chef and waitstaff on board."
+  },
+  {
+    "slug": "silver-spirit-nye-cruise",
+    "name": "Small Group NYE Cruise on Silver Spirit",
+    "venue": "Silver Spirit (Spirit Fleet)",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "fine-dining"
+    ],
+    "price_from": 2495,
+    "price_text": "$2,495 per adult",
+    "time": "7:30pm to 1:00am",
+    "includes": [
+      "Open bar with spirits",
+      "Food served by crew",
+      "Lights on Parade",
+      "Maximum 40 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://www.spiritfleet.com/new-years-eve-cruise-sydney/new-years-eve-tickets-sydney/",
+    "featured": false,
+    "blurb": "A 60ft motor yacht limited to 40 guests that cruises inside the exclusion zone between shows."
+  },
+  {
+    "slug": "seadeck-nye-cruise",
+    "name": "NYE on SEADECK",
+    "venue": "SEADECK, King Street Wharf 9",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 1200,
+    "price_text": "$1,200 per adult",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "Free-flowing premium drinks",
+      "Gourmet canapés",
+      "Glass of Moët",
+      "Guest DJs"
+    ],
+    "fireworks": "From inside the exclusion zone",
+    "age": "18+",
+    "url": "https://www.seadeck.com.au/new-years-eve-on-sydney-harbour/",
+    "featured": false,
+    "blurb": "A party vessel that joins the light parade for exclusion zone access. Seating is shared, first in first served."
+  },
+  {
+    "slug": "the-jackson-nye-cruise",
+    "name": "The Jackson NYE Luxury Cocktail Cruise",
+    "venue": "The Jackson Superyacht, King Street Wharf 1",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "fine-dining",
+      "party"
+    ],
+    "price_from": 2450,
+    "price_text": "$2,450 per adult",
+    "time": "6:45pm to 1:00am",
+    "includes": [
+      "Veuve Clicquot and cocktails",
+      "Premium spirits and wine",
+      "Live food stations",
+      "Entertainment on every deck"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "18+",
+    "url": "https://www.thejackson.com.au/whats-on/new-years-eve/",
+    "featured": false,
+    "blurb": "A superyacht cocktail cruise with six hours of drinks and roaming food stations."
+  },
+  {
+    "slug": "steam-tug-waratah-nye",
+    "name": "NYE aboard Steam Tug Waratah",
+    "venue": "Steam Tug Waratah (Sydney Heritage Fleet)",
+    "suburb": "Rozelle",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour"
+    ],
+    "price_from": 880,
+    "price_text": "$880 per adult, BYO",
+    "time": "6:00pm to 1:30am",
+    "includes": [
+      "BYO drinks and snacks",
+      "Tea and coffee",
+      "Parade of lights",
+      "1902 heritage steam tug"
+    ],
+    "fireworks": "From inside the exclusion zone",
+    "age": "14+",
+    "url": "https://whatson.cityofsydney.nsw.gov.au/events/nye26-sydney-spectacular-aboard-steam-tug-waratah",
+    "featured": false,
+    "blurb": "A BYO cruise on a 1902 steam tug from the Heritage Docks in Rozelle. Paper or plastic cups only."
+  },
+  {
+    "slug": "lady-hopetoun-nye",
+    "name": "NYE aboard Steam Launch Lady Hopetoun",
+    "venue": "Lady Hopetoun (Sydney Heritage Fleet)",
+    "suburb": "Rozelle",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour"
+    ],
+    "price_from": 880,
+    "price_text": "$880 per adult, BYO",
+    "time": "6:00pm to 1:30am",
+    "includes": [
+      "BYO drinks and snacks",
+      "Tea and coffee",
+      "Parade of lights",
+      "1902 VIP steam launch"
+    ],
+    "fireworks": "Harbour fireworks views",
+    "age": "14+",
+    "url": "https://whatson.cityofsydney.nsw.gov.au/events/nye26-sydney-spectacular-aboard-steam-launch-lady-hopetoun",
+    "featured": false,
+    "blurb": "A BYO night on a 1902 VIP steam launch departing the Heritage Docks in Rozelle."
+  },
+  {
+    "slug": "lebleu-nye-cruise",
+    "name": "NYE on the Harbour All-Inclusive Cruise (LeBleu)",
+    "venue": "LeBleu, King Street Wharf 3",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 699,
+    "price_text": "From $699",
+    "time": "7:30pm to 1:00am",
+    "includes": [
+      "Four hours unlimited drinks",
+      "Roaming gourmet pizza",
+      "Live DJ",
+      "Harbour of Light Parade",
+      "VIP rooftop upgrade option"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://www.eventbrite.com.au/e/sydney-new-years-eve-fireworks-cruise-all-inclusive-nye-on-the-harbour-tickets-1999016509191",
+    "featured": false,
+    "blurb": "A 200-guest party cruise with indoor, outdoor and open-air viewing areas."
+  },
+  {
+    "slug": "inception-lux-nye-cruise",
+    "name": "Inception Lux NYE Fireworks Cruise",
+    "venue": "Inception Cruises, King Street Wharf 3",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 750,
+    "price_text": "From $750",
+    "time": "7:30pm to 1:30am",
+    "includes": [
+      "Buffet with oysters",
+      "Beer, wine, champagne and house spirits",
+      "Champagne at midnight",
+      "Live DJs on two levels",
+      "Open-air rooftop"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://www.eventbrite.com/e/1980244489575",
+    "featured": false,
+    "blurb": "A three-level all-inclusive vessel positioned inside the exclusion zone."
+  },
+  {
+    "slug": "bella-vista-nye-cruise",
+    "name": "Bella Vista New Year's Eve Cruise",
+    "venue": "Bella Vista (All Occasion Cruises)",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": null,
+    "price_text": "See booking page",
+    "time": "6:30pm to 1:00am",
+    "includes": [
+      "Canapés and standing buffet",
+      "Dessert buffet",
+      "Beer, wine and sparkling",
+      "Live DJ",
+      "Sky deck access"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://events.humanitix.com/bella-vista-new-year-s-eve-cruise-2026",
+    "featured": false,
+    "blurb": "A multi-level glass vessel cruise. Check the boarding wharf before booking."
+  },
+  {
+    "slug": "fantasea-9pm-family-cruise",
+    "name": "NYE 9pm Family Fireworks Cruise (Fantasea)",
+    "venue": "Fantasea Cruising",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "family"
+    ],
+    "price_from": 265,
+    "price_text": "Adult $425, child $265, family of 4 $1,250",
+    "time": "7:15pm to 9:45pm",
+    "includes": [
+      "Outdoor viewing decks",
+      "Licensed bar",
+      "Accessible vessel",
+      "Home early for kids"
+    ],
+    "fireworks": "9pm only",
+    "age": "All ages",
+    "url": "https://www.fantasea.com.au/special-events/sydney-new-years-eve-cruises/",
+    "featured": false,
+    "blurb": "A short family cruise from Darling Harbour for the early fireworks. Fantasea also runs 9pm cruises from Manly and Double Bay."
+  },
+  {
+    "slug": "fantasea-midnight-cruise",
+    "name": "NYE Midnight Fireworks Cruise (Fantasea)",
+    "venue": "Fantasea Cruising",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour"
+    ],
+    "price_from": 695,
+    "price_text": "$695 per person",
+    "time": "10:15pm to 12:45am",
+    "includes": [
+      "Outdoor viewing decks",
+      "Licensed bar",
+      "Accessible vessel",
+      "Departs Darling Harbour or Manly"
+    ],
+    "fireworks": "Midnight only",
+    "age": "All ages",
+    "url": "https://www.fantasea.com.au/special-events/sydney-new-years-eve-cruises/",
+    "featured": false,
+    "blurb": "A two-and-a-half-hour late cruise for the midnight show. Some vessels have sold out."
+  },
+  {
+    "slug": "fantasea-double-bay-cruise",
+    "name": "Double Bay NYE Fireworks Cruise",
+    "venue": "Fantasea Escapade, Double Bay Wharf",
+    "suburb": "Double Bay",
+    "area": "Eastern Suburbs",
+    "categories": [
+      "cruise",
+      "harbour",
+      "family"
+    ],
+    "price_from": 395,
+    "price_text": "9pm cruise from $395; midnight cruise $695, BYO food",
+    "time": "31 December",
+    "includes": [
+      "Two viewing decks",
+      "Licensed bar",
+      "BYO food allowed",
+      "Wheelchair accessible"
+    ],
+    "fireworks": "Separate 9pm and midnight cruises",
+    "age": "All ages",
+    "url": "https://www.fantasea.com.au/special-events/sydney-new-years-eve-cruises/midnight-fireworks-cdeparting-double-bay/",
+    "featured": false,
+    "blurb": "Separate 9pm and midnight fireworks cruises from Double Bay Wharf. The midnight cruise leaves at 10:30pm."
+  },
+  {
+    "slug": "clark-island-nye",
+    "name": "New Year's Eve at Clark Island",
+    "venue": "Clark Island, Sydney Harbour National Park",
+    "suburb": "Rose Bay",
+    "area": "On the Harbour",
+    "categories": [
+      "vantage",
+      "harbour",
+      "budget"
+    ],
+    "price_from": 47.71,
+    "price_text": "$47.71 ferry (booked out)",
+    "time": "Ferries from 5:45pm, return by 1:15am",
+    "includes": [
+      "Return ferry from Rose Bay",
+      "BYO picnic and alcohol",
+      "Island picnic lawns"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.nationalparks.nsw.gov.au/things-to-do/events/new-years-eve-clark-island",
+    "featured": false,
+    "blurb": "A harbour island picnic reached by ferry from Rose Bay. No food or drink is sold, and it is currently booked out."
+  },
+  {
+    "slug": "shark-island-nye",
+    "name": "New Year's Eve on Shark Island",
+    "venue": "Shark Island, Sydney Harbour National Park",
+    "suburb": "Rose Bay",
+    "area": "On the Harbour",
+    "categories": [
+      "vantage",
+      "harbour",
+      "budget"
+    ],
+    "price_from": 47.71,
+    "price_text": "$47.71 ferry (booked out)",
+    "time": "Ferries from 6:15pm, return by 1:15am",
+    "includes": [
+      "Return ferry from Rose Bay",
+      "BYO picnic and alcohol",
+      "Grassed island setting"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.nationalparks.nsw.gov.au/things-to-do/events/new-years-eve-shark-island",
+    "featured": false,
+    "blurb": "A grassed island about 1km off Rose Bay, reached by ferry, with no food sold. Currently booked out."
+  },
+  {
+    "slug": "bradleys-head-nye",
+    "name": "New Year's Eve at Bradleys Head",
+    "venue": "Bradleys Head, Sydney Harbour National Park",
+    "suburb": "Mosman",
+    "area": "North Shore",
+    "categories": [
+      "vantage",
+      "free",
+      "family",
+      "harbour"
+    ],
+    "price_from": 0,
+    "price_text": "Free ticket (booked out)",
+    "time": "5:00pm to 12:30am",
+    "includes": [
+      "Amphitheatre, Mast Precinct and Athol Lawn",
+      "Food and soft drinks for sale",
+      "Alcohol and glass free"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.nationalparks.nsw.gov.au/things-to-do/events/new-years-eve-bradleys-head",
+    "featured": false,
+    "blurb": "Free ticketed headland viewing on the northern foreshore with three viewing areas. Currently booked out."
+  },
+  {
+    "slug": "strickland-estate-nye",
+    "name": "New Year's Eve at Strickland Estate",
+    "venue": "Strickland Estate, Sydney Harbour National Park",
+    "suburb": "Vaucluse",
+    "area": "Eastern Suburbs",
+    "categories": [
+      "vantage",
+      "free",
+      "harbour"
+    ],
+    "price_from": 0,
+    "price_text": "Free ticket (booked out; general entry may open from 6pm)",
+    "time": "5:00pm to 12:30am",
+    "includes": [
+      "Early entry 5pm to 6pm for ticket holders",
+      "General access from 6pm if not full",
+      "Licensed, glass free, food for sale"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.nationalparks.nsw.gov.au/things-to-do/events/new-years-eve-strickland-estate",
+    "featured": false,
+    "blurb": "Harbourside lawns in Vaucluse with some direct Harbour Bridge views."
+  },
+  {
+    "slug": "cahill-expressway-nye",
+    "name": "NYE on the Cahill Expressway",
+    "venue": "Cahill Expressway",
+    "suburb": "Circular Quay",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "vantage",
+      "free",
+      "family",
+      "harbour"
+    ],
+    "price_from": 0,
+    "price_text": "Free (ballot closed; winners notified by 4 Dec)",
+    "time": "31 December",
+    "includes": [
+      "Free ballot tickets for NSW residents",
+      "Road-top view between the Opera House and Bridge",
+      "Alcohol free"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.transport.nsw.gov.au/news-and-events/events/nye-on-cahill-expressway-2026",
+    "featured": false,
+    "blurb": "A Transport for NSW ballot for a road-top view between the Opera House and Harbour Bridge. The ballot has closed."
+  },
+  {
+    "slug": "rbg-foundation-friends-picnic",
+    "name": "Foundation & Friends NYE Picnic, Royal Botanic Garden",
+    "venue": "Mare and Foal Lawn, Royal Botanic Garden Sydney",
+    "suburb": "Sydney CBD",
+    "area": "Sydney CBD",
+    "categories": [
+      "vantage",
+      "family",
+      "harbour",
+      "budget"
+    ],
+    "price_from": 80,
+    "price_text": "$255 members, $315 guests, $80 kids 6 to 15",
+    "time": "5:00pm to 12:15am",
+    "includes": [
+      "BYO picnic and wine",
+      "Secure area with toilets",
+      "Live entertainment",
+      "Under 5s free"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.botanicgardens.org.au/whats-on/foundation-friends-new-years-eve-picnic",
+    "featured": false,
+    "blurb": "A members' picnic on a garden lawn facing the Opera House and Harbour Bridge. Members and their guests can book."
   }
 ]

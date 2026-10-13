@@ -6,16 +6,142 @@
   "outputDirectory": "docs",
   "trailingSlash": true,
   "redirects": [
-    { "source": "/:path*", "has": [{ "type": "host", "value": "www.nyeinsydney.com" }], "destination": "https://nyeinsydney.com/:path*", "permanent": true }
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.nyeinsydney.com"
+        }
+      ],
+      "destination": "https://nyeinsydney.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/events/quay-restaurant-nye/",
+      "destination": "/new-years-eve-dinner-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/o-bar-and-dining-nye/",
+      "destination": "/new-years-eve-dinner-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/catalina-rose-bay-nye/",
+      "destination": "/new-years-eve-dinner-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/chin-chin-surry-hills-nye/",
+      "destination": "/new-years-eve-dinner-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/the-old-fitz-nye/",
+      "destination": "/new-years-eve-dinner-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/the-dry-dock-balmain-nye/",
+      "destination": "/new-years-eve-dinner-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/felons-manly-nye/",
+      "destination": "/new-years-eve-dinner-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/crown-cirq-masquerade-nye/",
+      "destination": "/new-years-eve-parties-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/w-sydney-rooftop-nye/",
+      "destination": "/new-years-eve-parties-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/bungalow-8-nye/",
+      "destination": "/new-years-eve-parties-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/home-the-venue-nye/",
+      "destination": "/new-years-eve-parties-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/monica-rooftop-nye/",
+      "destination": "/new-years-eve-parties-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/east-village-rooftop-nye/",
+      "destination": "/new-years-eve-parties-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/baptist-street-rec-club-nye/",
+      "destination": "/new-years-eve-parties-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/imperial-erskineville-nye/",
+      "destination": "/new-years-eve-parties-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/events/sydney-showboat-nye-cruise/",
+      "destination": "/new-years-eve-cruises-sydney/",
+      "permanent": true
+    }
   ],
   "headers": [
-    { "source": "/(style.css|main.js)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] },
-    { "source": "/(og.jpg|favicon.svg|img/.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] },
-    { "source": "/og.html", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
-    { "source": "/(.*)", "headers": [
-      { "key": "X-Content-Type-Options", "value": "nosniff" },
-      { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-      { "key": "X-Frame-Options", "value": "SAMEORIGIN" }
-    ] }
+    {
+      "source": "/(style.css|main.js)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/(og.jpg|favicon.svg|img/.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
+      ]
+    },
+    {
+      "source": "/og.html",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ]
+    }
   ]
 }
