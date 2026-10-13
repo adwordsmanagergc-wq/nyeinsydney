@@ -452,3 +452,34 @@ p{margin:0 0 1em;text-wrap:pretty}
   .ticket:hover,.rc:hover,.ev:hover{transform:none}
   .fx{display:none}
 }
+
+/* Floating WhatsApp + email contact (and email or WhatsApp choice on the listing form) */
+.muted{color:var(--mute)}
+.cf{position:fixed;right:18px;bottom:18px;z-index:80;display:flex;flex-direction:column;align-items:flex-end;gap:12px}
+.cf-btn{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:0;cursor:pointer;box-shadow:var(--shadow);transition:transform .2s var(--ease-out)}
+.cf-btn:hover{transform:translateY(-2px)}
+.cf-btn:active{transform:scale(.95)}
+.cf-wa{background:#25d366;color:#fff}
+.cf-wa:hover{color:#fff}
+.cf-mail{background:var(--ink-2);color:var(--bone);border:1px solid var(--line-2)}
+.cf-panel{width:min(360px,calc(100vw - 36px));max-height:calc(100dvh - 110px);overflow:auto;background:var(--ink-1);border:1px solid var(--line-2);border-radius:var(--r-l);padding:24px;box-shadow:var(--shadow);position:relative;transform-origin:bottom right;animation:cfin .3s var(--ease-out)}
+.cf-panel[hidden]{display:none}
+.cf-panel h3{margin:0 0 6px;padding-right:28px}
+.cf-panel p{font-size:.9rem;margin:0 0 12px}
+.cf-panel label{display:block;font-size:.88rem;font-weight:500;color:var(--text);margin:12px 0 6px}
+.cf-panel input,.cf-panel textarea{width:100%;min-height:46px;background:var(--ink);border:1px solid var(--line-2);color:var(--bone);border-radius:var(--r-s);padding:10px 12px;font:inherit}
+.cf-panel input:focus,.cf-panel textarea:focus{outline:2px solid var(--gold);outline-offset:1px;border-color:transparent}
+.cf-panel .btn{width:100%;margin-top:16px}
+.cf-close{position:absolute;top:10px;right:12px;width:36px;height:36px;background:none;border:0;color:var(--mute);font-size:1.6rem;line-height:1;cursor:pointer;border-radius:50%}
+.cf-close:hover{color:var(--bone)}
+.cf-status{margin:10px 0 0!important}
+.send-choice{display:flex;flex-wrap:wrap;gap:12px}
+.send-choice .btn{flex:1 1 220px}
+.send-choice .btn svg{flex-shrink:0}
+.send-hint{margin:0 0 12px}
+.btn-wa{background:#25d366;color:#05210f}
+.btn-wa:hover{background:#3be07a;color:#05210f}
+.event-layout>*{min-width:0}
+@keyframes cfin{from{opacity:0;transform:scale(.94) translateY(6px)}to{opacity:1;transform:none}}
+@media (max-width:600px){.cf{right:12px;bottom:12px}.cf-btn{width:50px;height:50px}}
+@media (prefers-reduced-motion:reduce){.cf-panel{animation:none}}
