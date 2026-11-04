@@ -2250,10 +2250,11 @@
     "area": "Darling Harbour & Barangaroo",
     "categories": [
       "dining",
-      "harbour"
+      "harbour",
+      "budget"
     ],
-    "price_from": 250,
-    "price_text": "From $250",
+    "price_from": 150,
+    "price_text": "Early $150; late $250 per person",
     "time": "Early seating from 5:30pm; late seating from 8:00pm",
     "includes": [
       "Three-course set menu (early)",
@@ -4357,5 +4358,373 @@
     "url": "https://www.captaincook.com.au/whats-on/sydney-new-years-eve/nye-fireworks-sydney-cruise/",
     "featured": false,
     "blurb": "Captain Cook's budget BYO ferry option for both shows, with seating inside and out."
+  },
+  {
+    "slug": "harbourfront-seafood-nye",
+    "name": "New Year's Eve at Harbourfront Seafood",
+    "venue": "Harbourfront Seafood Restaurant, Campbells Cove, Circular Quay West",
+    "suburb": "The Rocks",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "dining",
+      "harbour",
+      "family"
+    ],
+    "price_from": 350,
+    "price_text": "Indoor $950 to premium terrace $1,500; child under 12 $350",
+    "time": "6:00pm to 1:00am",
+    "includes": [
+      "Seven-course set menu",
+      "Champagne on arrival",
+      "Beer, house wine and soft drinks",
+      "Outdoor viewing area for indoor guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://thevenuesco.au/new-years-eve-2026-dining-experience-at-harbourfront-seafood/",
+    "featured": false,
+    "blurb": "A seven-course seafood menu with drinks on the harbourside terrace or indoors at Campbells Cove."
+  },
+  {
+    "slug": "vogue-cafe-darling-harbour-nye",
+    "name": "New Year's Eve at Vogue Cafe",
+    "venue": "Vogue Cafe, 35 Wheat Rd",
+    "suburb": "Darling Harbour",
+    "area": "Darling Harbour & Barangaroo",
+    "categories": [
+      "dining",
+      "family"
+    ],
+    "price_from": 229,
+    "price_text": "Banquet $458; with drinks $576; under 12 $229",
+    "time": "6:00pm to 9:00pm or 10:00pm to 1:00am",
+    "includes": [
+      "Champagne and canapés",
+      "Sashimi platter",
+      "Lobster pasta or wagyu steak",
+      "Optional three-hour drinks package"
+    ],
+    "fireworks": "Darling Harbour fireworks",
+    "age": "All ages",
+    "url": "https://www.sevenrooms.com/events/voguecafesydney",
+    "featured": false,
+    "blurb": "A banquet dinner in two seatings on the Darling Harbour waterfront."
+  },
+  {
+    "slug": "meat-and-wine-co-nye-set-menu",
+    "name": "NYE Set Menu at The Meat & Wine Co",
+    "venue": "The Meat & Wine Co, Circular Quay and Barangaroo",
+    "suburb": "Sydney CBD",
+    "area": "Sydney CBD",
+    "categories": [
+      "dining",
+      "budget",
+      "family"
+    ],
+    "price_from": 188,
+    "price_text": "$188 per person; drinks package +$65",
+    "time": "2.5-hour seatings",
+    "includes": [
+      "Four-course set menu",
+      "Sparkling on arrival",
+      "Optional beverage package",
+      "Kids menu available"
+    ],
+    "fireworks": "Fireworks views at Barangaroo",
+    "age": "All ages",
+    "url": "https://themeatandwineco.com/venue-hire/sydney/new-years-eve/",
+    "featured": false,
+    "blurb": "A four-course steakhouse set menu at the Circular Quay and Barangaroo restaurants."
+  },
+  {
+    "slug": "mode-kitchen-four-seasons-nye",
+    "name": "New Year's Eve Dinner at Mode Kitchen & Bar",
+    "venue": "Mode Kitchen & Bar, Four Seasons Hotel Sydney, 199 George St",
+    "suburb": "The Rocks",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "dining"
+    ],
+    "price_from": 270,
+    "price_text": "From $270 per person; wine packages $70 or $105",
+    "time": "5:30pm to 9:30pm (two-hour seatings)",
+    "includes": [
+      "Multi-course sharing menu",
+      "Lobster cappelletti or truffle risotto",
+      "Murray cod or tenderloin",
+      "Optional wine package"
+    ],
+    "fireworks": "No direct view",
+    "age": "Check with venue",
+    "url": "https://www.modekitchenandbar.com.au/event/new-years-eve-2026-dinner-copy/",
+    "featured": false,
+    "blurb": "A sharing menu at the Four Seasons in two early seatings, a short walk from viewing spots."
+  },
+  {
+    "slug": "la-boca-stamford-plaza-nye",
+    "name": "New Year's Eve Dinner at La Boca",
+    "venue": "La Boca Bar and Grill, Stamford Plaza Sydney Airport",
+    "suburb": "Mascot",
+    "area": "Southern Sydney",
+    "categories": [
+      "dining",
+      "budget"
+    ],
+    "price_from": 99,
+    "price_text": "$99 per person plus booking fee",
+    "time": "5:30pm to 9:30pm",
+    "includes": [
+      "Three-course dinner",
+      "Choice of entrée, main and dessert",
+      "Argentinian grill dishes"
+    ],
+    "fireworks": "No direct view",
+    "age": "Check with venue",
+    "url": "https://www.laboca.com.au/whats-on/new-years-eve-dinner-sydney-2026/",
+    "featured": false,
+    "blurb": "A three-course Argentinian-style dinner at the airport hotel. Drinks are extra."
+  },
+  {
+    "slug": "nobu-crown-sydney-nye",
+    "name": "New Year's Eve at Nobu Sydney",
+    "venue": "Nobu, Crown Sydney, 1 Barangaroo Ave",
+    "suburb": "Barangaroo",
+    "area": "Darling Harbour & Barangaroo",
+    "categories": [
+      "dining",
+      "harbour"
+    ],
+    "price_from": 148,
+    "price_text": "$298 minimum spend per adult; $148 per child",
+    "time": "Dinner",
+    "includes": [
+      "Nobu signature dishes",
+      "Seasonal specials",
+      "Harbour views"
+    ],
+    "fireworks": "Harbour fireworks views",
+    "age": "All ages",
+    "url": "https://www.crownsydney.com.au/whats-on/new-years-eve/offers/nobu",
+    "featured": false,
+    "blurb": "NYE dinner on a minimum spend in Nobu's harbourfront dining room at Crown Sydney."
+  },
+  {
+    "slug": "amare-crown-sydney-nye",
+    "name": "New Year's Eve at a'Mare",
+    "venue": "a'Mare, Crown Sydney, 1 Barangaroo Ave",
+    "suburb": "Barangaroo",
+    "area": "Darling Harbour & Barangaroo",
+    "categories": [
+      "fine-dining",
+      "dining"
+    ],
+    "price_from": null,
+    "price_text": "See venue for prices",
+    "time": "Lunch, first sitting and second sitting",
+    "includes": [
+      "Italian menu by Alessandro Pavoni",
+      "Two-hour first sitting",
+      "Set menu in the second sitting"
+    ],
+    "fireworks": "Not stated",
+    "age": "Check with venue",
+    "url": "https://www.crownsydney.com.au/whats-on/new-years-eve/offers/amare",
+    "featured": false,
+    "blurb": "Alessandro Pavoni's Italian restaurant runs two NYE dinner sittings, from an early feast through to midnight."
+  },
+  {
+    "slug": "woodcut-crown-sydney-nye",
+    "name": "New Year's Eve at Woodcut",
+    "venue": "Woodcut, Crown Sydney, 1 Barangaroo Ave",
+    "suburb": "Barangaroo",
+    "area": "Darling Harbour & Barangaroo",
+    "categories": [
+      "fine-dining",
+      "dining"
+    ],
+    "price_from": null,
+    "price_text": "See venue for prices",
+    "time": "Lunch, early sitting and evening",
+    "includes": [
+      "Wood-fired seasonal menu",
+      "Four-course evening menu",
+      "Early sitting option"
+    ],
+    "fireworks": "Not stated",
+    "age": "Check with venue",
+    "url": "https://www.crownsydney.com.au/whats-on/new-years-eve/offers/woodcut",
+    "featured": false,
+    "blurb": "An early sitting and a four-course NYE dinner built around wood-fired cooking."
+  },
+  {
+    "slug": "mca-canvas-nye",
+    "name": "NYE at MCA: Canvas",
+    "venue": "Canvas Restaurant, Level 4, Museum of Contemporary Art",
+    "suburb": "The Rocks",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "party",
+      "harbour"
+    ],
+    "price_from": 1650,
+    "price_text": "$1,650 per person (early bird)",
+    "time": "From 7:00pm",
+    "includes": [
+      "Cocktail on arrival",
+      "Premium wine, beer and spirits",
+      "Food stations and roaming canapés",
+      "Live entertainment and DJs"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://www.therocks.com/whats-on/events/nye-at-mca-canvas",
+    "featured": false,
+    "blurb": "A cocktail party in the MCA's level 4 restaurant overlooking Circular Quay, separate from the rooftop party."
+  },
+  {
+    "slug": "6head-campbells-cove-nye",
+    "name": "New Year's Eve at 6HEAD",
+    "venue": "6HEAD, Campbells Stores, Circular Quay West",
+    "suburb": "The Rocks",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "fine-dining",
+      "harbour",
+      "family"
+    ],
+    "price_from": 1100,
+    "price_text": "Indoor $1,100 to terrace $1,450; front row table $13,500 for 8",
+    "time": "Evening to 1:00am",
+    "includes": [
+      "Six-course steakhouse menu",
+      "Beverage package with Champagne until 1am",
+      "Oysters and caviar cones on arrival",
+      "Live music and kids entertainment"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://6head.com.au/events/new-years-eve-sydney/",
+    "featured": false,
+    "blurb": "A six-course steakhouse menu with a full drinks package at Campbells Cove, with a dance floor after midnight."
+  },
+  {
+    "slug": "postino-osteria-nye",
+    "name": "New Year's Eve at Postino Osteria",
+    "venue": "Postino Osteria, 2 Moonbie St",
+    "suburb": "Summer Hill",
+    "area": "Inner West",
+    "categories": [
+      "dining",
+      "budget"
+    ],
+    "price_from": 119,
+    "price_text": "$119 per person",
+    "time": "Dinner",
+    "includes": [
+      "Shared feast of seasonal dishes",
+      "Set menu only that night"
+    ],
+    "fireworks": "No direct view",
+    "age": "Check with venue",
+    "url": "https://srghospitality.com.au/new-years-eve/",
+    "featured": false,
+    "blurb": "A neighbourhood Italian in Summer Hill serving a shared NYE feast."
+  },
+  {
+    "slug": "hugos-manly-nye",
+    "name": "New Year's Eve at Hugos Manly",
+    "venue": "Hugos Manly, Manly Wharf",
+    "suburb": "Manly",
+    "area": "Northern Beaches",
+    "categories": [
+      "dining",
+      "harbour"
+    ],
+    "price_from": null,
+    "price_text": "See venue for prices",
+    "time": "Seatings 5:30pm to 6:30pm",
+    "includes": [
+      "Three-course set dinner",
+      "Drinks on consumption",
+      "Wharf views"
+    ],
+    "fireworks": "9pm only (Manly fireworks)",
+    "age": "Check with venue",
+    "url": "https://book.meandu.app/hugos-manly/experiences/nye2026?date=2026-12-31",
+    "featured": false,
+    "blurb": "A three-course set dinner on Manly Wharf timed for the 9pm Manly fireworks."
+  },
+  {
+    "slug": "rick-stein-coogee-nye-dinner",
+    "name": "New Year's Eve Dinner at Rick Stein at Coogee Beach",
+    "venue": "Rick Stein at Coogee Beach, InterContinental Coogee",
+    "suburb": "Coogee",
+    "area": "Eastern Suburbs",
+    "categories": [
+      "dining",
+      "family",
+      "beach"
+    ],
+    "price_from": 60,
+    "price_text": "$290 per person; children $60",
+    "time": "5:30pm to 9:00pm",
+    "includes": [
+      "Champagne and canapés on arrival",
+      "Three-course dinner",
+      "Ocean views"
+    ],
+    "fireworks": "No direct view",
+    "age": "All ages",
+    "url": "https://ricksteinatcoogeebeach.com.au/whats-on/new-years-eve-dinner",
+    "featured": false,
+    "blurb": "A three-course seafood dinner at Rick Stein's Coogee restaurant, starting with Champagne and canapés."
+  },
+  {
+    "slug": "rick-stein-coogee-nye-terrace",
+    "name": "NYE on the Terrace at Rick Stein",
+    "venue": "Terrace at Rick Stein, InterContinental Coogee",
+    "suburb": "Coogee",
+    "area": "Eastern Suburbs",
+    "categories": [
+      "party",
+      "beach"
+    ],
+    "price_from": 250,
+    "price_text": "$250 per person, prepaid",
+    "time": "6:00pm to 9:00pm",
+    "includes": [
+      "Canapés",
+      "Three-hour beverage package",
+      "DJ",
+      "Limited to 65 guests"
+    ],
+    "fireworks": "No direct view",
+    "age": "18+",
+    "url": "https://ricksteinatcoogeebeach.com.au/whats-on/new-years-eve-terrace",
+    "featured": false,
+    "blurb": "A standing terrace party with canapés, a three-hour drinks package and a DJ, capped at 65 guests."
+  },
+  {
+    "slug": "cafe-mix-shangri-la-nye",
+    "name": "New Year's Eve Buffet at Café Mix",
+    "venue": "Café Mix, Shangri-La Sydney, 176 Cumberland St",
+    "suburb": "The Rocks",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "dining",
+      "family"
+    ],
+    "price_from": null,
+    "price_text": "See venue for prices",
+    "time": "Two seatings",
+    "includes": [
+      "International buffet",
+      "Two seatings"
+    ],
+    "fireworks": "Not stated",
+    "age": "All ages",
+    "url": "https://www.shangri-la.com/sydney/shangrila/offer-detail/dining/new-years-eve-dinner-at-cafe-mix/",
+    "featured": false,
+    "blurb": "A buffet dinner in the Shangri-La's restaurant, served in two seatings."
   }
 ]
