@@ -2645,5 +2645,585 @@
     "url": "https://www.darlingharbour.com/whats-on/campaigns/new-years-eve",
     "featured": false,
     "blurb": "Free family viewing of two fireworks displays over Cockle Bay. Viewing areas close once full."
+  },
+  {
+    "slug": "mv-calmer-nye-cruise",
+    "name": "NYE All-Inclusive Open Air Deck Cruise (MV Calmer)",
+    "venue": "MV Calmer (All Event Cruises), Casino Wharf, Pirrama Rd",
+    "suburb": "Pyrmont",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 999,
+    "price_text": "From $999",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "House spirits, beer, wine, sparkling and soft drinks",
+      "Canapés, buffets and grazing stations",
+      "Music and dancing over three decks",
+      "Open-air 360 degree sky deck"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Under 18s with a parent or guardian",
+    "url": "https://www.eventbrite.com.au/e/new-years-eve-sydney-harbour-cruise-open-air-deck-all-inclusive-tickets-1277353421469",
+    "featured": false,
+    "blurb": "A three-deck all-inclusive cruise with food stations, drinks and an open-air top deck, permitted inside the exclusion zone."
+  },
+  {
+    "slug": "sydney-nye-pass-circular-quay",
+    "name": "NYE Sydney Pass (multi-venue bar pass)",
+    "venue": "Multiple CBD bars; pass collection at Jacksons on George, 174 George St",
+    "suburb": "Sydney CBD",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "party",
+      "budget"
+    ],
+    "price_from": 39,
+    "price_text": "From $39",
+    "time": "5:00pm to 3:00am",
+    "includes": [
+      "Entry to Jacksons on George, Paragon Hotel, Arcade Bar, Marble Bar, Scruffy Murphys and Side Bar",
+      "DJs and live music",
+      "More venues to be announced"
+    ],
+    "fireworks": "Not included; venues near vantage points",
+    "age": "18+",
+    "url": "https://www.eventbrite.com.au/e/sydneys-official-new-years-eve-pass-nye-sydney-pass-2026-tickets-2003356148168",
+    "featured": false,
+    "blurb": "One pass gets you into a group of CBD and Circular Quay pubs and bars through the night. Fireworks viewing is not part of the pass."
+  },
+  {
+    "slug": "park-hyatt-nye-dining",
+    "name": "New Year's Eve Dining at Park Hyatt Sydney",
+    "venue": "The Living Room and The Dining Room, Park Hyatt Sydney, 7 Hickson Rd",
+    "suburb": "The Rocks",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "fine-dining",
+      "dining",
+      "harbour",
+      "family"
+    ],
+    "price_from": 550,
+    "price_text": "Dining Room early $550 (child $105); Living Room $880 (child $110); Dining Room late $1,600",
+    "time": "Early 5:00pm to 6:30pm; dinner from 7:30pm to midnight",
+    "includes": [
+      "Three to five-course set menus",
+      "Child pricing at some sittings",
+      "Waterfront setting beside the Harbour Bridge"
+    ],
+    "fireworks": "Harbourside, beside the Bridge",
+    "age": "Children welcome at some sittings",
+    "url": "https://parkhyattsydneydining.com/festive",
+    "featured": false,
+    "blurb": "Two restaurants inside the Park Hyatt offer set menus across an early and a late sitting, right beside the Harbour Bridge."
+  },
+  {
+    "slug": "bennies-circular-quay-nye",
+    "name": "New Year's Eve at Bennie's",
+    "venue": "Bennie's Cafe & Bistro, Opera Quays, 3 Macquarie St",
+    "suburb": "Circular Quay",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "dining",
+      "harbour"
+    ],
+    "price_from": 950,
+    "price_text": "$950 per person",
+    "time": "7:30pm to 1:00am",
+    "includes": [
+      "Six-course degustation",
+      "Wine pairings",
+      "Fireworks views"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://www.bennies.com.au/whats-on/new-years-eve-2026-at-bennies-circular-quay",
+    "featured": false,
+    "blurb": "A six-course degustation with matched wines at Opera Quays on East Circular Quay."
+  },
+  {
+    "slug": "eastbank-nye",
+    "name": "New Year's Eve at Eastbank",
+    "venue": "Eastbank Cafe Bar Pizzeria, Quay Grand, 61 Macquarie St",
+    "suburb": "Circular Quay",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "dining",
+      "harbour"
+    ],
+    "price_from": 1050,
+    "price_text": "$1,050 per person",
+    "time": "8:00pm to 1:00am",
+    "includes": [
+      "Set menu",
+      "Roving performers and entertainment",
+      "Indoor seating at East Circular Quay"
+    ],
+    "fireworks": "Harbour fireworks views",
+    "age": "Check with venue",
+    "url": "https://eastbank.com.au/event/new-years-eve-2026/",
+    "featured": false,
+    "blurb": "A set dinner with roving entertainment on the eastern side of Circular Quay."
+  },
+  {
+    "slug": "the-greens-north-sydney-nye",
+    "name": "New Year's Eve Celebration at The Greens",
+    "venue": "The Greens North Sydney, 1A Ridge St",
+    "suburb": "North Sydney",
+    "area": "North Shore",
+    "categories": [
+      "family",
+      "party"
+    ],
+    "price_from": 40,
+    "price_text": "$250 adult; $40 child; family pass $549",
+    "time": "From 6:00pm",
+    "includes": [
+      "Four-hour beverage package",
+      "Food stations",
+      "Live music",
+      "Face painting and balloon artists",
+      "Inflatable obstacle courses"
+    ],
+    "fireworks": "Not stated",
+    "age": "All ages",
+    "url": "https://www.sevenrooms.com/xXABcMjW",
+    "featured": false,
+    "blurb": "A family night at the North Sydney bowling club with kids' entertainment and a drinks package for adults."
+  },
+  {
+    "slug": "riva-rose-bay-nye",
+    "name": "New Year's Eve at Riva",
+    "venue": "Riva, Rose Bay",
+    "suburb": "Rose Bay",
+    "area": "Eastern Suburbs",
+    "categories": [
+      "dining",
+      "harbour",
+      "budget",
+      "family"
+    ],
+    "price_from": 145,
+    "price_text": "Early $145 (child $65); late $395 (child $85)",
+    "time": "Sittings 5:30pm and 8:00pm",
+    "includes": [
+      "Four-course early set menu",
+      "Five-course late menu",
+      "Child pricing"
+    ],
+    "fireworks": "Not stated",
+    "age": "Children welcome",
+    "url": "https://sevn.ly/xpapNhgz",
+    "featured": false,
+    "blurb": "An SRG Hospitality restaurant on the Rose Bay waterfront with early and late sittings."
+  },
+  {
+    "slug": "ventuno-walsh-bay-nye",
+    "name": "New Year's Eve at Ventuno",
+    "venue": "Ventuno, Walsh Bay",
+    "suburb": "Walsh Bay",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "dining",
+      "harbour",
+      "budget",
+      "family"
+    ],
+    "price_from": 129,
+    "price_text": "Early $129 (child $65); main $395 adult, $225 under 18, $75 under 12",
+    "time": "Early 5:30pm or 6:00pm; main 8:00pm or 8:30pm",
+    "includes": [
+      "Three-course early menu with snacks",
+      "Five-course share-style main menu",
+      "DJs"
+    ],
+    "fireworks": "Not stated",
+    "age": "Children welcome",
+    "url": "https://www.ventuno.com.au/new-years-eve",
+    "featured": false,
+    "blurb": "An Italian restaurant on the Walsh Bay wharves with an early sitting and a later share-style dinner with DJs."
+  },
+  {
+    "slug": "akti-woolloomooloo-nye",
+    "name": "New Year's Eve at Akti",
+    "venue": "Akti, Finger Wharf",
+    "suburb": "Woolloomooloo",
+    "area": "Inner City",
+    "categories": [
+      "dining",
+      "harbour"
+    ],
+    "price_from": 295,
+    "price_text": "Late banquet $295; early sitting à la carte",
+    "time": "Early 5:00pm or 5:30pm; late 8:00pm or 8:30pm",
+    "includes": [
+      "Shared Greek banquet",
+      "Glass of Champagne",
+      "DJ"
+    ],
+    "fireworks": "Not stated",
+    "age": "Check with venue",
+    "url": "https://www.sevenrooms.com/experiences/akti/new-years-eve-6595597382942720",
+    "featured": false,
+    "blurb": "A Greek restaurant on the Woolloomooloo wharf with an early à la carte sitting and a late shared banquet with a DJ."
+  },
+  {
+    "slug": "ripples-rose-bay-nye",
+    "name": "New Year's Eve at Ripples Rose Bay",
+    "venue": "Ripples Rose Bay",
+    "suburb": "Rose Bay",
+    "area": "Eastern Suburbs",
+    "categories": [
+      "dining",
+      "harbour",
+      "budget",
+      "family"
+    ],
+    "price_from": 115,
+    "price_text": "Early $115 + $18 BYO; late $255 (child $65)",
+    "time": "Sittings 5:30pm and 8:00pm",
+    "includes": [
+      "Three-course shared early menu",
+      "Five-course shared late menu",
+      "BYO at early sitting"
+    ],
+    "fireworks": "Not stated",
+    "age": "Children welcome",
+    "url": "https://sevn.ly/x3N0Vgv2",
+    "featured": false,
+    "blurb": "A waterside restaurant at Rose Bay with a BYO early sitting and a five-course late dinner."
+  },
+  {
+    "slug": "summer-salt-cronulla-nye",
+    "name": "New Year's Eve at Summer Salt",
+    "venue": "Summer Salt, Cronulla",
+    "suburb": "Cronulla",
+    "area": "Southern Sydney",
+    "categories": [
+      "dining",
+      "beach",
+      "budget"
+    ],
+    "price_from": 129,
+    "price_text": "Early $129 (under 12 $65); late $195",
+    "time": "Early 5:30pm or 6:00pm; late 8:00pm or 8:30pm",
+    "includes": [
+      "Snacks and three-course early menu",
+      "Five-course late menu",
+      "DJ from 8pm"
+    ],
+    "fireworks": "Not stated",
+    "age": "Children welcome early",
+    "url": "https://www.sevenrooms.com/x8Y7bKDg",
+    "featured": false,
+    "blurb": "A Cronulla restaurant with two set-menu sittings and a DJ from 8pm, well away from the city crowds."
+  },
+  {
+    "slug": "ripples-little-manly-nye",
+    "name": "New Year's Eve at Ripples Little Manly",
+    "venue": "Ripples Little Manly",
+    "suburb": "Manly",
+    "area": "Northern Beaches",
+    "categories": [
+      "dining",
+      "beach",
+      "budget",
+      "family"
+    ],
+    "price_from": 75,
+    "price_text": "Early $75 (child $29) + $18 BYO; late $129 (child $75)",
+    "time": "Sittings 5:00pm and 7:30pm",
+    "includes": [
+      "Three-course early menu with sides",
+      "Four-course late menu",
+      "BYO at early sitting"
+    ],
+    "fireworks": "Not stated",
+    "age": "Children welcome",
+    "url": "https://sevn.ly/xJlJkgH4",
+    "featured": false,
+    "blurb": "A casual cove-side restaurant at Little Manly with set menus at two sittings and child pricing."
+  },
+  {
+    "slug": "noi-petersham-nye",
+    "name": "New Year's Eve at Noi",
+    "venue": "Noi, Petersham",
+    "suburb": "Petersham",
+    "area": "Inner West",
+    "categories": [
+      "dining",
+      "budget"
+    ],
+    "price_from": 99,
+    "price_text": "Early $99 (under 12 $55); late $129",
+    "time": "Sittings 5:30pm and 8:00pm",
+    "includes": [
+      "Three-course early menu with snacks",
+      "Four-course late menu with snacks"
+    ],
+    "fireworks": "No direct view",
+    "age": "Children welcome early",
+    "url": "https://sevn.ly/xNKpdfxS",
+    "featured": false,
+    "blurb": "An Italian neighbourhood restaurant in Petersham with two set-menu sittings."
+  },
+  {
+    "slug": "ormeggio-the-spit-nye",
+    "name": "New Year's Eve at Ormeggio at The Spit",
+    "venue": "Ormeggio at The Spit, D'Albora Marinas, Spit Rd",
+    "suburb": "Mosman",
+    "area": "North Shore",
+    "categories": [
+      "fine-dining",
+      "dining",
+      "harbour",
+      "budget"
+    ],
+    "price_from": 225,
+    "price_text": "$225 per person",
+    "time": "31 December",
+    "includes": [
+      "Set NYE dinner menu",
+      "Middle Harbour marina setting"
+    ],
+    "fireworks": "Not stated",
+    "age": "Check with venue",
+    "url": "https://www.sevenrooms.com/xneDqA8c",
+    "featured": false,
+    "blurb": "A set NYE dinner at the Italian restaurant on the marina at The Spit."
+  },
+  {
+    "slug": "chiosco-by-ormeggio-nye",
+    "name": "New Year's Eve at Chiosco by Ormeggio",
+    "venue": "Chiosco by Ormeggio, The Spit",
+    "suburb": "Mosman",
+    "area": "North Shore",
+    "categories": [
+      "dining",
+      "harbour",
+      "budget"
+    ],
+    "price_from": 159,
+    "price_text": "$159 per person",
+    "time": "31 December",
+    "includes": [
+      "NYE sharing menu",
+      "Waterfront setting at The Spit"
+    ],
+    "fireworks": "Not stated",
+    "age": "Check with venue",
+    "url": "https://www.sevenrooms.com/xLitoFzW",
+    "featured": false,
+    "blurb": "A shared NYE dinner at Ormeggio's casual sister venue beside Middle Harbour."
+  },
+  {
+    "slug": "doltone-jones-bay-wharf-nye",
+    "name": "NYE at Doltone House Jones Bay Wharf",
+    "venue": "Doltone House Jones Bay Wharf, 26 Pirrama Rd",
+    "suburb": "Pyrmont",
+    "area": "Darling Harbour & Barangaroo",
+    "categories": [
+      "party",
+      "dining",
+      "harbour"
+    ],
+    "price_from": null,
+    "price_text": "See venue for prices",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "Five-course set menu",
+      "Seafood sharing platter per table",
+      "Drinks 7pm to midnight",
+      "DJ and live entertainment"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://doltonehouse.com.au/ticketed-event/nye-doltone-house-jones-bay-wharf/",
+    "featured": false,
+    "blurb": "A seated dinner party on a harbourside wharf in Pyrmont with drinks until midnight."
+  },
+  {
+    "slug": "doltone-sylvania-waters-nye",
+    "name": "NYE Party at Doltone House Sylvania Waters",
+    "venue": "Doltone House Sylvania Waters, 223 Belgrave Esplanade",
+    "suburb": "Sylvania Waters",
+    "area": "Southern Sydney",
+    "categories": [
+      "party",
+      "dining"
+    ],
+    "price_from": null,
+    "price_text": "See venue for prices",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "Canapés and cocktails on arrival",
+      "Five-course set menu",
+      "Drinks 7pm to midnight",
+      "DJ",
+      "Fireworks on big screens"
+    ],
+    "fireworks": "Shown on big screens",
+    "age": "Check with venue",
+    "url": "https://doltonehouse.com.au/ticketed-event/nye26-party-doltone-house-sylvania-water/",
+    "featured": false,
+    "blurb": "A sit-down dinner party in the Sutherland Shire, with the harbour fireworks shown on big screens."
+  },
+  {
+    "slug": "barangaroo-reserve-free-vantage",
+    "name": "Barangaroo Reserve (free vantage point)",
+    "venue": "Barangaroo Reserve, entry via Nawi Cove",
+    "suburb": "Barangaroo",
+    "area": "Darling Harbour & Barangaroo",
+    "categories": [
+      "free",
+      "vantage",
+      "harbour",
+      "family"
+    ],
+    "price_from": 0,
+    "price_text": "Free, no ticket",
+    "time": "11:00am to 12:01am",
+    "includes": [
+      "Cultural performances and live music",
+      "Food and drink for sale",
+      "Accessible viewing area",
+      "Capacity 8,500"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.sydneynewyearseve.com/vantage-points/barangaroo",
+    "featured": false,
+    "blurb": "A free City vantage point facing the western side of the Harbour Bridge. It filled by mid-afternoon last year, and BYO alcohol is not allowed."
+  },
+  {
+    "slug": "mrs-macquaries-point-free-vantage",
+    "name": "Mrs Macquaries Point (free vantage point)",
+    "venue": "Mrs Macquaries Point, Royal Botanic Garden",
+    "suburb": "Sydney CBD",
+    "area": "Sydney CBD",
+    "categories": [
+      "free",
+      "vantage",
+      "harbour"
+    ],
+    "price_from": 0,
+    "price_text": "Free, no ticket",
+    "time": "10:00am to 12:30am",
+    "includes": [
+      "Bars and food trucks",
+      "Capacity 10,000",
+      "Accessible viewing area and buggy service"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.sydneynewyearseve.com/vantage-points/mrs-macquaries-point",
+    "featured": false,
+    "blurb": "A large free headland with the Opera House and Harbour Bridge in one view. Alcohol is sold on site and BYO is banned."
+  },
+  {
+    "slug": "bennelong-lawn-free-vantage",
+    "name": "Bennelong Lawn (free vantage point)",
+    "venue": "Bennelong Lawn, Royal Botanic Garden",
+    "suburb": "Sydney CBD",
+    "area": "Sydney CBD",
+    "categories": [
+      "free",
+      "vantage",
+      "harbour"
+    ],
+    "price_from": 0,
+    "price_text": "Free, no ticket",
+    "time": "9:00am to 12:30am",
+    "includes": [
+      "Bars and food trucks",
+      "Capacity 1,000",
+      "Accessible toilets and buggy service"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.sydneynewyearseve.com/vantage-points/bennelong-lawn",
+    "featured": false,
+    "blurb": "A small free lawn above the Opera House looking straight at the Harbour Bridge. It holds only about 1,000 people."
+  },
+  {
+    "slug": "pirrama-park-free-vantage",
+    "name": "Pirrama Park (free vantage point)",
+    "venue": "Pirrama Park, Pirrama Rd",
+    "suburb": "Pyrmont",
+    "area": "Darling Harbour & Barangaroo",
+    "categories": [
+      "free",
+      "vantage",
+      "harbour",
+      "family"
+    ],
+    "price_from": 0,
+    "price_text": "Free, no ticket",
+    "time": "10:00am to 1:00am",
+    "includes": [
+      "BYO alcohol allowed",
+      "Quiet room and seating",
+      "Accessible drop-off",
+      "Capacity 8,000"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.sydneynewyearseve.com/vantage-points/pirrama-park",
+    "featured": false,
+    "blurb": "A free harbourside park in Pyrmont facing the western side of the Bridge, recommended by the City as an accessible family site."
+  },
+  {
+    "slug": "observatory-hill-free-vantage",
+    "name": "Observatory Hill (free vantage point)",
+    "venue": "Observatory Hill Park, Upper Fort St",
+    "suburb": "Millers Point",
+    "area": "Circular Quay & The Rocks",
+    "categories": [
+      "free",
+      "vantage"
+    ],
+    "price_from": 0,
+    "price_text": "Free, no ticket",
+    "time": "2:00pm to 1:00am",
+    "includes": [
+      "Capacity 4,500",
+      "Food for sale or BYO",
+      "Alcohol-free site"
+    ],
+    "fireworks": "Both 9pm & midnight (partial views)",
+    "age": "All ages",
+    "url": "https://www.sydneynewyearseve.com/vantage-points/observatory-hill",
+    "featured": false,
+    "blurb": "A free hilltop park close to the Bridge with sloping lawns. Trees block parts of the view."
+  },
+  {
+    "slug": "cremorne-point-free-vantage",
+    "name": "Cremorne Point (free vantage point)",
+    "venue": "Cremorne Point Reserve",
+    "suburb": "Cremorne",
+    "area": "North Shore",
+    "categories": [
+      "free",
+      "vantage",
+      "harbour"
+    ],
+    "price_from": 0,
+    "price_text": "Free, no ticket",
+    "time": "1:00pm to 12:30am",
+    "includes": [
+      "Food for sale or BYO",
+      "Drinking water stations",
+      "Alcohol-free site"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.sydneynewyearseve.com/vantage-points/cremorne-point",
+    "featured": false,
+    "blurb": "A free harbourside reserve on the lower North Shore looking at the eastern side of the Bridge."
   }
 ]
