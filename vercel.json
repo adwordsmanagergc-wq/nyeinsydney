@@ -73,11 +73,6 @@
       "permanent": true
     },
     {
-      "source": "/events/east-village-rooftop-nye/",
-      "destination": "/new-years-eve-parties-sydney/",
-      "permanent": true
-    },
-    {
       "source": "/events/baptist-street-rec-club-nye/",
       "destination": "/new-years-eve-parties-sydney/",
       "permanent": true
