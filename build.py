@@ -259,8 +259,10 @@ def card(e, i):
         else "<b>TBA</b><span>see venue</span>"
     )
     loc = e["suburb"] if e["suburb"] in e["area"] else f'{e["suburb"]}, {e["area"]}'
-    return f"""<article class="ev reveal{' is-feat' if e.get('featured') else ''}" style="--i:{i % 6};view-transition-name:ev-{e['slug']}" data-cats="{cats}" data-area="{escape(e['area'])}" data-price="{price if price is not None else ''}" data-featured="{1 if e.get('featured') else 0}" data-order="{i}" data-search="{escape(search)}">
-<div class="ev-top"><span class="ev-loc">{icon("map-pin")} {escape(loc)}</span>{'<span class="ev-feat">Featured</span>' if e.get('featured') else ''}</div>
+    rank = 2 if e.get("priority") else 1 if e.get("featured") else 0
+    label = '<span class="ev-feat ev-prio">Priority</span>' if e.get("priority") else '<span class="ev-feat">Featured</span>' if e.get("featured") else ""
+    return f"""<article class="ev reveal{' is-prio' if e.get('priority') else ' is-feat' if e.get('featured') else ''}" style="--i:{i % 6};view-transition-name:ev-{e['slug']}" data-cats="{cats}" data-area="{escape(e['area'])}" data-price="{price if price is not None else ''}" data-featured="{rank}" data-order="{i}" data-search="{escape(search)}">
+<div class="ev-top"><span class="ev-loc">{icon("map-pin")} {escape(loc)}</span>{label}</div>
 <h3><a class="ev-link" href="/events/{e['slug']}/">{escape(e['name'])}</a></h3>
 <p>{escape(e['blurb'])}</p>
 <ul class="ev-tags"><li class="ev-fw">{icon("sparkle")} {escape(e['fireworks'])}</li>{tags}</ul>
@@ -455,6 +457,31 @@ def marquee():
     return f"""<nav class="marquee" aria-label="Browse events by area"><div class="mq-track">{links}</div><div class="mq-track" aria-hidden="true">{dup}</div></nav>"""
 
 
+def priority_spotlight(prio):
+    if not prio:
+        return ""
+    cells = ""
+    for i, e in enumerate(prio[:3]):
+        photo = next((CAT_PHOTO[c] for c in e["categories"] if c in CAT_PHOTO), "fleet")
+        price = "Free" if e["price_from"] == 0 else f"From {money(e['price_from'])}" if e["price_from"] else "See venue"
+        inc = "".join(f"<li>{icon('check')}{escape(x)}</li>" for x in e["includes"][:3])
+        loc = e["suburb"] if e["suburb"] in e["area"] else f'{e["suburb"]}, {e["area"]}'
+        cells += f"""<article class="pr pr-{i} reveal" style="--i:{i}">
+<div class="pr-media">{img(photo, "", sizes="(max-width: 900px) 100vw, 60vw")}</div>
+<div class="pr-copy">
+<span class="pr-kicker">{icon("star")} Priority listing</span>
+<h3><a href="/events/{e['slug']}/">{escape(e['name'])}</a></h3>
+<p class="pr-loc">{icon("map-pin")} {escape(loc)} · {icon("sparkle")} {escape(e['fireworks'])}</p>
+<p class="pr-blurb">{escape(e['blurb'])}</p>
+<ul class="pr-inc">{inc}</ul>
+<div class="pr-foot"><span class="pr-price">{price}<small>{escape(e['price_text'])}</small></span>
+<span class="pr-ctas"><a class="btn btn-gold btn-sm" href="{e['url']}" target="_blank" rel="noopener sponsored">Book {icon("arrow-up-right")}</a><a class="btn btn-ghost btn-sm" href="/events/{e['slug']}/">Details</a></span></div>
+</div></article>"""
+    return f"""<section class="sec sec--prio" aria-labelledby="prio-h"><div class="wrap">
+<div class="sec-head split"><h2 id="prio-h" class="reveal">Priority listings</h2><p class="reveal" style="--i:1">Hand-picked NYE {Y} events with tickets on sale now. Venues can <a href="/list-your-event/">claim a priority spot</a>.</p></div>
+<div class="prio">{cells}</div></div></section>"""
+
+
 def featured_rail(featured):
     cards = "".join(
         f"""<a class="rc reveal" style="--i:{i};--gx:{(i * 37) % 100}%;--gy:{(i * 53) % 100}%" href="/events/{e['slug']}/">
@@ -501,9 +528,10 @@ def vantage_teaser():
 
 
 def page_home():
-    featured = [e for e in EVENTS if e.get("featured")]
-    rest = [e for e in EVENTS if not e.get("featured")]
-    ordered = featured + rest
+    prio = [e for e in EVENTS if e.get("priority")]
+    featured = [e for e in EVENTS if e.get("featured") and not e.get("priority")]
+    rest = [e for e in EVENTS if not e.get("featured") and not e.get("priority")]
+    ordered = prio + featured + rest
     n = len(EVENTS)
     h1 = words("NYE in Sydney", start=0) + " " + words(str(Y), accent={str(Y)}, start=3)
     body = f"""
@@ -511,6 +539,7 @@ def page_home():
       f'<a class="btn btn-gold" href="#directory">Browse events {ARROW}</a><a class="btn btn-ghost" href="/sydney-fireworks-vantage-points/">Vantage points</a>',
       aside=countdown("lg") + deadline(), pos="60% 40%")}
 {marquee()}
+{priority_spotlight(prio)}
 {featured_rail(featured)}
 {bento()}
 {directory(ordered, f"Every Sydney NYE {Y} event", "Filter by type, area or budget. Every listing shows the price, what's included and which fireworks you'll see.")}
@@ -592,7 +621,7 @@ def lede(intro, tips, side_title, more=""):
 
 def page_category(c):
     events = [e for e in EVENTS if c["filter"](e)]
-    events.sort(key=lambda e: (not e.get("featured"), e["price_from"] if e["price_from"] is not None else 1e9))
+    events.sort(key=lambda e: (not e.get("priority"), not e.get("featured"), e["price_from"] if e["price_from"] is not None else 1e9))
     h1 = words(c["h1"][0]) + " " + words(str(Y), accent={str(Y)}, start=len(c["h1"][0].split()))
     body = f"""
 {hero(c["photo"], h1, c["short"], f'<a class="btn btn-gold" href="#directory">Browse events {ARROW}</a><a class="btn btn-ghost" href="/list-your-event/">List your event</a>',

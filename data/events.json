@@ -853,7 +853,8 @@
     "age": "Check with venue",
     "url": "https://www.shangri-la.com/sydney/shangrila/offer-detail/dining/new-years-eve-at-altitude",
     "featured": false,
-    "blurb": "An eight-course degustation with matched wines on level 36 of the Shangri-La, looking over the Opera House and Harbour Bridge. A window table costs extra."
+    "blurb": "An eight-course degustation with matched wines on level 36 of the Shangri-La, looking over the Opera House and Harbour Bridge. A window table costs extra.",
+    "priority": true
   },
   {
     "slug": "blu-bar-on-36-nye",
@@ -1053,7 +1054,8 @@
     "age": "Check with venue",
     "url": "https://www.eventbrite.com.au/e/elements-nye-2026-on-the-harbour-extravaganza-new-years-eve-on-walsh-bay-tickets-1982935321927",
     "featured": false,
-    "blurb": "An eight-course dinner and party on a Walsh Bay wharf with private fireworks viewing. Only the top Celebration package includes drinks."
+    "blurb": "An eight-course dinner and party on a Walsh Bay wharf with private fireworks viewing. Only the top Celebration package includes drinks.",
+    "priority": true
   },
   {
     "slug": "amora-jamison-nye-buffet",
@@ -1440,7 +1442,8 @@
     "age": "14+",
     "url": "https://whatson.cityofsydney.nsw.gov.au/events/nye26-sydney-spectacular-aboard-steam-launch-lady-hopetoun",
     "featured": false,
-    "blurb": "A BYO night on a 1902 VIP steam launch departing the Heritage Docks in Rozelle."
+    "blurb": "A BYO night on a 1902 VIP steam launch departing the Heritage Docks in Rozelle.",
+    "priority": true
   },
   {
     "slug": "lebleu-nye-cruise",
