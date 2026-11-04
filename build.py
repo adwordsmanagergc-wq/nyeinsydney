@@ -304,7 +304,7 @@ def directory(events, heading, sub, show_filters=True, anchor="directory"):
 
 def list_band():
     return f"""<section class="sec sec--tight"><div class="wrap"><div class="band reveal">
-<div><h2>Selling NYE tickets in Sydney?</h2><p>October to December is when Sydney searches for New Year's Eve plans. Be in front of them for ${P}, no commission.</p></div>
+<div><h2>Selling NYE tickets in Sydney?</h2><p>Last December, 631,960 searches for NYE in Sydney. Be in front of them for ${P}, no commission.</p></div>
 <a class="btn btn-ink" href="/list-your-event/">List your event {ARROW}</a></div></div></section>"""
 
 
@@ -784,19 +784,19 @@ def page_plan():
 
 def season_section():
     months = [
-        ("October", "Planning begins", "Big parties, cruises and ticketed spots release tickets, and Sydney starts searching \"NYE in Sydney\". Groups start comparing options.", "List now and you're live for the whole season."),
-        ("November", "Comparing and booking", "Searchers compare prices, inclusions and views side by side. Premium tables, cruises and party tickets get booked.", "Your price, inclusions and Book button win the comparison."),
-        ("December", "Peak searches, last-minute rush", "Search interest peaks. People chase the last tables, final release tiers and late tickets right up to 31 December.", "Sell your remaining tickets while demand is at its highest."),
+        ("October", "~55,000", "Planning begins", "Big parties, cruises and ticketed spots release tickets, and Sydney starts searching \"NYE in Sydney\". Groups start comparing options.", "List now and you're live for the whole season."),
+        ("November", "87,930", "Comparing and booking", "Searchers compare prices, inclusions and views side by side. Premium tables, cruises and party tickets get booked.", "Your price, inclusions and Book button win the comparison."),
+        ("December", "631,960", "Peak searches, last-minute rush", "Searches jump more than sevenfold on November. People chase the last tables, final release tiers and late tickets right up to 31 December.", "Sell your remaining tickets while demand is at its highest."),
     ]
     cols = "".join(
         f"""<div class="mo mo-{i} reveal" style="--i:{i}"><div class="mo-bar" aria-hidden="true"><span></span></div>
-<h3><span>{m}</span>{t}</h3><p>{d}</p><p class="mo-win">{icon("arrow-right")} {w}</p></div>""" for i, (m, t, d, w) in enumerate(months)
+<p class="mo-num"><b>{n}</b> searches</p><h3><span>{m} 2025</span>{t}</h3><p>{d}</p><p class="mo-win">{icon("arrow-right")} {w}</p></div>""" for i, (m, n, t, d, w) in enumerate(months)
     )
     return f"""<section class="sec" id="season"><div class="wrap">
 <div class="sec-head split"><h2 class="reveal">Sydney books New Year's Eve in three months</h2>
-<p class="reveal" style="--i:1">Searches like "NYE in Sydney", "Sydney New Year's Eve" and "NYE dinner Sydney" climb from October and peak in late December. That's when people choose and buy.</p></div>
+<p class="reveal" style="--i:1">Last season, "NYE in Sydney" and related searches went from about 55,000 in October to 87,930 in November, then 631,960 in December. 85% of December searches were on a phone. That's when people choose and buy.</p></div>
 <div class="months">{cols}</div>
-<p class="fineprint reveal">Bars show the typical seasonal pattern of search interest, not exact volumes.</p>
+<p class="fineprint reveal">Source: Google Ads Keyword Planner, "NYE in Sydney" and related keyword ideas, Australia, October to December 2025. October is estimated from November's 60% month-on-month rise.</p>
 </div></section>"""
 
 
@@ -808,7 +808,7 @@ def page_list():
     cats = "".join(f'<option value="{k}">{v}</option>' for k, v in CATEGORY_LABELS.items() if k not in ("budget", "free"))
     faq = [
         ("What do I get for $" + str(P) + "?", "A dedicated event page built for search, with Google Event structured data. You also get a listing in our main directory and the matching category pages (dinners, cruises, parties, family), a direct link to your own booking page, and edits until 31 December."),
-        ("Why should I list now rather than in December?", "Search interest in Sydney New Year's Eve builds from October and peaks in the final weeks of December. Listing early means your page is live and indexed by Google for the whole season, not just the last-minute rush. New pages can take days or weeks to rank, so the earlier you're in, the more of the season you capture. It's the same $" + str(P) + " whenever you list."),
+        ("Why should I list now rather than in December?", "Last season, searches for NYE in Sydney went from 87,930 in November to 631,960 in December (Google Ads Keyword Planner). Listing early means your page is live and indexed by Google for the whole season, not just the last-minute rush. New pages can take days or weeks to rank, so the earlier you're in, the more of the season you capture. It's the same $" + str(P) + " whenever you list."),
         ("Do you take commission on bookings?", "No. Guests book directly with you through your own link, and you keep 100% of every ticket."),
         ("How long does my listing stay live?", f"Your listing stays live until New Year's Day {NY}, then rolls into our archive. Previous listers get first right to renew for next year."),
         ("How fast will my listing go live?", "Usually within one business day of payment. We'll email you the link."),
@@ -827,7 +827,7 @@ def page_list():
     )
     h1 = words("List your New Year's Eve event")
     body = f"""
-{hero("bridge", h1, "October to December is when Sydney searches for NYE plans. Be the event they find.",
+{hero("bridge", h1, "631,960 searches for NYE in Sydney last December. Be the event they find.",
       f'<a class="btn btn-gold" href="#form">List your event {ARROW}</a><a class="btn btn-ghost" href="#season">See the season</a>',
       aside=countdown("md", "left to sell this season") + deadline(), kind="page", pos="50% 35%",
       crumbs=crumb_html(("Home", "/"), ("List your event", "/list-your-event/")))}
