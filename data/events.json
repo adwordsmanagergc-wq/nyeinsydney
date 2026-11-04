@@ -2076,8 +2076,8 @@
       "harbour",
       "party"
     ],
-    "price_from": null,
-    "price_text": "See booking page",
+    "price_from": 950,
+    "price_text": "$950 early bird to $1,250 final release (+ fees)",
     "time": "6:30pm to 1:00am",
     "includes": [
       "Indoor seat for every guest",
@@ -3225,5 +3225,1137 @@
     "url": "https://www.sydneynewyearseve.com/vantage-points/cremorne-point",
     "featured": false,
     "blurb": "A free harbourside reserve on the lower North Shore looking at the eastern side of the Bridge."
+  },
+  {
+    "slug": "passion-spirit-fleet-nye-cruise",
+    "name": "Passion NYE Cruise",
+    "venue": "Passion (Spirit Fleet), King Street Wharf 6",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "dining"
+    ],
+    "price_from": 1450,
+    "price_text": "$1,450pp (+$15 booking fee)",
+    "time": "6:00pm to 1:00am",
+    "includes": [
+      "Glass of champagne on arrival",
+      "Roaming canapés, grazing station and main course",
+      "All-inclusive drinks",
+      "Max 43 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://www.spiritfleet.com/product/passion-nye-cruise-2026-27/",
+    "featured": false,
+    "blurb": "A twin-hull catamaran for up to 43 guests, with food and drinks included all night."
+  },
+  {
+    "slug": "heaven-spirit-fleet-nye-cruise",
+    "name": "Heaven All-Inclusive NYE Cruise",
+    "venue": "Heaven (Spirit Fleet), 37 Bank St",
+    "suburb": "Pyrmont",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "dining",
+      "family"
+    ],
+    "price_from": 850,
+    "price_text": "$1,100 adult, $850 child",
+    "time": "6:00pm to 1:00am",
+    "includes": [
+      "Open bar with beer, wine and house spirits",
+      "Roaming canapés",
+      "Harbour BBQ and dessert",
+      "Max about 40 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages (no prams)",
+    "url": "https://www.spiritfleet.com/product/nye-cruise-tickets-on-heaven/",
+    "featured": false,
+    "blurb": "A small motor cruiser from Pyrmont with a BBQ dinner and open bar. Children are welcome at a lower fare."
+  },
+  {
+    "slug": "kirralee-spirit-fleet-nye-cruise",
+    "name": "Kirralee BYO NYE Cruise",
+    "venue": "Kirralee catamaran (Spirit Fleet), 37 Bank St",
+    "suburb": "Pyrmont",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "family"
+    ],
+    "price_from": 600,
+    "price_text": "$850 over 13, $600 child (sold out)",
+    "time": "6:00pm to 1:00am",
+    "includes": [
+      "Cheese platters and BBQ with prawns and oysters",
+      "Soft drinks and juice",
+      "BYO alcohol, esky and ice",
+      "Max 26 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.spiritfleet.com/product/nye-cruise-on-kirralee/",
+    "featured": false,
+    "blurb": "A 26-guest catamaran with a BBQ dinner where you bring your own alcohol."
+  },
+  {
+    "slug": "kondor-spirit-fleet-nye-cruise",
+    "name": "Kondor NYE Cruise",
+    "venue": "Kondor (Spirit Fleet), Rose Bay Wharf",
+    "suburb": "Rose Bay",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "dining"
+    ],
+    "price_from": 1150,
+    "price_text": "$1,150pp (sold out)",
+    "time": "6:00pm to 1:00am",
+    "includes": [
+      "Veuve Clicquot on arrival",
+      "Premium wines, beers and spirits",
+      "Gourmet catering",
+      "Max 47 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://www.spiritfleet.com/product/kondor-nye-cruise-2026/",
+    "featured": false,
+    "blurb": "A seven-hour cruise from Rose Bay for up to 47 guests with catering and drinks included."
+  },
+  {
+    "slug": "fleetwing-ii-nye-cruise",
+    "name": "Fleetwing II All-Inclusive NYE Cruise",
+    "venue": "Fleetwing II (Spirit Fleet), 37 Bank St",
+    "suburb": "Pyrmont",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "dining"
+    ],
+    "price_from": 1100,
+    "price_text": "$1,100pp (sold out)",
+    "time": "6:00pm to 1:00am",
+    "includes": [
+      "Open bar with beer, wine and house spirits",
+      "Roaming canapés",
+      "Harbour BBQ with prawns and oysters",
+      "Dessert"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://www.spiritfleet.com/product/nye-cruise-tickets-on-fleetwing-31st-dec-2026/",
+    "featured": false,
+    "blurb": "A 53-foot catamaran from Pyrmont with a BBQ dinner and open bar."
+  },
+  {
+    "slug": "champagne-sailing-1-nye-cruise",
+    "name": "Champagne Sailing NYE Cruise",
+    "venue": "Champagne Sailing (Spirit Fleet), King Street Wharf",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "family"
+    ],
+    "price_from": 750,
+    "price_text": "$900 adult, $750 under 18",
+    "time": "6:00pm to 1:30am",
+    "includes": [
+      "Welcome glass of champagne",
+      "Cheese and charcuterie canapés",
+      "BBQ grilled meats with sides",
+      "BYO drinks with esky and ice"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages (no prams)",
+    "url": "https://www.spiritfleet.com/product/champagne-sailing-nye-cruise-2026/",
+    "featured": false,
+    "blurb": "A sailing yacht for up to 40 guests with a BBQ dinner and BYO drinks. Families welcome."
+  },
+  {
+    "slug": "champagne-sailing-2-nye-cruise",
+    "name": "Champagne Sailing 2 NYE Cruise (18+)",
+    "venue": "Champagne Sailing 2 (Spirit Fleet), King Street Wharf",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour"
+    ],
+    "price_from": 900,
+    "price_text": "$900pp",
+    "time": "6:00pm to 1:30am",
+    "includes": [
+      "Welcome glass of champagne",
+      "Cheese and charcuterie canapés",
+      "BBQ grilled meats with sides",
+      "BYO drinks with esky and ice"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "18+",
+    "url": "https://www.spiritfleet.com/product/champagne-sailing-2-new-years-eve-cruise-2026/",
+    "featured": false,
+    "blurb": "An adults-only sailing yacht for up to 40 guests with a BBQ dinner and BYO drinks."
+  },
+  {
+    "slug": "ali-b-nye-cruise",
+    "name": "Ali B NYE Cruise",
+    "venue": "Ali B (Spirit Fleet), King Street Wharf",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "family"
+    ],
+    "price_from": 750,
+    "price_text": "$1,050 18+, $750 under 18 (check availability)",
+    "time": "6:00pm to 1:30am",
+    "includes": [
+      "Antipasto platters",
+      "BBQ with sausages and wagyu burgers",
+      "Beer, wine, spirits and soft drinks",
+      "Max 40 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages (no prams)",
+    "url": "https://www.spiritfleet.com/product/ali-b-nye-cruise-tickets-2026-27/",
+    "featured": false,
+    "blurb": "A family-friendly 40-guest cruise with a BBQ and drinks."
+  },
+  {
+    "slug": "blue-room-nye-cruise",
+    "name": "Blue Room NYE Fireworks Cruise",
+    "venue": "Blue Room glass boat (Australian Cruise Group)",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party",
+      "dining"
+    ],
+    "price_from": 1550,
+    "price_text": "$1,550pp",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "Roving canapés",
+      "Buffet stations",
+      "Beer, wine, sparkling and soft drinks",
+      "DJ"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://www.australiancruisegroup.com.au/sydney/new-years-eve-cruises/blueroom-sydney-new-year-s-eve-fireworks-cruise",
+    "featured": false,
+    "blurb": "A glass-walled boat run as a cocktail party with a DJ and buffet. The wharf is confirmed a week before."
+  },
+  {
+    "slug": "corroboree-nye-cruise",
+    "name": "Corroboree Luxury Yacht NYE Cruise",
+    "venue": "Corroboree (Australian Cruise Group)",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "dining"
+    ],
+    "price_from": 1750,
+    "price_text": "$1,750pp (was $1,950)",
+    "time": "6:00pm to midnight",
+    "includes": [
+      "Canapés on arrival",
+      "Buffet dinner with dessert",
+      "Champagne, wine, beer and soft drinks"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://www.australiancruisegroup.com.au/sydney/new-years-eve-cruises/corroboree-luxury-yacht-new-year-s-eve-cruise",
+    "featured": false,
+    "blurb": "A luxury motor yacht with limited seats, a buffet dinner and drinks included."
+  },
+  {
+    "slug": "mv-fusion-nye-cruise",
+    "name": "MV Fusion NYE Harbour Cruise",
+    "venue": "MV Fusion (Fusion Cruises), King Street Wharf 8",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party",
+      "dining"
+    ],
+    "price_from": 1200,
+    "price_text": "$1,300 adult, $1,200 child",
+    "time": "6:55pm to 1:25am",
+    "includes": [
+      "Canapés on arrival",
+      "Buffet dinner and desserts",
+      "Unlimited beer, spirits and wine",
+      "All-night DJ",
+      "Open top deck"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.australiancruisegroup.com.au/sydney/new-years-eve-cruises/mv-fusion-nye-harbour-cruise",
+    "featured": false,
+    "blurb": "A party boat with a buffet, open bar and DJ, inside the exclusion zone for both shows."
+  },
+  {
+    "slug": "mv-bennelong-nye-cruise",
+    "name": "MV Bennelong NYE Fireworks Cruise",
+    "venue": "MV Bennelong, Cowper Wharf Rd",
+    "suburb": "Woolloomooloo",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party",
+      "dining"
+    ],
+    "price_from": 1495,
+    "price_text": "$1,495pp",
+    "time": "6:00pm to midnight",
+    "includes": [
+      "Canapés and seafood grazing table",
+      "Teppanyaki Wagyu station and gelato bar",
+      "Beer, cider, wine and Aperol Spritz",
+      "DJ"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://www.australiancruisegroup.com.au/sydney/new-years-eve-cruises/mv-bennelong-new-year-s-eve-cruise",
+    "featured": false,
+    "blurb": "Departs Woolloomooloo with food stations, an open bar and a DJ. Spirits are extra."
+  },
+  {
+    "slug": "vagabond-mv-princess-nye-cruise",
+    "name": "Vagabond MV Princess NYE Dinner Cruise",
+    "venue": "MV Princess (Vagabond Cruises), King Street Wharf",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party",
+      "dining"
+    ],
+    "price_from": 1100,
+    "price_text": "$1,100pp (all ages)",
+    "time": "6:30pm to 1:00am",
+    "includes": [
+      "Five-course buffet dinner",
+      "Open bar with spirits, beer and wine",
+      "DJ and light show",
+      "Allocated group tables"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.australiancruisegroup.com.au/sydney/new-years-eve-cruises/mv-princess-nye-dinner-cruise",
+    "featured": false,
+    "blurb": "A classic Vagabond vessel with a buffet dinner, open bar and DJ."
+  },
+  {
+    "slug": "magistic-nye-fireworks-cruise",
+    "name": "Magistic NYE Fireworks Cruise",
+    "venue": "Magistic Two (Australian Cruise Group), King Street Wharf 3",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party",
+      "dining"
+    ],
+    "price_from": 1950,
+    "price_text": "$1,950pp",
+    "time": "6:30pm to 1:00am",
+    "includes": [
+      "Seafood buffet",
+      "Premium beers, wines and spirits",
+      "Reserved seating with waiter service",
+      "DJ and dancing"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "No children under 7",
+    "url": "https://www.australiancruisegroup.com.au/sydney/new-years-eve-cruises/magistic-nye-dinner-cruise",
+    "featured": false,
+    "blurb": "A modern catamaran with three outdoor decks, reserved seating and a seafood buffet, anchored in the exclusion zone."
+  },
+  {
+    "slug": "magistic-premium-top-deck-nye-cruise",
+    "name": "Magistic Premium Top Deck NYE Cruise",
+    "venue": "Magistic Two top deck (Australian Cruise Group)",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "dining",
+      "fine-dining"
+    ],
+    "price_from": 2200,
+    "price_text": "$2,200pp",
+    "time": "6:30pm to 1:00am",
+    "includes": [
+      "Top deck limited to 50 guests",
+      "Seafood buffet",
+      "Premium beers, wines and spirits",
+      "DJ and dancing"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "No children under 7",
+    "url": "https://www.australiancruisegroup.com.au/sydney/new-years-eve-cruises/magistic-premium-nye-dinner-cruise",
+    "featured": false,
+    "blurb": "A separate ticket for the top deck of Magistic Two, capped at 50 guests."
+  },
+  {
+    "slug": "south-passage-schooner-nye-cruise",
+    "name": "South Passage Schooner NYE Cruise",
+    "venue": "South Passage schooner, Wharf 7, 58 Pirrama Rd",
+    "suburb": "Pyrmont",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour"
+    ],
+    "price_from": 695,
+    "price_text": "$695pp, BYO",
+    "time": "6:00pm to 1:00am",
+    "includes": [
+      "Seven hours on a 100ft gaff-rigged schooner",
+      "Harbour of Light parade",
+      "BYO drinks and nibbles (no glass)"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://southpassage.rezdy.com/767725/2026-2027-new-year-s-eve-sydney-harbour",
+    "featured": false,
+    "blurb": "A traditional sailing schooner that joins the light parade. Food and drinks are BYO."
+  },
+  {
+    "slug": "riverboat-postman-nye-cruise",
+    "name": "Riverboat Postman NYE Cruise",
+    "venue": "Riverboat Postman, King Street Wharf 9",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "dining",
+      "family"
+    ],
+    "price_from": 950,
+    "price_text": "$950pp",
+    "time": "7:30pm to 1:30am",
+    "includes": [
+      "Seafood buffet",
+      "Antipasto skewers, fruit and cheese platters",
+      "Open bar with wine, beer and sparkling",
+      "Open upper decks"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Children welcome with an adult",
+    "url": "https://riverboatpostman.com.au/new-years-eve-sydney-harbour",
+    "featured": false,
+    "blurb": "A seafood buffet and open bar cruise from King Street Wharf. A $100 deposit holds a seat."
+  },
+  {
+    "slug": "galaxy-i-nye-cruise",
+    "name": "Galaxy I NYE Cruise",
+    "venue": "Galaxy I motor yacht (Sydney Harbour Escapes)",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "dining"
+    ],
+    "price_from": 1500,
+    "price_text": "$1,500 early bird to $1,750pp",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "Roaming canapés and grazing station",
+      "Gourmet main",
+      "Unlimited beer, wine, spirits and soft drinks",
+      "Max 47 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://www.sydneyharbourescapes.com.au/boat/nye-cruise-tickets/galaxy-charters/hire/39066515",
+    "featured": false,
+    "blurb": "An 86ft motor yacht for 47 guests with food and an open bar included."
+  },
+  {
+    "slug": "sydney-sundancer-nye-cruise",
+    "name": "Sydney Sundancer NYE Cruise",
+    "venue": "Sydney Sundancer (Sydney Harbour Escapes)",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "dining",
+      "fine-dining"
+    ],
+    "price_from": 1600,
+    "price_text": "$1,700 adult, $1,600 under 18",
+    "time": "5:00pm to 1:30am",
+    "includes": [
+      "Gourmet catering",
+      "Premium wines",
+      "Bollinger Champagne",
+      "Max 50 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.sydneyharbourescapes.com.au/boat/nye-cruise-tickets/sydney-sundancer/hire/39066506",
+    "featured": false,
+    "blurb": "A 50-guest boat serving Bollinger and gourmet food across a long evening."
+  },
+  {
+    "slug": "bundeena-nye-cruise",
+    "name": "Bundeena NYE Cruise",
+    "venue": "Bundeena (Sydney Harbour Escapes), Birkenhead Point Wharf",
+    "suburb": "Drummoyne",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 690,
+    "price_text": "$690pp, cash bar",
+    "time": "6:45pm to about 1:30am",
+    "includes": [
+      "Catering",
+      "Live entertainment",
+      "Cash bar",
+      "Max 89 guests"
+    ],
+    "fireworks": "Harbour fireworks",
+    "age": "Check with venue",
+    "url": "https://www.sydneyharbourescapes.com.au/boat/nye-cruise-tickets/bundeena-cruises/hire/39066184",
+    "featured": false,
+    "blurb": "A seven-hour cruise from Birkenhead Point with food and live entertainment. Drinks are bought at the bar."
+  },
+  {
+    "slug": "galene-nye-cruise",
+    "name": "Galene NYE Cruise",
+    "venue": "Galene (Sydney Harbour Escapes)",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "family"
+    ],
+    "price_from": 890,
+    "price_text": "$990 adult, $890 child",
+    "time": "31 December",
+    "includes": [
+      "Cocktail food",
+      "Drinks",
+      "6.5-hour cruise",
+      "Max 90 guests"
+    ],
+    "fireworks": "Harbour fireworks",
+    "age": "Children welcome with an adult",
+    "url": "https://www.sydneyharbourescapes.com.au/boat/nye-cruise-tickets/galene/hire/39064295",
+    "featured": false,
+    "blurb": "A 90-guest vessel, fully catered with cocktail food and drinks."
+  },
+  {
+    "slug": "aqa-yacht-nye-cruise",
+    "name": "A.Q.A Yacht NYE Cruise",
+    "venue": "A.Q.A yacht (Sydney Harbour Escapes), King Street Wharf 3",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour"
+    ],
+    "price_from": 1750,
+    "price_text": "$1,750 early bird to $1,950pp; food and drink extra",
+    "time": "Boarding 6:30pm",
+    "includes": [
+      "Captain and wharf fees",
+      "Harbour of Light parade",
+      "Licensed bar and catering menu (extra)"
+    ],
+    "fireworks": "Harbour fireworks",
+    "age": "Check with venue",
+    "url": "https://www.sydneyharbourescapes.com.au/boat/nye-cruise-tickets/aqa-yacht/hire/39066409",
+    "featured": false,
+    "blurb": "A large luxury yacht that joins the light parade. Food and drinks are ordered separately."
+  },
+  {
+    "slug": "morpheus-nye-cruise",
+    "name": "Morpheus NYE Cruise",
+    "venue": "Morpheus (Sydney Harbour Escapes), King Street Wharf",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 1200,
+    "price_text": "$1,200pp (check availability)",
+    "time": "7:20pm to 12:50am",
+    "includes": [
+      "Canapé menu",
+      "Drinks all night",
+      "DJ",
+      "Max 95 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Children welcome with an adult",
+    "url": "https://www.sydneyharbourescapes.com.au/boat/nye-cruise-tickets/morpheus-cruises/hire/147",
+    "featured": false,
+    "blurb": "A cocktail-style cruise with a DJ, canapés and drinks."
+  },
+  {
+    "slug": "magic-catamaran-nye-cruise",
+    "name": "Magic Catamaran NYE Cruise",
+    "venue": "Magic catamaran (Sydney Harbour Escapes), King Street Wharf 6",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "family"
+    ],
+    "price_from": 950,
+    "price_text": "$1,250 adult, $950 child",
+    "time": "7:00pm to 1:30am",
+    "includes": [
+      "Wharf fee",
+      "Licensed bar",
+      "Catering menu",
+      "Max 120 guests"
+    ],
+    "fireworks": "Harbour fireworks",
+    "age": "Children welcome with an adult",
+    "url": "https://www.sydneyharbourescapes.com.au/boat/nye-cruise-tickets/magic-charters/hire/39064344",
+    "featured": false,
+    "blurb": "A 120-guest catamaran from King Street Wharf. Check what food and drink the ticket covers."
+  },
+  {
+    "slug": "alila-nye-cruise",
+    "name": "Alila BYO NYE Cruise",
+    "venue": "Alila catamaran, Woollahra Sailing Club Wharf",
+    "suburb": "Rose Bay",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour"
+    ],
+    "price_from": 900,
+    "price_text": "$900pp, BYO drinks",
+    "time": "Boarding 5:30pm",
+    "includes": [
+      "Champagne on arrival",
+      "BBQ dinner",
+      "Soft drinks and water",
+      "BYO drinks with eskies and ice"
+    ],
+    "fireworks": "Harbour fireworks",
+    "age": "Check with venue",
+    "url": "https://www.sydneyharbourescapes.com.au/boat/nye-cruise-tickets/alila/hire/39066185",
+    "featured": false,
+    "blurb": "A 30-guest catamaran from Rose Bay with a BBQ dinner. Bring your own drinks."
+  },
+  {
+    "slug": "shadow-superyacht-nye-cruise",
+    "name": "Shadow Superyacht NYE Cruise",
+    "venue": "Shadow superyacht (Sydney Yacht Club)",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party",
+      "dining"
+    ],
+    "price_from": 2200,
+    "price_text": "$2,200pp",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "Canapés and standing buffet with desserts",
+      "Beer, wine, sparkling and soft drinks",
+      "DJ",
+      "Max 90 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://sydyachtclub.com.au/product/shadow-nye/",
+    "featured": false,
+    "blurb": "A 100ft superyacht run cocktail style with a buffet and DJ. Kids welcome."
+  },
+  {
+    "slug": "starship-aqua-nye-cruise",
+    "name": "Starship Aqua NYE Cruise",
+    "venue": "Starship Aqua glass pontoon, King Street Wharf 4",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party",
+      "dining"
+    ],
+    "price_from": 1350,
+    "price_text": "$1,350pp",
+    "time": "7:15pm to 1:00am",
+    "includes": [
+      "Cocktail and premium food stations",
+      "Beer and premium wine package",
+      "Party band and DJ",
+      "Wharf fees"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "18+",
+    "url": "https://sydyachtclub.com.au/product/starship-aqua-nye/",
+    "featured": false,
+    "blurb": "Starship Sydney's sister glass vessel, set up for 200 guests with a band and DJ."
+  },
+  {
+    "slug": "coral-trekker-tall-ship-nye",
+    "name": "Coral Trekker Tall Ship NYE Cruise",
+    "venue": "Coral Trekker (Sydney Harbour Tall Ships), Campbell's Cove",
+    "suburb": "The Rocks",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour"
+    ],
+    "price_from": 950,
+    "price_text": "$950pp",
+    "time": "7:15pm to 1:00am",
+    "includes": [
+      "Canapés and desserts",
+      "Bubbly, wine, beer and soft drinks",
+      "1949 timber tall ship",
+      "Max 36 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "No children under 4",
+    "url": "https://sydneytallships.com.au/cruise/celebrate-2026-7-new-years-eve-with-sydney-harbour-tall-ships/",
+    "featured": false,
+    "blurb": "A 36-guest timber tall ship with drinks included, staying in the exclusion zone for both shows."
+  },
+  {
+    "slug": "southern-swan-tall-ship-nye",
+    "name": "Southern Swan Tall Ship NYE Cruise",
+    "venue": "Southern Swan (Sydney Harbour Tall Ships), Campbell's Cove",
+    "suburb": "The Rocks",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 1100,
+    "price_text": "$1,100pp",
+    "time": "6:45pm to 1:00am",
+    "includes": [
+      "Canapés and desserts",
+      "Bubbly, wine, beer and soft drinks",
+      "Live band",
+      "1922 timber tall ship"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "No children under 4",
+    "url": "https://sydneytallships.com.au/cruise/celebrate-2026-7-new-years-eve-with-sydney-harbour-tall-ships/",
+    "featured": false,
+    "blurb": "A 1922 tall ship for 100 guests with a live band, canapés and drinks."
+  },
+  {
+    "slug": "soren-larsen-tall-ship-nye",
+    "name": "Soren Larsen Tall Ship NYE Cruise",
+    "venue": "Soren Larsen (Sydney Harbour Tall Ships), Campbell's Cove",
+    "suburb": "The Rocks",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 1100,
+    "price_text": "$1,100pp",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "Canapés and desserts",
+      "Bubbly, wine, beer and soft drinks",
+      "Live band",
+      "Max 120 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "No children under 4",
+    "url": "https://sydneytallships.com.au/cruise/celebrate-2026-7-new-years-eve-with-sydney-harbour-tall-ships/",
+    "featured": false,
+    "blurb": "The largest of the fleet's tall ships, with a live band and drinks included."
+  },
+  {
+    "slug": "cadman-nye-cruise",
+    "name": "Cadman Cruises NYE Fireworks Cruise",
+    "venue": "Cadman (Cadman Cruises), King Street Wharf",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party",
+      "dining"
+    ],
+    "price_from": 799,
+    "price_text": "From $799pp",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "Seafood platters and buffet",
+      "Beer, wine, champagne and spirits",
+      "Champagne at midnight",
+      "Live DJs",
+      "Open-air rooftop"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "18+",
+    "url": "https://www.eventbrite.com.au/e/cadman-cruises-nye-fireworks-all-inclusive-open-air-rooftop-tickets-1984175055002",
+    "featured": false,
+    "blurb": "A three-level boat with dining halls and a rooftop deck, inside the exclusion zone."
+  },
+  {
+    "slug": "luna-cruises-nye",
+    "name": "Luna Cruises NYE Fireworks Cruise",
+    "venue": "Luna (Luna Cruises), King Street Wharf",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party",
+      "family"
+    ],
+    "price_from": 895,
+    "price_text": "From $895pp",
+    "time": "6:30pm to 12:30am",
+    "includes": [
+      "Platters, canapés and desserts",
+      "Beer, wine, champagne and house spirits",
+      "Music",
+      "Rooftop and bow decks"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages with an adult",
+    "url": "https://www.eventbrite.com.au/e/luna-cruises-nye-fireworks-all-inclusive-open-air-viewing-decks-tickets-1986785242142",
+    "featured": false,
+    "blurb": "A refitted vessel that joins the light parade, with food and drinks included."
+  },
+  {
+    "slug": "bay-runner-nye-cruise",
+    "name": "Bay Runner NYE Fireworks Cruise",
+    "venue": "Bay Runner (Bay Runner Cruises), King Street Wharf",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 799,
+    "price_text": "From $799pp",
+    "time": "6:45pm to 12:45am",
+    "includes": [
+      "Platters and canapés",
+      "Beer, wine, champagne and house spirits",
+      "Sparkling at midnight",
+      "Open-air rooftop"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "18+",
+    "url": "https://www.eventbrite.com.au/e/bay-runner-cruises-nye-fireworks-all-inclusive-open-air-rooftop-tickets-1985653541194",
+    "featured": false,
+    "blurb": "A two-level boat with a rooftop deck, positioned east of the Harbour Bridge."
+  },
+  {
+    "slug": "mv-sydney-nye-cruise",
+    "name": "MV Sydney NYE Cruise",
+    "venue": "MV Sydney, King Street Wharf",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party",
+      "dining"
+    ],
+    "price_from": 799,
+    "price_text": "From $799pp",
+    "time": "7:00pm to 12:30am",
+    "includes": [
+      "Buffet",
+      "Beer, wine, sparkling and soft drinks",
+      "Live DJ",
+      "Top deck or main deck by ticket"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "18+",
+    "url": "https://sydneycruisesnye.com.au/booking-mv-sydney",
+    "featured": false,
+    "blurb": "A buffet and DJ cruise with deck access set by ticket type. Spirits are extra."
+  },
+  {
+    "slug": "mv-regal-nye-cruise",
+    "name": "MV Regal NYE Fireworks Cruise",
+    "venue": "MV Regal (Rosman Cruises)",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "dining",
+      "family"
+    ],
+    "price_from": 799,
+    "price_text": "From $799pp",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "Buffet dinner",
+      "Beer, wine, sparkling and cider",
+      "Tea and coffee",
+      "Music",
+      "Max 70 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages with an adult",
+    "url": "https://www.eventbrite.com.au/e/mv-regal-nye-fireworks-cruise-all-inclusive-open-air-viewing-decks-tickets-1996826919068",
+    "featured": false,
+    "blurb": "A classic ferry capped at 70 guests with a buffet and drinks package."
+  },
+  {
+    "slug": "mv-royale-nye-cruise",
+    "name": "MV Royale NYE Fireworks Cruise",
+    "venue": "MV Royale (Rosman Cruises)",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "dining",
+      "family"
+    ],
+    "price_from": 895,
+    "price_text": "From $895pp",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "Buffet dinner",
+      "Beer, wine, sparkling and cider",
+      "Tea and coffee",
+      "Music",
+      "Max 120 guests"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages with an adult",
+    "url": "https://www.eventbrite.com.au/e/mv-royale-nye-fireworks-cruise-all-inclusive-open-air-viewing-decks-tickets-1997269224014",
+    "featured": false,
+    "blurb": "A two-level vintage ferry for 120 guests with a buffet and drinks package."
+  },
+  {
+    "slug": "barefoot-spirit-nye-cruise",
+    "name": "Barefoot Spirit NYE Fireworks Cruise",
+    "venue": "Barefoot Spirit catamaran, Neutral Bay Wharf",
+    "suburb": "Neutral Bay",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party",
+      "family"
+    ],
+    "price_from": 1050,
+    "price_text": "From $1,050pp",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "Appetisers, BBQ, mains and dessert",
+      "Beer, wine, sparkling and premixes",
+      "Waterslide and supervised swimming",
+      "Live DJ"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages with an adult",
+    "url": "https://sydneycruisesnye.com.au/booking-barefoot-spirit/",
+    "featured": false,
+    "blurb": "A multi-deck catamaran from Neutral Bay with a waterslide and supervised swimming before the fireworks."
+  },
+  {
+    "slug": "barefoot-blue-nye-cruise",
+    "name": "Barefoot Blue NYE Cruise",
+    "venue": "Barefoot Blue catamaran, Neutral Bay Wharf",
+    "suburb": "Neutral Bay",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "family"
+    ],
+    "price_from": 995,
+    "price_text": "From $995pp",
+    "time": "7:30pm to 1:00am",
+    "includes": [
+      "All-inclusive food",
+      "Beer, wine, sparkling and premixes",
+      "Music",
+      "Three 360 degree viewing decks"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages with an adult",
+    "url": "https://sydneycruisesnye.com.au/booking-barefoot-blue",
+    "featured": false,
+    "blurb": "A 16-metre catamaran from Neutral Bay with food and drinks included."
+  },
+  {
+    "slug": "mv-whale-dreamer-nye-cruise",
+    "name": "MV Whale Dreamer NYE Fireworks Cruise",
+    "venue": "MV Whale Dreamer (A Boat Agency), 37 Bank St",
+    "suburb": "Pyrmont",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party",
+      "dining"
+    ],
+    "price_from": 1000,
+    "price_text": "$1,000 early bird to $1,300 final release (+ fees)",
+    "time": "6:30pm to 1:00am",
+    "includes": [
+      "Seafood grazing board and canapés",
+      "Open bar with spirits",
+      "Live DJ",
+      "Guaranteed indoor seat"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "Check with venue",
+    "url": "https://events.humanitix.com/midnight-new-year-s-sydney-fireworks-cruise/tickets",
+    "featured": false,
+    "blurb": "A 145-guest catamaran from Pyrmont with an eastern Harbour Bridge position and payment plans."
+  },
+  {
+    "slug": "harbour-spirit-nye-cruise",
+    "name": "Harbour Spirit NYE Cruise",
+    "venue": "Harbour Spirit (Harbourside Cruises), 37 Bank St",
+    "suburb": "Pyrmont",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party",
+      "dining"
+    ],
+    "price_from": 1349,
+    "price_text": "$1,349 adult (sold out)",
+    "time": "7:00pm to 1:00am",
+    "includes": [
+      "Canapés and grazing station",
+      "Hot dishes and salads",
+      "Drinks package",
+      "DJ and dance floor"
+    ],
+    "fireworks": "Midnight (exclusion zone)",
+    "age": "No children under 7",
+    "url": "https://harboursidecruises.com.au/book-now/",
+    "featured": false,
+    "blurb": "A two-deck catamaran anchored in the exclusion zone."
+  },
+  {
+    "slug": "constellation-nye-cruise",
+    "name": "Constellation NYE Fireworks Cruise",
+    "venue": "Constellation tri-deck catamaran, King Street Wharf",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "party"
+    ],
+    "price_from": 990,
+    "price_text": "Reserved seat $990pp; GA $999; VIP bow $1,100",
+    "time": "31 December",
+    "includes": [
+      "Roaming canapés",
+      "Open bar with standard spirits",
+      "Live DJ",
+      "360 degree rooftop"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages (under 18s with an adult)",
+    "url": "https://www.constellation.cruises/public-events/new-years-eve-sydney-harbour/",
+    "featured": false,
+    "blurb": "A 100ft three-deck catamaran with general admission, booths and a limited VIP bow ticket."
+  },
+  {
+    "slug": "fantasea-ocean-flyer-manly-nye",
+    "name": "Fantasea Ocean Flyer NYE Cruises from Manly",
+    "venue": "Ocean Flyer (Fantasea), Manly Wharf 2",
+    "suburb": "Manly",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "family"
+    ],
+    "price_from": 395,
+    "price_text": "9pm: adult $395, child $235, family $1,150; midnight $695",
+    "time": "9pm cruise 7:30pm to 9:45pm",
+    "includes": [
+      "BYO food",
+      "Licensed bar",
+      "Two outdoor viewing levels",
+      "Wheelchair accessible"
+    ],
+    "fireworks": "9pm or midnight (separate cruises)",
+    "age": "All ages",
+    "url": "https://www.fantasea.com.au/special-events/sydney-new-years-eve-cruises/",
+    "featured": false,
+    "blurb": "Short fireworks runs from Manly, either for the family show or for midnight."
+  },
+  {
+    "slug": "captain-cook-rocket-nye-cruise",
+    "name": "Captain Cook Rocket BYO NYE Cruise",
+    "venue": "Rocket (Captain Cook Cruises), King Street Wharf",
+    "suburb": "Darling Harbour",
+    "area": "On the Harbour",
+    "categories": [
+      "cruise",
+      "harbour",
+      "family"
+    ],
+    "price_from": null,
+    "price_text": "See operator for prices",
+    "time": "31 December",
+    "includes": [
+      "About 4.75 hours in the exclusion zone",
+      "BYO picnic and drinks",
+      "Indoor and outdoor seating"
+    ],
+    "fireworks": "Both 9pm & midnight",
+    "age": "All ages",
+    "url": "https://www.captaincook.com.au/whats-on/sydney-new-years-eve/nye-fireworks-sydney-cruise/",
+    "featured": false,
+    "blurb": "Captain Cook's budget BYO ferry option for both shows, with seating inside and out."
   }
 ]
