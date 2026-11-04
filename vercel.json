@@ -24,12 +24,7 @@
     },
     {
       "source": "/events/o-bar-and-dining-nye/",
-      "destination": "/new-years-eve-dinner-sydney/",
-      "permanent": true
-    },
-    {
-      "source": "/events/catalina-rose-bay-nye/",
-      "destination": "/new-years-eve-dinner-sydney/",
+      "destination": "/events/o-bar-dining-nye/",
       "permanent": true
     },
     {
@@ -54,7 +49,7 @@
     },
     {
       "source": "/events/crown-cirq-masquerade-nye/",
-      "destination": "/new-years-eve-parties-sydney/",
+      "destination": "/events/cirq-crown-sydney-nye/",
       "permanent": true
     },
     {

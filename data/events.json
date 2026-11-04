@@ -163,8 +163,8 @@
       "dining",
       "fine-dining"
     ],
-    "price_from": 320,
-    "price_text": "2026 pricing not yet released (join the waitlist)",
+    "price_from": 350,
+    "price_text": "Early dining $350, cocktail party $795, main event $1,950 per person",
     "time": "Early & late sittings",
     "includes": [
       "Early sitting ($320pp)",
@@ -236,8 +236,8 @@
       "party",
       "rooftop"
     ],
-    "price_from": 795,
-    "price_text": "2026 pricing not yet released (join the waitlist)",
+    "price_from": 899,
+    "price_text": "Early bird $899 (non-window) or $999 (window); GA $999 to $1,099",
     "time": "Evening",
     "includes": [
       "Food stations",
@@ -246,7 +246,7 @@
     ],
     "fireworks": "Fireworks views from level 83",
     "age": "18+",
-    "url": "https://bar83sydneytower.com.au/whats-on/new-years-eve-pre-registration/",
+    "url": "https://bar83sydneytower.com.au/whats-on/new-years-eve/",
     "featured": false,
     "blurb": "The highest bar in Sydney. You watch the fireworks from above."
   },
@@ -286,7 +286,7 @@
       "harbour"
     ],
     "price_from": 349,
-    "price_text": "GA final release $349 (+ fees); Premium VIP Diamond $1,099",
+    "price_text": "Final release GA $349 plus fees (earlier tiers sold out)",
     "time": "6:00pm to 2:00am",
     "includes": [
       "Unlimited rides",
@@ -337,7 +337,7 @@
       "fine-dining"
     ],
     "price_from": 1495,
-    "price_text": "$1,495 per person",
+    "price_text": "$1,495 per person (six courses with beverage package)",
     "time": "7:00pm sitting",
     "includes": [
       "Six-course menu",
@@ -347,7 +347,7 @@
     ],
     "fireworks": "Harbour Bridge fireworks views",
     "age": "Adults",
-    "url": "https://sailssydney.com/whats-on/new-years-eve",
+    "url": "https://srghospitality.com.au/new-years-eve/",
     "featured": false,
     "blurb": "Waterside dining in a quiet bay beside the Bridge, looking right at the main barges."
   },
@@ -386,8 +386,8 @@
       "family",
       "harbour"
     ],
-    "price_from": 245,
-    "price_text": "Silver adult $245 (child $125) to Opal $1,002.50",
+    "price_from": 125,
+    "price_text": "Silver $245 adult, $125 child; Emerald $802.50 (18+); other tiers sold out",
     "time": "6:00pm to 12:30am (Silver); other tiers vary",
     "includes": [
       "Picnic-style lawn viewing with live music (Silver and Gold)",
@@ -397,7 +397,7 @@
     ],
     "fireworks": "Harbour fireworks views",
     "age": "All ages (Opal and Emerald 18+, Platinum 5+)",
-    "url": "https://premier.ticketek.com.au/shows/show.aspx?sh=TARONGAN26",
+    "url": "https://www.taronga.org.au/sydney-zoo/whats-on/events/new-years-eve/",
     "featured": true,
     "blurb": "Fireworks from the zoo's hillside with the whole city skyline in front of you. One of the few premium options that takes kids."
   },
@@ -648,7 +648,7 @@
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "18+",
-    "url": "https://www.tribalwarrior.org/",
+    "url": "https://www.australiancruisegroup.com.au/sydney/new-years-eve-cruises/wirawi-sydney-new-years-eve-cruise",
     "featured": false,
     "blurb": "A First Nations-run cruise company that puts culture alongside the celebration."
   },
@@ -790,7 +790,7 @@
       "harbour"
     ],
     "price_from": 1100,
-    "price_text": "$1,100 to $1,450 per person by release",
+    "price_text": "1st release $1,100, 2nd $1,300, 3rd $1,450",
     "time": "8:00pm to 1:30am",
     "includes": [
       "Champagne",
@@ -952,7 +952,7 @@
     ],
     "fireworks": "Both 9pm & midnight (from George Street)",
     "age": "18+",
-    "url": "https://www.frankmacs.com.au/upcoming-events/macs-new-years-eve",
+    "url": "https://www.frankmacs.com.au/macs-nye",
     "featured": false,
     "blurb": "An Irish pub party in The Rocks with a drinks package, canapés and live music. Guests watch both fireworks from George Street outside."
   },
@@ -1132,7 +1132,7 @@
     ],
     "fireworks": "From inside the fireworks exclusion zone",
     "age": "Check with venue",
-    "url": "https://www.captaincook.com.au/whats-on/sydney-new-years-eve/",
+    "url": "https://www.captaincook.com.au/whats-on/sydney-new-years-eve/nye-sydney-cruise/",
     "featured": false,
     "blurb": "Captain Cook's flagship dinner cruise sits inside the harbour exclusion zone for the night. The top Sky Deck tier serves a six-course degustation with Penfolds wines."
   },
@@ -1259,7 +1259,7 @@
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "Check with venue",
-    "url": "https://www.sydneyharbourdays.com/activity/boat-cruises/nye-tickets/zahara-nye/",
+    "url": "https://sydneyharbourdays.rezdy.com/773586/zahara-nye-cruise",
     "featured": false,
     "blurb": "An all-inclusive cruise for up to 100 guests. Spirits are sold at a cash bar."
   },
@@ -1510,8 +1510,8 @@
       "harbour",
       "party"
     ],
-    "price_from": null,
-    "price_text": "See booking page",
+    "price_from": 1250,
+    "price_text": "From $1,250 per person",
     "time": "6:30pm to 1:00am",
     "includes": [
       "Canapés and standing buffet",
@@ -1522,7 +1522,7 @@
     ],
     "fireworks": "Both 9pm & midnight",
     "age": "Check with venue",
-    "url": "https://events.humanitix.com/bella-vista-new-year-s-eve-cruise-2026",
+    "url": "https://sydneyharbourdays.rezdy.com/view/P2KRV7",
     "featured": false,
     "blurb": "A multi-level glass vessel cruise. Check the boarding wharf before booking."
   },
@@ -1756,5 +1756,83 @@
     "url": "https://www.botanicgardens.org.au/whats-on/foundation-friends-new-years-eve-picnic",
     "featured": false,
     "blurb": "A members' picnic on a garden lawn facing the Opera House and Harbour Bridge. Members and their guests can book."
+  },
+  {
+    "slug": "o-bar-dining-nye",
+    "name": "New Year's Eve at O Bar and Dining",
+    "venue": "O Bar and Dining, Level 47 Australia Square",
+    "suburb": "Sydney CBD",
+    "area": "Sydney CBD",
+    "categories": [
+      "fine-dining",
+      "dining",
+      "rooftop"
+    ],
+    "price_from": 780,
+    "price_text": "$780 to $1,150 per person",
+    "time": "Evening",
+    "includes": [
+      "Six-course degustation",
+      "Louis Roederer Champagne on arrival",
+      "Window-facing or guaranteed window table by tier",
+      "Caviar and matched wines on the Premium tier"
+    ],
+    "fireworks": "City and harbour views from the revolving floor",
+    "age": "18+",
+    "url": "https://www.obardining.com.au/new-years-eve-2026/",
+    "featured": false,
+    "blurb": "A six-course degustation in Sydney's revolving restaurant on level 47 of Australia Square. The Premium package adds caviar and matched wines."
+  },
+  {
+    "slug": "cirq-crown-sydney-nye",
+    "name": "New Year's Eve at CIRQ",
+    "venue": "CIRQ Bar & Lounge, Crown Sydney",
+    "suburb": "Barangaroo",
+    "area": "Darling Harbour & Barangaroo",
+    "categories": [
+      "party",
+      "rooftop",
+      "harbour"
+    ],
+    "price_from": 1100,
+    "price_text": "Early bird $1,100; $1,250 from 1 December",
+    "time": "8:00pm to 1:00am",
+    "includes": [
+      "Drinks",
+      "Food",
+      "Entertainment",
+      "'Diamonds after Dark' dress code"
+    ],
+    "fireworks": "Harbour views from the Level 26 terrace",
+    "age": "18+",
+    "url": "https://crownsydney.com.au/bars/cirq/offers/cirq-(1)",
+    "featured": false,
+    "blurb": "Crown Sydney's outdoor level 26 bar runs an all-inclusive NYE party with food, drinks and entertainment. Early bird tickets rise in price from 1 December."
+  },
+  {
+    "slug": "catalina-rose-bay-nye",
+    "name": "New Year's Eve Dinner at Catalina",
+    "venue": "Catalina, Lyne Park",
+    "suburb": "Rose Bay",
+    "area": "Eastern Suburbs",
+    "categories": [
+      "fine-dining",
+      "dining",
+      "harbour"
+    ],
+    "price_from": 395,
+    "price_text": "Early sitting $395, late sitting $795 (drinks extra)",
+    "time": "Early sitting from 6:00pm; late sitting 8:30pm to 1:00am",
+    "includes": [
+      "Chef's canapés on arrival",
+      "Four courses with coffee and sweets",
+      "Live music and DJ",
+      "Midnight fireworks (late sitting)"
+    ],
+    "fireworks": "Midnight (late sitting)",
+    "age": "All ages",
+    "url": "https://catalinarosebay.com.au/whats-on/nye-dinner-2026",
+    "featured": false,
+    "blurb": "Catalina's over-water dining room in Rose Bay offers two four-course NYE sittings with live music. The late sitting includes the midnight fireworks."
   }
 ]
