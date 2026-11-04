@@ -20,11 +20,12 @@ CONFIG = {
     "site_name": "NYE in Sydney",
     "site_url": "https://nyeinsydney.com",   # your live domain, no trailing slash
     "contact_email": "aj@metatapdigital.com",
-    "listing_price": 599,                     # AUD, inc GST
+    "listing_price": 450,                     # AUD, + GST
+    "top6_price": 1950,                       # AUD, + GST, Top 6 featured placement
     # Listing submissions are emailed to contact_email via FormSubmit (no account needed;
     # the first submission sends a one-time activation email to that inbox).
     "form_endpoint": "https://formsubmit.co/ajax/aj@metatapdigital.com",
-    # Stripe Payment Link (or similar) for the $599 listing fee. While it still contains
+    # Stripe Payment Link (or similar) for the $450 + GST listing fee. While it still contains
     # "YOUR_", submitters see a thank-you message and you email them an invoice instead.
     "payment_link": "https://buy.stripe.com/YOUR_PAYMENT_LINK",
     "year": 2026,
@@ -38,6 +39,7 @@ TODAY = date.today().isoformat()
 Y, NY = CONFIG["year"], CONFIG["next_year"]
 URL = CONFIG["site_url"]
 P = CONFIG["listing_price"]
+T6 = f"{CONFIG['top6_price']:,}"
 # Content hashes for cache busting: the CSS/JS URLs change whenever the files do.
 VER = {f: hashlib.md5((ROOT / "src" / f).read_bytes()).hexdigest()[:10] for f in ("style.css", "main.js")}
 
@@ -222,7 +224,7 @@ def layout(path, title, description, body, schema=None, og_type="website", activ
 <li><a href="/sydney-fireworks-vantage-points/">Vantage points map</a></li><li><a href="/plan-your-night/">Fireworks times</a></li>
 <li><a href="/plan-your-night/#transport">Transport</a></li><li><a href="/#faq">FAQ</a></li></ul></div>
 <div><h2 class="foot-h">Venues</h2><ul>
-<li><a href="/list-your-event/">List your event, ${P}</a></li>
+<li><a href="/list-your-event/">List your event, ${P} + GST</a></li>
 <li><a href="/about/">About NYE in Sydney</a></li>
 <li><a href="mailto:{CONFIG['contact_email']}">{CONFIG['contact_email']}</a></li></ul></div>
 </div>
@@ -304,7 +306,7 @@ def directory(events, heading, sub, show_filters=True, anchor="directory"):
 
 def list_band():
     return f"""<section class="sec sec--tight"><div class="wrap"><div class="band reveal">
-<div><h2>Selling NYE tickets in Sydney?</h2><p>Last December, 631,960 searches for NYE in Sydney. Be in front of them for ${P}, no commission.</p></div>
+<div><h2>Selling NYE tickets in Sydney?</h2><p>Last December, 631,960 searches for NYE in Sydney. Be in front of them for ${P} + GST, no commission.</p></div>
 <a class="btn btn-ink" href="/list-your-event/">List your event {ARROW}</a></div></div></section>"""
 
 
@@ -361,7 +363,7 @@ FAQ = [
     ("Is NYE in Sydney the official Sydney New Year's Eve website?",
      "No. NYE in Sydney is an independent guide and event directory. The official event is produced by the City of Sydney. We bring together official vantage-point information and bookable dinners, cruises and parties so you can plan the whole night in one place."),
     ("How do I list my New Year's Eve event on NYE in Sydney?",
-     f"It's a one-off ${P} fee with no commission. Your event gets its own optimised page, a place in our directory and category pages, and a direct link to your booking page. <a href=\"/list-your-event/\">List your event here</a>."),
+     f"It's a one-off ${P} + GST fee with no commission, or ${T6} + GST for a Top 6 featured spot. Your event gets its own optimised page, a place in our directory and category pages, and a direct link to your booking page. <a href=\"/list-your-event/\">List your event here</a>."),
 ]
 
 
@@ -802,13 +804,14 @@ def season_section():
 
 def page_list():
     has_pay = "YOUR_" not in CONFIG["payment_link"]
-    form_sub = (f"Fill this in, then pay ${P} securely. We'll publish your page and email you the link." if has_pay
-                else f"Fill this in and we'll email you a ${P} invoice within one business day. Your page goes live once it's paid.")
-    submit_label = f"Continue to payment, ${P}" if has_pay else "Send my listing request"
+    form_sub = (f"Fill this in, then pay ${P} + GST securely. We'll publish your page and email you the link." if has_pay
+                else f"Fill this in and we'll email you a ${P} + GST invoice (or ${T6} + GST for Top 6) within one business day. Your page goes live once it's paid.")
+    submit_label = f"Continue to payment, ${P} + GST" if has_pay else "Send my listing request"
     cats = "".join(f'<option value="{k}">{v}</option>' for k, v in CATEGORY_LABELS.items() if k not in ("budget", "free"))
     faq = [
-        ("What do I get for $" + str(P) + "?", "A dedicated event page built for search, with Google Event structured data. You also get a listing in our main directory and the matching category pages (dinners, cruises, parties, family), a direct link to your own booking page, and edits until 31 December."),
-        ("Why should I list now rather than in December?", "Last season, searches for NYE in Sydney went from 87,930 in November to 631,960 in December (Google Ads Keyword Planner). Listing early means your page is live and indexed by Google for the whole season, not just the last-minute rush. New pages can take days or weeks to rank, so the earlier you're in, the more of the season you capture. It's the same $" + str(P) + " whenever you list."),
+        ("What do I get for $" + str(P) + " + GST?", "A dedicated event page built for search, with Google Event structured data. You also get a listing in our main directory and the matching category pages (dinners, cruises, parties, family), a direct link to your own booking page, and edits until 31 December."),
+        ("What is the Top 6 package?", "For $" + T6 + " + GST your event takes one of only six featured spots at the top of the home page and the directory, with a Featured badge, top placement on its category pages and everything in the standard listing. Spots are first come, first served."),
+        ("Why should I list now rather than in December?", "Last season, searches for NYE in Sydney went from 87,930 in November to 631,960 in December (Google Ads Keyword Planner). Listing early means your page is live and indexed by Google for the whole season, not just the last-minute rush. New pages can take days or weeks to rank, so the earlier you're in, the more of the season you capture. It's the same $" + str(P) + " + GST whenever you list."),
         ("Do you take commission on bookings?", "No. Guests book directly with you through your own link, and you keep 100% of every ticket."),
         ("How long does my listing stay live?", f"Your listing stays live until New Year's Day {NY}, then rolls into our archive. Previous listers get first right to renew for next year."),
         ("How fast will my listing go live?", "Usually within one business day of payment. We'll email you the link."),
@@ -834,12 +837,13 @@ def page_list():
 {season_section()}
 <section class="sec"><div class="wrap offer">
 <div class="offer-why"><h2 class="reveal">Why venues list here</h2><ul class="why">{why_html}</ul>
-<p class="payoff reveal">At typical harbourside NYE prices of $300 to $850 a head, a couple of bookings covers your ${P} listing. Everything after that is yours.</p></div>
+<p class="payoff reveal">At typical harbourside NYE prices of $300 to $850 a head, a couple of bookings covers your ${P} + GST listing. Everything after that is yours.</p></div>
+<div class="tickets">
 <div class="ticket reveal" style="--i:2">
 <div class="ticket-main">
 <p class="ticket-kicker">Admit one listing, NYE {Y}</p>
 <div class="ticket-amt"><sup>$</sup>{P}</div>
-<p class="ticket-sub">AUD inc GST. One-off. No commission.</p>
+<p class="ticket-sub">AUD + GST. One-off. No commission.</p>
 <ul class="ticks">
 <li>{icon("check")}<span>Dedicated event page with Google Event schema</span></li>
 <li>{icon("check")}<span>Directory and category page placement</span></li>
@@ -848,6 +852,20 @@ def page_list():
 <li>{icon("check")}<span>Live within one business day</span></li>
 </ul></div>
 <div class="ticket-stub"><span>Valid Oct to Dec {Y}</span><a class="btn btn-gold btn-block" href="#form">List your event {ARROW}</a></div>
+</div>
+<div class="ticket ticket-top6 reveal" style="--i:3">
+<div class="ticket-main">
+<p class="ticket-kicker">Top 6 featured, only 6 spots</p>
+<div class="ticket-amt"><sup>$</sup>{T6}</div>
+<p class="ticket-sub">AUD + GST. One-off. No commission.</p>
+<ul class="ticks">
+<li>{icon("check")}<span>One of 6 featured spots at the top of the home page</span></li>
+<li>{icon("check")}<span>Top of the directory and your category pages</span></li>
+<li>{icon("check")}<span>Featured badge on your listing</span></li>
+<li>{icon("check")}<span>Everything in the standard listing</span></li>
+</ul></div>
+<div class="ticket-stub"><span>First come, first served</span><a class="btn btn-gold btn-block" href="#form">Get a Top 6 spot {ARROW}</a></div>
+</div>
 </div>
 </div></section>
 <section class="sec" id="form"><div class="wrap form-wrap">
@@ -867,7 +885,8 @@ def page_list():
 <div class="fld"><label for="f-email">Email *</label><input id="f-email" name="email" type="email" required></div>
 <div class="fld"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel"></div>
 <div class="fld"><label for="f-abn">Business or ABN</label><input id="f-abn" name="business"></div>
-<input type="hidden" name="_subject" value="New NYE in Sydney listing request (${P})">
+<div class="fld full"><label for="f-pkg">Package *</label><select id="f-pkg" name="package" required><option>Standard listing, ${P} + GST</option><option>Top 6 featured, ${T6} + GST</option></select></div>
+<input type="hidden" name="_subject" value="New NYE in Sydney listing request">
 <input type="hidden" name="_template" value="table"><input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
 <div class="fld full"><button class="btn btn-gold" type="submit">{submit_label} {ARROW}</button>
 <p class="form-status" aria-live="polite"></p></div>
@@ -877,12 +896,13 @@ def page_list():
         "@context": "https://schema.org", "@type": "Service", "name": f"NYE {Y} event listing",
         "provider": {"@type": "Organization", "name": CONFIG["site_name"], "url": URL + "/"},
         "areaServed": "Sydney, NSW",
-        "offers": {"@type": "Offer", "price": P, "priceCurrency": "AUD", "url": URL + "/list-your-event/"},
+        "offers": [{"@type": "Offer", "name": "Standard listing", "price": P, "priceCurrency": "AUD", "url": URL + "/list-your-event/", "priceSpecification": {"@type": "PriceSpecification", "price": P, "priceCurrency": "AUD", "valueAddedTaxIncluded": False}},
+                   {"@type": "Offer", "name": "Top 6 featured", "price": CONFIG["top6_price"], "priceCurrency": "AUD", "url": URL + "/list-your-event/", "priceSpecification": {"@type": "PriceSpecification", "price": CONFIG["top6_price"], "priceCurrency": "AUD", "valueAddedTaxIncluded": False}}],
     }
     return layout(
         "/list-your-event/",
-        f"List Your New Year's Eve Event in Sydney, ${P} | NYE in Sydney",
-        f"Promote your Sydney New Year's Eve {Y} party, dinner or cruise. ${P} flat fee, no commission: a dedicated SEO event page, directory placement and a direct booking link.",
+        f"List Your New Year's Eve Event in Sydney, ${P} + GST | NYE in Sydney",
+        f"Promote your Sydney New Year's Eve {Y} party, dinner or cruise. ${P} + GST flat fee or ${T6} + GST for a Top 6 spot, no commission: a dedicated SEO event page, directory placement and a direct booking link.",
         body, schema=[service, faq_schema(faq), breadcrumbs(("Home", "/"), ("List your event", "/list-your-event/"))],
     )
 
@@ -900,7 +920,7 @@ def page_about():
 <h2>Independent, not official</h2>
 <p>We're an independent guide. The fireworks and official vantage points are run by the City of Sydney, which publishes the final program in December. We follow its announcements and update our <a href="/plan-your-night/">planning guide</a> and <a href="/sydney-fireworks-vantage-points/">vantage points map</a> as details are confirmed.</p>
 <h2>For venues</h2>
-<p>If you run a New Year's Eve event in Sydney, you can <a href="/list-your-event/">list it for ${P}</a>. You get your own event page, a place in the directory and a direct booking link, with no commission.</p>
+<p>If you run a New Year's Eve event in Sydney, you can <a href="/list-your-event/">list it for ${P} + GST</a>. You get your own event page, a place in the directory and a direct booking link, with no commission.</p>
 </div>
 <div class="lede-tips"><h2 class="reveal">Get in touch</h2><ul class="ticks">
 <li>{icon("envelope-simple")}<span><a href="mailto:{CONFIG['contact_email']}">{CONFIG['contact_email']}</a></span></li>

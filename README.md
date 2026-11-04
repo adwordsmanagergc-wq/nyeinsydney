@@ -1,6 +1,6 @@
 # NYE in Sydney
 
-An independent guide to Sydney New Year's Eve: a live countdown, an events directory with filters, fireworks vantage points, a planning guide, and a paid **List your event** page ($599).
+An independent guide to Sydney New Year's Eve: a live countdown, an events directory with filters, fireworks vantage points, a planning guide, and a paid **List your event** page ($450 + GST, or $1,950 + GST for Top 6).
 
 ## How it works
 
@@ -21,7 +21,7 @@ cd docs && python3 -m http.server    # preview at http://localhost:8000
 - Category landing pages: dinners, cruises, parties and family
 - Vantage points page
 - Planning guide: times, transport, road closures and accessibility
-- List-your-event page with the $599 offer and an intake form
+- List-your-event page with the $450 + GST and $1,950 + GST Top 6 offers and an intake form
 - One SEO page per event, with `Event` schema
 - `sitemap.xml`, `robots.txt`, `404.html` and the OG image
 
@@ -32,7 +32,7 @@ cd docs && python3 -m http.server    # preview at http://localhost:8000
 | `site_url` | `https://nyeinsydney.com` (used for canonical URLs, the sitemap and OG tags) |
 | `contact_email` | `aj@metatapdigital.com`: the inbox for listing requests |
 | `form_endpoint` | `https://formsubmit.co/ajax/aj@metatapdigital.com`: emails each listing request to that inbox |
-| `payment_link` | A Stripe Payment Link for $599 AUD. After the form saves, the buyer is redirected here with their email prefilled |
+| `payment_link` | A Stripe Payment Link for $450 + GST. After the form saves, the buyer is redirected here with their email prefilled |
 
 The first submission triggers a one-time FormSubmit activation email to `aj@metatapdigital.com`. Click the link in it, and every request after that arrives as a formatted email. Until `payment_link` is set, submitters see a thank-you message and you send them an invoice.
 
