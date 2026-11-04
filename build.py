@@ -194,6 +194,8 @@ def layout(path, title, description, body, schema=None, og_type="website", activ
 {head_extra}
 <link rel="stylesheet" href="/style.css?v={VER['style.css']}">
 {ld}
+<script>window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
